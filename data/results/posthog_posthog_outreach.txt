@@ -1,0 +1,50 @@
+Subject: Analysis of reverts in posthog (PR #40814 → Fixes: #41419, #41473, #41469)
+
+Hi [Engineering Lead/CTO],
+
+I'm researching "Context Collapse" in fast-growing engineering teams for a thesis I'm publishing.
+
+I ran a forensic analysis on the last 30 days of `posthog/posthog`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your "firefighting" metrics:
+
+**Key Findings:**
+
+• **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA "Elite" baseline (<5%).
+• **Hotfix Rate:** 39.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.
+• **Regression Ratio:** You're merging 1.15 hotfixes for every feature (ideal is <0.1).
+
+**Specific Incident Patterns:**
+• PR #40814 → Fixes: #41419, #41473, #41469
+• PR #41123 → Fixes: #41444, #41133, #41454
+
+• **"Panic Spirals":** 8 instances of cascading hotfixes detected.
+
+It looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.
+
+I'm building **CodeRisk** to catch exactly these types of "Context Rot" bugs pre-commit by analyzing:
+- Historical ownership patterns
+- Change velocity correlations
+- Cross-file dependency risks
+- Developer context mismatches
+
+I'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.
+
+If you're open to it, I can send over the full CLQS report I generated with specific recommendations?
+
+Best,
+Rohan Katakam
+Founder, CodeRisk
+
+---
+
+**Why this matters:**
+Your Firefighting Score is 158.0 (Priority 1: The Bleeding)
+
+Each revert costs your team:
+• ~4 hours of debugging time
+• ~2 hours of review/fix time
+• ~1 hour of deployment overhead
+• Lost velocity and team morale
+
+At 0.0% revert rate on ~100 PRs/month, you're losing ~0 × 7 hours = ~0 engineering hours/month to firefighting.
+
+P.S. - Blog post on "The AI-Accelerated Bottleneck" available at: [Link]

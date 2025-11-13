@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 87.00
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  15.00
+Hotfix Contribution:  52.00
+Panic Contribution:   20.00
+
+--- Metrics ---
+Revert Rate:          3.00%
+Hotfix Rate:          26.00%
+Regression Ratio:     0.81
+Reviewer Tax:         0.07
+Panic Clusters:       2
+
+--- Top Incident Clusters ---
+
+1. Feature PR #38387 → Fixes: [39648]
+   Severity: low
+   Feature 'Add new metrics to Realtime report' (PR #38387) led to 1 hotfix(es) and 0 revert(s).
+
+2. Feature PR #35831 → Fixes: [35692]
+   Severity: low
+   Feature 'feat: Snippets' (PR #35831) led to 1 hotfix(es) and 0 revert(s).
+
+3. Feature PR #40069 → Fixes: [40339]
+   Severity: low
+   Feature 'feat(studio): email template configuration' (PR #40069) led to 1 hotfix(es) and 0 revert(s).

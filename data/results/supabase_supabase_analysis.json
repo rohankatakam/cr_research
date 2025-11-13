@@ -1,0 +1,648 @@
+{
+  "owner": "supabase",
+  "repo": "supabase",
+  "full_name": "supabase/supabase",
+  "score": {
+    "firefighting_score": 87.0,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 15.0,
+      "hotfix_contribution": 52.0,
+      "panic_contribution": 20.0
+    },
+    "metrics": {
+      "revert_rate": 3.0,
+      "hotfix_rate": 26.0,
+      "regression_ratio": 0.81,
+      "reviewer_tax": 0.07,
+      "panic_cluster_count": 2
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 40161,
+        "type": "CHORE",
+        "reasoning": "Title contains chore-related keyword"
+      },
+      {
+        "number": 39418,
+        "type": "CHORE",
+        "reasoning": "Title contains chore-related keyword"
+      },
+      {
+        "number": 39648,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40421,
+        "type": "CHORE",
+        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40423,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40411,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40427,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40418,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40135,
+        "type": "CHORE",
+        "reasoning": "Authored by github-actions (usually automated chores)"
+      },
+      {
+        "number": 40205,
+        "type": "CHORE",
+        "reasoning": "Authored by github-actions (usually automated chores)"
+      },
+      {
+        "number": 40309,
+        "type": "CHORE",
+        "reasoning": "Authored by github-actions (usually automated chores)"
+      },
+      {
+        "number": 40359,
+        "type": "CHORE",
+        "reasoning": "Authored by github-actions (usually automated chores)"
+      },
+      {
+        "number": 40386,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40367,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40381,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40405,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 20168,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40419,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40342,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40329,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40201,
+        "type": "CHORE",
+        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40373,
+        "type": "CHORE",
+        "reasoning": "Minor changes (low additions/deletions, few changed files) not explicitly a feature"
+      },
+      {
+        "number": 40375,
+        "type": "CHORE",
+        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40395,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40210,
+        "type": "CHORE",
+        "reasoning": "Default classification: No strong indicators, assuming minor change/chore"
+      },
+      {
+        "number": 39740,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40352,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40385,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40387,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 39519,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40252,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 40184,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 32959,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40382,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40380,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40333,
+        "type": "CHORE",
+        "reasoning": "Default classification: No strong indicators, assuming minor change/chore"
+      },
+      {
+        "number": 40357,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40332,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40377,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 39942,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40376,
+        "type": "CHORE",
+        "reasoning": "Default classification: No strong indicators, assuming minor change/chore"
+      },
+      {
+        "number": 40288,
+        "type": "CHORE",
+        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40206,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 40368,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40363,
+        "type": "CHORE",
+        "reasoning": "Default classification: No strong indicators, assuming minor change/chore"
+      },
+      {
+        "number": 40366,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40323,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40330,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40328,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40310,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 39784,
+        "type": "REVERT",
+        "reasoning": "Title indicates revert/undo/rollback"
+      },
+      {
+        "number": 39852,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 39411,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 39333,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 38959,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 38393,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 38387,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 38231,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 38088,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 37565,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 37426,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 37422,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 37354,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 37277,
+        "type": "REVERT",
+        "reasoning": "Title indicates revert/undo/rollback"
+      },
+      {
+        "number": 37015,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 36355,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 36238,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 36012,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40356,
+        "type": "HOTFIX",
+        "reasoning": "Closes bug issue #40282"
+      },
+      {
+        "number": 35831,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 35692,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 35273,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 35222,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 27088,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 40257,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40339,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40192,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40306,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40336,
+        "type": "CHORE",
+        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 38405,
+        "type": "CHORE",
+        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40141,
+        "type": "CHORE",
+        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40331,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 29805,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40321,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 36908,
+        "type": "REVERT",
+        "reasoning": "Title indicates revert/undo/rollback"
+      },
+      {
+        "number": 40230,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40069,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 40289,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40196,
+        "type": "CHORE",
+        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40294,
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+      },
+      {
+        "number": 40293,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40319,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40259,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40276,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40156,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40242,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      },
+      {
+        "number": 40305,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix-related keyword"
+      },
+      {
+        "number": 40011,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 40295,
+        "type": "FEATURE",
+        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+      },
+      {
+        "number": 28290,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+      }
+    ],
+    "metrics": {
+      "revert_rate": 3.0,
+      "hotfix_rate": 26.0,
+      "regression_ratio": 0.81,
+      "reviewer_tax": 0.07
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 40342,
+        "hotfix_pr": 40386,
+        "time_gap_hours": 23.41
+      },
+      {
+        "feature_pr": 40329,
+        "hotfix_pr": 40386,
+        "time_gap_hours": 2.83
+      },
+      {
+        "feature_pr": 40419,
+        "hotfix_pr": 40405,
+        "time_gap_hours": 8.74
+      },
+      {
+        "feature_pr": 40342,
+        "hotfix_pr": 40331,
+        "time_gap_hours": 0.51
+      },
+      {
+        "feature_pr": 40329,
+        "hotfix_pr": 40331,
+        "time_gap_hours": 5.4
+      },
+      {
+        "feature_pr": 40206,
+        "hotfix_pr": 40368,
+        "time_gap_hours": 20.14
+      },
+      {
+        "feature_pr": 35273,
+        "hotfix_pr": 35692,
+        "time_gap_hours": 110.42
+      },
+      {
+        "feature_pr": 40257,
+        "hotfix_pr": 40339,
+        "time_gap_hours": 20.0
+      },
+      {
+        "feature_pr": 40257,
+        "hotfix_pr": 40192,
+        "time_gap_hours": 19.34
+      },
+      {
+        "feature_pr": 40289,
+        "hotfix_pr": 40319,
+        "time_gap_hours": 20.32
+      },
+      {
+        "feature_pr": 40293,
+        "hotfix_pr": 40319,
+        "time_gap_hours": 14.44
+      },
+      {
+        "feature_pr": 40257,
+        "hotfix_pr": 40259,
+        "time_gap_hours": 2.83
+      },
+      {
+        "feature_pr": 40293,
+        "hotfix_pr": 40305,
+        "time_gap_hours": 10.04
+      },
+      {
+        "feature_pr": 40011,
+        "hotfix_pr": 40276,
+        "time_gap_hours": 16.59
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          40328,
+          40330
+        ],
+        "description": "2 consecutive Hotfixes/Reverts."
+      },
+      {
+        "prs": [
+          40319,
+          40259,
+          40276
+        ],
+        "description": "3 consecutive Hotfixes/Reverts."
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 38387,
+        "related_fixes": [
+          39648
+        ],
+        "severity": "low",
+        "description": "Feature 'Add new metrics to Realtime report' (PR #38387) led to 1 hotfix(es) and 0 revert(s)."
+      },
+      {
+        "feature_pr": 35831,
+        "related_fixes": [
+          35692
+        ],
+        "severity": "low",
+        "description": "Feature 'feat: Snippets' (PR #35831) led to 1 hotfix(es) and 0 revert(s)."
+      },
+      {
+        "feature_pr": 40069,
+        "related_fixes": [
+          40339
+        ],
+        "severity": "low",
+        "description": "Feature 'feat(studio): email template configuration' (PR #40069) led to 1 hotfix(es) and 0 revert(s)."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in supabase (PR #38387 \u2192 Fixes: #39648)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `supabase/supabase`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 3.0%, which is 0.6x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 26.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.81 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #38387 \u2192 Fixes: #39648\n\u2022 PR #35831 \u2192 Fixes: #35692\n\n\u2022 **\"Panic Spirals\":** 2 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 87.0 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 3.0% revert rate on ~100 PRs/month, you're losing ~3 \u00d7 7 hours = ~21 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 87.00\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  15.00\nHotfix Contribution:  52.00\nPanic Contribution:   20.00\n\n--- Metrics ---\nRevert Rate:          3.00%\nHotfix Rate:          26.00%\nRegression Ratio:     0.81\nReviewer Tax:         0.07\nPanic Clusters:       2\n\n--- Top Incident Clusters ---\n\n1. Feature PR #38387 \u2192 Fixes: [39648]\n   Severity: low\n   Feature 'Add new metrics to Realtime report' (PR #38387) led to 1 hotfix(es) and 0 revert(s).\n\n2. Feature PR #35831 \u2192 Fixes: [35692]\n   Severity: low\n   Feature 'feat: Snippets' (PR #35831) led to 1 hotfix(es) and 0 revert(s).\n\n3. Feature PR #40069 \u2192 Fixes: [40339]\n   Severity: low\n   Feature 'feat(studio): email template configuration' (PR #40069) led to 1 hotfix(es) and 0 revert(s).\n"
+}

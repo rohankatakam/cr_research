@@ -1,0 +1,82 @@
+[
+  {
+    "owner": "airbytehq",
+    "repo": "airbyte"
+  },
+  {
+    "owner": "posthog",
+    "repo": "posthog"
+  },
+  {
+    "owner": "supabase",
+    "repo": "supabase"
+  },
+  {
+    "owner": "meilisearch",
+    "repo": "meilisearch"
+  },
+  {
+    "owner": "strapi",
+    "repo": "strapi"
+  },
+  {
+    "owner": "calcom",
+    "repo": "cal.com"
+  },
+  {
+    "owner": "grafana",
+    "repo": "grafana"
+  },
+  {
+    "owner": "appwrite",
+    "repo": "appwrite"
+  },
+  {
+    "owner": "directus",
+    "repo": "directus"
+  },
+  {
+    "owner": "n8n-io",
+    "repo": "n8n"
+  },
+  {
+    "owner": "nocodb",
+    "repo": "nocodb"
+  },
+  {
+    "owner": "twentyhq",
+    "repo": "twenty"
+  },
+  {
+    "owner": "formbricks",
+    "repo": "formbricks"
+  },
+  {
+    "owner": "Infisical",
+    "repo": "infisical"
+  },
+  {
+    "owner": "getlago",
+    "repo": "lago"
+  },
+  {
+    "owner": "windmill-labs",
+    "repo": "windmill"
+  },
+  {
+    "owner": "excalidraw",
+    "repo": "excalidraw"
+  },
+  {
+    "owner": "makeplane",
+    "repo": "plane"
+  },
+  {
+    "owner": "hasura",
+    "repo": "graphql-engine"
+  },
+  {
+    "owner": "openreplay",
+    "repo": "openreplay"
+  }
+]

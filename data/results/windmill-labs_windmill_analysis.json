@@ -1,0 +1,677 @@
+{
+  "owner": "windmill-labs",
+  "repo": "windmill",
+  "full_name": "windmill-labs/windmill",
+  "score": {
+    "firefighting_score": 169.38,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 0.0,
+      "hotfix_contribution": 69.38,
+      "panic_contribution": 100.0
+    },
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 34.69,
+      "regression_ratio": 0.94,
+      "reviewer_tax": 0.44,
+      "panic_cluster_count": 10
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 7135,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7134,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7132,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7127,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7123,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 6920,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7115,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7126,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7121,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7118,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7122,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7041,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7120,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7119,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7117,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7114,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7111,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7113,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7110,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7097,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7099,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7096,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7102,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7101,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7100,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7098,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 6872,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 3635,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7092,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7088,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7091,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7090,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7089,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 6852,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      },
+      {
+        "number": 7087,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7082,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7086,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7085,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7084,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7053,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7081,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7080,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7075,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7078,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7074,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7076,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7073,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7071,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7070,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7066,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7069,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7065,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7064,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7063,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7060,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7056,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      },
+      {
+        "number": 7061,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      },
+      {
+        "number": 7021,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7059,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7058,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7054,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 6874,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      },
+      {
+        "number": 7057,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7055,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7052,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7048,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7051,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7050,
+        "type": "CHORE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7039,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7049,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7047,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7040,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7045,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7046,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 6195,
+        "type": "CHORE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 6689,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7044,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7042,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7027,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7019,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7036,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7037,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 7033,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7035,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7034,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7032,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 6948,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      },
+      {
+        "number": 7025,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7026,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 6760,
+        "type": "CHORE",
+        "reasoning": "Title contains chore/refactor/doc/config keyword."
+      },
+      {
+        "number": 7024,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7022,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      },
+      {
+        "number": 7020,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      },
+      {
+        "number": 7023,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 7016,
+        "type": "CHORE",
+        "reasoning": "Identified as automated release PR (autorelease tag/bot author/robot body)."
+      },
+      {
+        "number": 7007,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      },
+      {
+        "number": 7017,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix/bug keyword."
+      },
+      {
+        "number": 6965,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 6966,
+        "type": "FEATURE",
+        "reasoning": "Default classification after other checks."
+      },
+      {
+        "number": 6876,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword, and not classified otherwise."
+      }
+    ],
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 34.69,
+      "regression_ratio": 0.94,
+      "reviewer_tax": 0.44
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 7041,
+        "hotfix_pr": 7121,
+        "time_gap_hours": 23.32
+      },
+      {
+        "feature_pr": 6852,
+        "hotfix_pr": 7088,
+        "time_gap_hours": 37.09
+      },
+      {
+        "feature_pr": 7061,
+        "hotfix_pr": 7060,
+        "time_gap_hours": 15.63
+      },
+      {
+        "feature_pr": 7056,
+        "hotfix_pr": 7060,
+        "time_gap_hours": 19.9
+      },
+      {
+        "feature_pr": 6876,
+        "hotfix_pr": 7016,
+        "time_gap_hours": 12.34
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          7126,
+          7118,
+          7122,
+          7120,
+          7114
+        ],
+        "description": "5 consecutive HOTFIX/REVERT PRs starting with #7126"
+      },
+      {
+        "prs": [
+          7113,
+          7110
+        ],
+        "description": "2 consecutive HOTFIX/REVERT PRs starting with #7113"
+      },
+      {
+        "prs": [
+          7096,
+          7102,
+          7100,
+          7098,
+          6872
+        ],
+        "description": "5 consecutive HOTFIX/REVERT PRs starting with #7096"
+      },
+      {
+        "prs": [
+          7090,
+          7087,
+          7086
+        ],
+        "description": "3 consecutive HOTFIX/REVERT PRs starting with #7090"
+      },
+      {
+        "prs": [
+          7076,
+          7073
+        ],
+        "description": "2 consecutive HOTFIX/REVERT PRs starting with #7076"
+      },
+      {
+        "prs": [
+          7069,
+          7065,
+          7063
+        ],
+        "description": "3 consecutive HOTFIX/REVERT PRs starting with #7069"
+      },
+      {
+        "prs": [
+          7057,
+          7055,
+          7052
+        ],
+        "description": "3 consecutive HOTFIX/REVERT PRs starting with #7057"
+      },
+      {
+        "prs": [
+          7051,
+          7039,
+          7049,
+          7047,
+          7045,
+          7046,
+          7044
+        ],
+        "description": "7 consecutive HOTFIX/REVERT PRs starting with #7051"
+      },
+      {
+        "prs": [
+          7019,
+          7036,
+          7033,
+          7035,
+          7034,
+          7032
+        ],
+        "description": "6 consecutive HOTFIX/REVERT PRs starting with #7019"
+      },
+      {
+        "prs": [
+          7026,
+          7023,
+          7017
+        ],
+        "description": "3 consecutive HOTFIX/REVERT PRs starting with #7026"
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 6852,
+        "related_fixes": [
+          7088
+        ],
+        "description": "Feature 'feat: env var in flow' (PR #6852) caused 1 follow-up fixes.",
+        "severity": "high"
+      },
+      {
+        "feature_pr": 7041,
+        "related_fixes": [
+          7121
+        ],
+        "description": "Feature 'SQL result_collection flag' (PR #7041) caused 1 follow-up fixes.",
+        "severity": "high"
+      },
+      {
+        "feature_pr": 7056,
+        "related_fixes": [
+          7060
+        ],
+        "description": "Feature '[merge and deploy hub first] feat: hub actions and better search' (PR #7056) caused 1 follow-up fixes.",
+        "severity": "high"
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in windmill (PR #6852 \u2192 Fixes: #7088)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `windmill-labs/windmill`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 34.7% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.94 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #6852 \u2192 Fixes: #7088\n\u2022 PR #7041 \u2192 Fixes: #7121\n\n\u2022 **\"Panic Spirals\":** 10 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 169.4 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 0.0% revert rate on ~100 PRs/month, you're losing ~0 \u00d7 7 hours = ~0 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 169.38\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  0.00\nHotfix Contribution:  69.38\nPanic Contribution:   100.00\n\n--- Metrics ---\nRevert Rate:          0.00%\nHotfix Rate:          34.69%\nRegression Ratio:     0.94\nReviewer Tax:         0.44\nPanic Clusters:       10\n\n--- Top Incident Clusters ---\n\n1. Feature PR #6852 \u2192 Fixes: [7088]\n   Severity: high\n   Feature 'feat: env var in flow' (PR #6852) caused 1 follow-up fixes.\n\n2. Feature PR #7041 \u2192 Fixes: [7121]\n   Severity: high\n   Feature 'SQL result_collection flag' (PR #7041) caused 1 follow-up fixes.\n\n3. Feature PR #7056 \u2192 Fixes: [7060]\n   Severity: high\n   Feature '[merge and deploy hub first] feat: hub actions and better search' (PR #7056) caused 1 follow-up fixes.\n"
+}

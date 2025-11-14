@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 97.00
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  5.00
+Hotfix Contribution:  62.00
+Panic Contribution:   30.00
+
+--- Metrics ---
+Revert Rate:          1.00%
+Hotfix Rate:          31.00%
+Regression Ratio:     0.35
+Reviewer Tax:         0.08
+Panic Clusters:       3
+
+--- Top Incident Clusters ---
+
+1. Feature PR #25080 → Fixes: [25111, 25112]
+   Severity: medium
+   chore: system wide ratelimit per path caused 2 follow-up issues
+
+2. Feature PR #25045 → Fixes: [25090]
+   Severity: low
+   feat: v2 api allow switching event type between collective and round robin caused 1 follow-up issues
+
+3. Feature PR #25056 → Fixes: [25086]
+   Severity: low
+   chore: Rate limit top level of public booking pages caused 1 follow-up issues

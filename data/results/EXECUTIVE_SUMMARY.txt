@@ -1,0 +1,125 @@
+================================================================================
+REPO SNIPER - FINAL GTM ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-11-13 20:51:13
+
+Total Repositories Analyzed: 20
+  ✅ Valid Results: 14 (70%)
+  ❌ Failed Results: 6 (30%)
+
+================================================================================
+
+PRIORITY SEGMENTATION
+================================================================================
+
+🔥 Priority 1 (Score ≥50): 13 repos - THE BLEEDING
+⚠️  Priority 2 (20-49):     1 repos - THE WORRIED
+✅ Healthy (Score <20):     0 repos - IGNORE
+
+================================================================================
+
+AGGREGATE METRICS (Valid Repos Only)
+================================================================================
+
+Average Firefighting Score: 106.5
+Average Revert Rate:        0.9%
+Average Hotfix Rate:        32.1%
+Average Regression Ratio:   1.36
+Total Panic Clusters:       53
+
+================================================================================
+
+RANKED RESULTS - TOP OUTREACH TARGETS
+================================================================================
+
+
+1. 🔥 strapi/strapi - Score: 176.0
+   Revert: 0.0% | Hotfix: 48.0% | Regression: 1.78 | Panic: 8
+   Smoking Gun: PR #24706 → 13 follow-up fixes
+
+2. 🔥 windmill-labs/windmill - Score: 169.4
+   Revert: 0.0% | Hotfix: 34.7% | Regression: 0.94 | Panic: 10
+   Smoking Gun: PR #6852 → 1 follow-up fixes
+
+3. 🔥 makeplane/plane - Score: 138.0
+   Revert: 0.0% | Hotfix: 39.0% | Regression: 2.27 | Panic: 6
+   Smoking Gun: PR #7991 → 8 follow-up fixes
+
+4. 🔥 formbricks/formbricks - Score: 137.2
+   Revert: 2.9% | Hotfix: 51.4% | Regression: 2.26 | Panic: 2
+   Smoking Gun: PR #6685 → 1 follow-up fixes
+
+5. 🔥 directus/directus - Score: 110.0
+   Revert: 0.0% | Hotfix: 20.0% | Regression: 0.51 | Panic: 7
+   Smoking Gun: PR #25782 → 2 follow-up fixes
+
+6. 🔥 meilisearch/meilisearch - Score: 103.8
+   Revert: 1.7% | Hotfix: 27.6% | Regression: 0.84 | Panic: 4
+   Smoking Gun: PR #5767 → 2 follow-up fixes
+
+7. 🔥 supabase/supabase - Score: 103.0
+   Revert: 3.0% | Hotfix: 29.0% | Regression: 0.91 | Panic: 3
+   Smoking Gun: PR #40184 → 3 follow-up fixes
+
+8. 🔥 n8n-io/n8n - Score: 100.9
+   Revert: 0.0% | Hotfix: 45.5% | Regression: 1.48 | Panic: 1
+   Smoking Gun: PR #21469 → 3 follow-up fixes
+
+9. 🔥 calcom/cal.com - Score: 97.0
+   Revert: 1.0% | Hotfix: 31.0% | Regression: 0.35 | Panic: 3
+   Smoking Gun: PR #25080 → 2 follow-up fixes
+
+10. 🔥 getlago/lago - Score: 95.7
+   Revert: 1.1% | Hotfix: 20.2% | Regression: 0.94 | Panic: 5
+   Smoking Gun: PR #542 → 3 follow-up fixes
+
+11. 🔥 twentyhq/twenty - Score: 88.4
+   Revert: 0.0% | Hotfix: 29.2% | Regression: 0.87 | Panic: 3
+   Smoking Gun: PR #15739 → 2 follow-up fixes
+
+12. 🔥 excalidraw/excalidraw - Score: 70.0
+   Revert: 0.0% | Hotfix: 35.0% | Regression: 0.95 | Panic: 0
+   Smoking Gun: PR #9903 → 2 follow-up fixes
+
+13. 🔥 appwrite/appwrite - Score: 64.7
+   Revert: 2.0% | Hotfix: 27.4% | Regression: 1.25 | Panic: 0
+   Smoking Gun: PR #10735 → 2 follow-up fixes
+
+14. ⚠️ airbytehq/airbyte - Score: 37.0
+   Revert: 1.0% | Hotfix: 11.0% | Regression: 3.67 | Panic: 1
+   Smoking Gun: PR #None → 11 follow-up fixes
+
+================================================================================
+
+❌ FAILED ANALYSES (Gemini Classification Errors)
+================================================================================
+
+1. posthog/posthog - Empty PR classifications returned
+2. openreplay/openreplay - Empty PR classifications returned
+3. hasura/graphql-engine - Empty PR classifications returned
+4. nocodb/nocodb - Empty PR classifications returned
+5. Infisical/infisical - Empty PR classifications returned
+6. grafana/grafana - Empty PR classifications returned
+
+================================================================================
+
+NEXT STEPS
+================================================================================
+
+1. Begin outreach to Priority 1 targets (13 repos)
+2. Retry failed analyses with improved error handling (6 repos)
+3. Generate personalized emails for top 5 targets
+4. Track response rates and conversion metrics
+
+================================================================================
+
+API USAGE & COSTS
+================================================================================
+
+Repos Analyzed: 20
+GitHub API Calls: 40 (2 per repo)
+Gemini API Calls: 20 (1 per repo)
+Estimated Cost: $0.0240
+
+================================================================================

@@ -3,19 +3,19 @@
   "repo": "supabase",
   "full_name": "supabase/supabase",
   "score": {
-    "firefighting_score": 87.0,
+    "firefighting_score": 103.0,
     "priority": "Priority 1: The Bleeding",
     "components": {
       "revert_contribution": 15.0,
-      "hotfix_contribution": 52.0,
-      "panic_contribution": 20.0
+      "hotfix_contribution": 58.0,
+      "panic_contribution": 30.0
     },
     "metrics": {
       "revert_rate": 3.0,
-      "hotfix_rate": 26.0,
-      "regression_ratio": 0.81,
-      "reviewer_tax": 0.07,
-      "panic_cluster_count": 2
+      "hotfix_rate": 29.0,
+      "regression_ratio": 0.91,
+      "reviewer_tax": 0.47,
+      "panic_cluster_count": 3
     }
   },
   "analysis": {
@@ -23,589 +23,547 @@
       {
         "number": 40161,
         "type": "CHORE",
-        "reasoning": "Title contains chore-related keyword"
+        "reasoning": "Title contains 'chore', relates to code ownership changes."
       },
       {
         "number": 39418,
         "type": "CHORE",
-        "reasoning": "Title contains chore-related keyword"
+        "reasoning": "Title contains 'chore', describes minor design tweaks."
       },
       {
         "number": 39648,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'Fix' and body references fixing a styling error (#39451)."
       },
       {
         "number": 40421,
         "type": "CHORE",
-        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'docs', indicates a documentation update."
       },
       {
         "number": 40423,
-        "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "type": "FEATURE",
+        "reasoning": "Title contains 'chore', but body describes a significant change in user behavior (default opt-in for security notifications)."
       },
       {
         "number": 40411,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'chore', describes minor UI updates and fixes for foreign tables."
       },
       {
         "number": 40427,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', body explicitly states 'Links update' fixing broken links."
       },
       {
         "number": 40418,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Changes how analytics and vector buckets are presented based on hosting type, a new user-facing behavior."
       },
       {
         "number": 40135,
         "type": "CHORE",
-        "reasoning": "Authored by github-actions (usually automated chores)"
+        "reasoning": "Title contains 'docs', an auto-generated update for client libraries."
       },
       {
         "number": 40205,
         "type": "CHORE",
-        "reasoning": "Authored by github-actions (usually automated chores)"
+        "reasoning": "Title contains 'docs', an auto-generated update for client libraries."
       },
       {
         "number": 40309,
         "type": "CHORE",
-        "reasoning": "Authored by github-actions (usually automated chores)"
+        "reasoning": "Title contains 'docs', an auto-generated update for client libraries."
       },
       {
         "number": 40359,
         "type": "CHORE",
-        "reasoning": "Authored by github-actions (usually automated chores)"
+        "reasoning": "Title contains 'docs', an auto-generated update for client libraries."
       },
       {
         "number": 40386,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', indicates small fixes related to Analytics and Vector Buckets."
       },
       {
         "number": 40367,
-        "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "type": "FEATURE",
+        "reasoning": "Title contains 'chore', but body describes 'UI improvements to Storage' including new handling logic, a major enhancement."
       },
       {
         "number": 40381,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Describes refactoring core polling logic for Analytics Buckets, a significant functional improvement."
       },
       {
         "number": 40405,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', addresses a non-publishing RSS feed, a clear bug."
       },
       {
         "number": 20168,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'chore', relates to internal automation/workflow."
       },
       {
         "number": 40419,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Changes default search behavior for auth users, improving user experience."
       },
       {
         "number": 40342,
-        "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "type": "CHORE",
+        "reasoning": "Refactoring API key usage, an internal code improvement."
       },
       {
         "number": 40329,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Improves granularity and accuracy of replication status, adding new user-facing information."
       },
       {
         "number": 40201,
         "type": "CHORE",
-        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+        "reasoning": "Minor documentation update ('humans.txt')."
       },
       {
         "number": 40373,
         "type": "CHORE",
-        "reasoning": "Minor changes (low additions/deletions, few changed files) not explicitly a feature"
+        "reasoning": "Documentation update, clarifying connection information."
       },
       {
         "number": 40375,
         "type": "CHORE",
-        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'docs', adds troubleshooting links."
       },
       {
         "number": 40395,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', optimizes queries to prevent issues with large tables."
       },
       {
         "number": 40210,
-        "type": "CHORE",
-        "reasoning": "Default classification: No strong indicators, assuming minor change/chore"
+        "type": "FEATURE",
+        "reasoning": "Adds new parameter routing capability to triggers, new functionality."
       },
       {
         "number": 39740,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'chore(deps)', a dependency version bump by dependabot."
       },
       {
         "number": 40352,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'chore', updates internal entitlement checks."
       },
       {
         "number": 40385,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'Fix' but describes refactoring internal PR action scripts."
       },
       {
         "number": 40387,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'ci', improves CI error messages for internal tooling."
       },
       {
         "number": 39519,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', corrects a broken link and a typo."
       },
       {
         "number": 40252,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'feat', introduces new metrics for realtime reports."
       },
       {
         "number": 40184,
-        "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "type": "FEATURE",
+        "reasoning": "Title contains 'Chore' but describes adding new query state routing for UI panels, a new navigational feature."
       },
       {
         "number": 32959,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', addresses faulty migration statement generation."
       },
       {
         "number": 40382,
-        "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "type": "FEATURE",
+        "reasoning": "Title contains 'fix' but adds new user-facing version tracking and changelog for self-hosted instances."
       },
       {
         "number": 40380,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', corrects a simple typo."
       },
       {
         "number": 40333,
-        "type": "CHORE",
-        "reasoning": "Default classification: No strong indicators, assuming minor change/chore"
+        "type": "FEATURE",
+        "reasoning": "Removes confusing UI elements, improving user experience for an early access feature."
       },
       {
         "number": 40357,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'Fix' but adds an internal PR reminder action for a team."
       },
       {
         "number": 40332,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Changes UI visibility based on user preferences for keyboard shortcuts, new user experience feature."
       },
       {
         "number": 40377,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'chore', adjusts refetch interval for performance."
       },
       {
         "number": 39942,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'chore', updates self-hosted image versions."
       },
       {
         "number": 40376,
-        "type": "CHORE",
-        "reasoning": "Default classification: No strong indicators, assuming minor change/chore"
+        "type": "FEATURE",
+        "reasoning": "Improves navigation in Table Editor by using table name instead of ID, a UX enhancement."
       },
       {
         "number": 40288,
         "type": "CHORE",
-        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+        "reasoning": "Documentation related, adapts connection string handling for Docker compatibility."
       },
       {
         "number": 40206,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'feat', adds a new Foreign Data Wrapper for S3 Vectors buckets, a major new integration."
       },
       {
         "number": 40368,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', corrects configuration for new functions."
       },
       {
         "number": 40363,
         "type": "CHORE",
-        "reasoning": "Default classification: No strong indicators, assuming minor change/chore"
+        "reasoning": "Content update related to an event."
       },
       {
         "number": 40366,
-        "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "type": "FEATURE",
+        "reasoning": "Title contains 'chore', but describes significant UI updates and announcements for security notification emails, new user-facing information."
       },
       {
         "number": 40323,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'test', fixing flaky tests is an internal maintenance task."
       },
       {
         "number": 40330,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', addresses a critical vulnerability in a dependency."
       },
       {
         "number": 40328,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', addresses vulnerabilities in dependencies."
       },
       {
         "number": 40310,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'refactor', abstracts a hook for internal code improvement."
       },
       {
         "number": 39784,
         "type": "REVERT",
-        "reasoning": "Title indicates revert/undo/rollback"
+        "reasoning": "Title contains 'Revert', indicating an explicit rollback."
       },
       {
         "number": 39852,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'feat', renames a page and adds new functionality for database connections."
       },
       {
         "number": 39411,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Describes an 'experiment', implying new functionality or A/B testing."
       },
       {
         "number": 39333,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Adds new informational alerts about project status, a new UX feature."
       },
       {
         "number": 38959,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'chore', relates to build system optimization."
       },
       {
         "number": 38393,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Updates design of project add-ons page, a new UI/UX feature."
       },
       {
         "number": 38387,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Adds new metrics to the Realtime report, new functionality."
       },
       {
         "number": 38231,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Adds a new user signup chart, new functionality."
       },
       {
         "number": 38088,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Adds a new action to copy Assistant messages, new functionality."
       },
       {
         "number": 37565,
-        "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "type": "CHORE",
+        "reasoning": "Title contains 'fix' but body describes refactoring connection URL logic, internal cleanup."
       },
       {
         "number": 37426,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Adds a 'test mode' to table editor, new major functionality."
       },
       {
         "number": 37422,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Major UI/UX changes to table definition and actions, new user experience."
       },
       {
         "number": 37354,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'feat', adds UI for a new DuckDB wrapper."
       },
       {
         "number": 37277,
         "type": "REVERT",
-        "reasoning": "Title indicates revert/undo/rollback"
+        "reasoning": "Title contains 'Revert', indicating an explicit rollback."
       },
       {
         "number": 37015,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'Fix', addresses visual bugs like padding and misalignment."
       },
       {
         "number": 36355,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', corrects date state issues in log explorer."
       },
       {
         "number": 36238,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'feat', describes UI improvements for API keys and edge functions."
       },
       {
         "number": 36012,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Adds new text and heading components for typography standardization, new UI components."
       },
       {
         "number": 40356,
         "type": "HOTFIX",
-        "reasoning": "Closes bug issue #40282"
+        "reasoning": "Title contains 'Fix', addresses RLS error messages not showing, closes issue #40282."
       },
       {
         "number": 35831,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'feat', adds snippets functionality for self-hosted Studio."
       },
       {
         "number": 35692,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', addresses a UI rendering issue ('Portal issue on Popover')."
       },
       {
         "number": 35273,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'Feat', introduces optimistic updates for table editor filter/sort, new UX."
       },
       {
         "number": 35222,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'Feat', introduces column visibility, reordering, and state persistence, new major UI features."
       },
       {
         "number": 27088,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'Feat', adds a development and preview commit banner, a new UI element."
       },
       {
         "number": 40257,
-        "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "type": "CHORE",
+        "reasoning": "Consolidating feature flags is an internal configuration/refactoring task."
       },
       {
         "number": 40339,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', adjusts margins in email templates UI, a minor visual bug fix."
       },
       {
         "number": 40192,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', prevents unnecessary update requests in table editor, a performance bug fix."
       },
       {
         "number": 40306,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', addresses charts not rendering due to dependency mismatch, a rendering bug."
       },
       {
         "number": 40336,
         "type": "CHORE",
-        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+        "reasoning": "Documentation update for troubleshooting connection issues."
       },
       {
         "number": 38405,
         "type": "CHORE",
-        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'docs', describes a large documentation overhaul."
       },
       {
         "number": 40141,
-        "type": "CHORE",
-        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+        "type": "FEATURE",
+        "reasoning": "Title contains 'feat(docs)', adds documentation for a new feature (email customization)."
       },
       {
         "number": 40331,
-        "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "type": "CHORE",
+        "reasoning": "Internal logic improvement for FDW updates, optimizing behavior."
       },
       {
         "number": 29805,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'Fix', addresses an unhealthy Docker container, closes issue #27312."
       },
       {
         "number": 40321,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'Fix', addresses telemetry not working in production, a bug fix."
       },
       {
         "number": 36908,
         "type": "REVERT",
-        "reasoning": "Title indicates revert/undo/rollback"
+        "reasoning": "Title contains 'Revert', indicating an explicit rollback."
       },
       {
         "number": 40230,
-        "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "type": "FEATURE",
+        "reasoning": "Title contains 'chore', but body describes significant UI improvements and fixes for storage bucket presentation, a major enhancement."
       },
       {
         "number": 40069,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'feat', adds new email template configuration options, a new feature."
       },
       {
         "number": 40289,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Introduces new foundational 'Page components' for consistent layouts, a major UI framework change."
       },
       {
         "number": 40196,
         "type": "CHORE",
-        "reasoning": "Title or labels contain chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'docs', describes improvements to design system documentation."
       },
       {
         "number": 40294,
         "type": "FEATURE",
-        "reasoning": "Title contains 'feat' or 'feature' indicating new functionality"
+        "reasoning": "Title contains 'feat', adds a new 'stopping' status to the pipeline UI, new user-facing information."
       },
       {
         "number": 40293,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Describes visual and content refinements to the Advisor panel, a UI/UX improvement."
       },
       {
         "number": 40319,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'fix', addresses styling/alignment issues on a website page."
       },
       {
         "number": 40259,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'Fix', addresses performance issues (slowness, timeouts) in the FK editor, a critical bug fix."
       },
       {
         "number": 40276,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'Bug fix', addresses incorrect button text in Auth UI, closes issue #27475."
       },
       {
         "number": 40156,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'ci', adds internal ESLint ratcheting tool and actions."
       },
       {
         "number": 40242,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'chore', adds internal audit log entitlement checks."
       },
       {
         "number": 40305,
         "type": "HOTFIX",
-        "reasoning": "Title contains hotfix-related keyword"
+        "reasoning": "Title contains 'Fix', addresses a UI bug (table editor not scrollable), fixes FE-2105."
       },
       {
         "number": 40011,
         "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "reasoning": "Adds new CommandMenu trigger to top navigation, new UI functionality."
       },
       {
         "number": 40295,
-        "type": "FEATURE",
-        "reasoning": "Significant changes, not classified as fix/revert/chore, likely a feature"
+        "type": "CHORE",
+        "reasoning": "Refinement of UI visibility for a replication action, a minor UI logic change."
       },
       {
         "number": 28290,
         "type": "CHORE",
-        "reasoning": "Title contains chore/docs/CI/refactor keyword"
+        "reasoning": "Title contains 'feat' but body explicitly states 'Docs update', very small content change."
       }
     ],
     "metrics": {
       "revert_rate": 3.0,
-      "hotfix_rate": 26.0,
-      "regression_ratio": 0.81,
-      "reviewer_tax": 0.07
+      "hotfix_rate": 29.0,
+      "regression_ratio": 0.91,
+      "reviewer_tax": 0.47
     },
     "context_gaps": [
       {
-        "feature_pr": 40342,
+        "feature_pr": 40381,
         "hotfix_pr": 40386,
-        "time_gap_hours": 23.41
+        "time_gap_hours": 0.75
       },
       {
-        "feature_pr": 40329,
+        "feature_pr": 40367,
         "hotfix_pr": 40386,
-        "time_gap_hours": 2.83
-      },
-      {
-        "feature_pr": 40419,
-        "hotfix_pr": 40405,
-        "time_gap_hours": 8.74
-      },
-      {
-        "feature_pr": 40342,
-        "hotfix_pr": 40331,
-        "time_gap_hours": 0.51
-      },
-      {
-        "feature_pr": 40329,
-        "hotfix_pr": 40331,
-        "time_gap_hours": 5.4
+        "time_gap_hours": 0.53
       },
       {
         "feature_pr": 40206,
-        "hotfix_pr": 40368,
-        "time_gap_hours": 20.14
+        "hotfix_pr": 40386,
+        "time_gap_hours": 24.03
       },
       {
-        "feature_pr": 35273,
-        "hotfix_pr": 35692,
-        "time_gap_hours": 110.42
-      },
-      {
-        "feature_pr": 40257,
+        "feature_pr": 40141,
         "hotfix_pr": 40339,
-        "time_gap_hours": 20.0
-      },
-      {
-        "feature_pr": 40257,
-        "hotfix_pr": 40192,
-        "time_gap_hours": 19.34
-      },
-      {
-        "feature_pr": 40289,
-        "hotfix_pr": 40319,
-        "time_gap_hours": 20.32
-      },
-      {
-        "feature_pr": 40293,
-        "hotfix_pr": 40319,
-        "time_gap_hours": 14.44
-      },
-      {
-        "feature_pr": 40257,
-        "hotfix_pr": 40259,
-        "time_gap_hours": 2.83
-      },
-      {
-        "feature_pr": 40293,
-        "hotfix_pr": 40305,
-        "time_gap_hours": 10.04
-      },
-      {
-        "feature_pr": 40011,
-        "hotfix_pr": 40276,
-        "time_gap_hours": 16.59
+        "time_gap_hours": 3.2
       }
     ],
     "panic_clusters": [
       {
         "prs": [
-          40328,
-          40330
+          40330,
+          40328
         ],
-        "description": "2 consecutive Hotfixes/Reverts."
+        "description": "Consecutive hotfixes for critical dependency vulnerabilities in example apps."
+      },
+      {
+        "prs": [
+          40339,
+          40192,
+          40306
+        ],
+        "description": "A rapid succession of hotfixes addressing diverse UI and rendering issues across email templates, table editor, and design system charts."
       },
       {
         "prs": [
@@ -613,36 +571,40 @@
           40259,
           40276
         ],
-        "description": "3 consecutive Hotfixes/Reverts."
+        "description": "A rapid succession of hotfixes for website styling, FK editor performance, and auth UI button text."
       }
     ],
     "incident_clusters": [
       {
-        "feature_pr": 38387,
+        "feature_pr": 40184,
         "related_fixes": [
-          39648
+          40305,
+          40192,
+          40259
         ],
-        "severity": "low",
-        "description": "Feature 'Add new metrics to Realtime report' (PR #38387) led to 1 hotfix(es) and 0 revert(s)."
+        "severity": "high",
+        "description": "Introduction of parameter routing for UI panels likely contributed to a cluster of table editor fixes, addressing scrolling, unnecessary requests, and foreign key editor performance."
       },
       {
-        "feature_pr": 35831,
+        "feature_pr": 40289,
         "related_fixes": [
-          35692
+          40306,
+          40339
         ],
-        "severity": "low",
-        "description": "Feature 'feat: Snippets' (PR #35831) led to 1 hotfix(es) and 0 revert(s)."
+        "severity": "high",
+        "description": "The introduction of new foundational Page components for UI consistency led to immediate rendering and styling fixes for charts and email templates."
       },
       {
         "feature_pr": 40069,
         "related_fixes": [
-          40339
+          40339,
+          40276
         ],
-        "severity": "low",
-        "description": "Feature 'feat(studio): email template configuration' (PR #40069) led to 1 hotfix(es) and 0 revert(s)."
+        "severity": "medium",
+        "description": "The new email template configuration feature, along with related Auth UI updates, led to UI margin inconsistencies and incorrect button text."
       }
     ]
   },
-  "email": "Subject: Analysis of reverts in supabase (PR #38387 \u2192 Fixes: #39648)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `supabase/supabase`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 3.0%, which is 0.6x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 26.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.81 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #38387 \u2192 Fixes: #39648\n\u2022 PR #35831 \u2192 Fixes: #35692\n\n\u2022 **\"Panic Spirals\":** 2 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 87.0 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 3.0% revert rate on ~100 PRs/month, you're losing ~3 \u00d7 7 hours = ~21 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
-  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 87.00\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  15.00\nHotfix Contribution:  52.00\nPanic Contribution:   20.00\n\n--- Metrics ---\nRevert Rate:          3.00%\nHotfix Rate:          26.00%\nRegression Ratio:     0.81\nReviewer Tax:         0.07\nPanic Clusters:       2\n\n--- Top Incident Clusters ---\n\n1. Feature PR #38387 \u2192 Fixes: [39648]\n   Severity: low\n   Feature 'Add new metrics to Realtime report' (PR #38387) led to 1 hotfix(es) and 0 revert(s).\n\n2. Feature PR #35831 \u2192 Fixes: [35692]\n   Severity: low\n   Feature 'feat: Snippets' (PR #35831) led to 1 hotfix(es) and 0 revert(s).\n\n3. Feature PR #40069 \u2192 Fixes: [40339]\n   Severity: low\n   Feature 'feat(studio): email template configuration' (PR #40069) led to 1 hotfix(es) and 0 revert(s).\n"
+  "email": "Subject: Analysis of reverts in supabase (PR #40184 \u2192 Fixes: #40305, #40192, #40259)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `supabase/supabase`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 3.0%, which is 0.6x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 29.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.91 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #40184 \u2192 Fixes: #40305, #40192, #40259\n\u2022 PR #40289 \u2192 Fixes: #40306, #40339\n\n\u2022 **\"Panic Spirals\":** 3 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 103.0 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 3.0% revert rate on ~100 PRs/month, you're losing ~3 \u00d7 7 hours = ~21 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 103.00\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  15.00\nHotfix Contribution:  58.00\nPanic Contribution:   30.00\n\n--- Metrics ---\nRevert Rate:          3.00%\nHotfix Rate:          29.00%\nRegression Ratio:     0.91\nReviewer Tax:         0.47\nPanic Clusters:       3\n\n--- Top Incident Clusters ---\n\n1. Feature PR #40184 \u2192 Fixes: [40305, 40192, 40259]\n   Severity: high\n   Introduction of parameter routing for UI panels likely contributed to a cluster of table editor fixes, addressing scrolling, unnecessary requests, and foreign key editor performance.\n\n2. Feature PR #40289 \u2192 Fixes: [40306, 40339]\n   Severity: high\n   The introduction of new foundational Page components for UI consistency led to immediate rendering and styling fixes for charts and email templates.\n\n3. Feature PR #40069 \u2192 Fixes: [40339, 40276]\n   Severity: medium\n   The new email template configuration feature, along with related Auth UI updates, led to UI margin inconsistencies and incorrect button text.\n"
 }

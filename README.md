@@ -39,7 +39,9 @@ This will process all repos in `data/target_repos.json` and generate:
 - `data/results/{owner}_{repo}_analysis.json` - Full analysis
 - `data/results/{owner}_{repo}_outreach.txt` - Email template
 - `data/results/{owner}_{repo}_summary.txt` - Summary report
-- `data/results/ranked_scores.json` - Ranked list
+- `data/results/FINAL_RANKED_REPORT.json` - Complete ranked analysis
+- `data/results/EXECUTIVE_SUMMARY.txt` - Human-readable summary
+- `data/results/FAILURE_ANALYSIS.md` - Analysis of failed repos
 
 ## Algorithm: Firefighting Score Calculation
 
@@ -180,18 +182,35 @@ For each repository, generate:
    - "51% of your code review is firefighting (Reviewer Tax)"
    - Comparison to DORA baselines
 
-### Real-World Results
+### Real-World Results (20 COSS Repos Analyzed)
 
-**Supabase:** Score 87.0
-- 3% revert rate, 26% hotfix rate
-- 2 panic clusters
-- Example: PR #38387 → 1 hotfix
+**Success Rate:** 70% (14/20 repos)
+**Average Firefighting Score:** 106.5
+**Average Hotfix Rate:** 32.1%
+**Total Panic Clusters Detected:** 53
 
-**PostHog:** Score 158.0 (81% worse)
-- 0% revert rate, 39% hotfix rate
-- 8 panic clusters
-- Smoking gun: PR #40814 → 11 hotfixes
-- 51% reviewer tax (team spends more time fixing than building)
+**Top 5 Priority 1 Targets:**
+
+1. **Strapi** - Score: 176.0
+   - 48% hotfix rate, 8 panic clusters
+   - Smoking gun: PR #24706 → 13 follow-up fixes
+
+2. **Windmill** - Score: 169.4
+   - 34.7% hotfix rate, 10 panic clusters
+
+3. **Plane** - Score: 138.0
+   - 39% hotfix rate, 6 panic clusters
+   - Smoking gun: PR #7991 → 8 follow-up fixes
+
+4. **Formbricks** - Score: 137.2
+   - 51.4% hotfix rate, 2.9% revert rate
+
+5. **Directus** - Score: 110.0
+   - 20% hotfix rate, 7 panic clusters
+
+**Failed Analyses (6 repos - 30%):**
+posthog, grafana, hasura, nocodb, infisical, openreplay
+See [data/results/FAILURE_ANALYSIS.md](data/results/FAILURE_ANALYSIS.md) for details.
 
 ## Target Repos
 

@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 37.00
+Priority: Priority 2: The Worried
+
+--- Score Components ---
+Revert Contribution:  5.00
+Hotfix Contribution:  22.00
+Panic Contribution:   10.00
+
+--- Metrics ---
+Revert Rate:          1.00%
+Hotfix Rate:          11.00%
+Regression Ratio:     3.67
+Reviewer Tax:         0.14
+Panic Clusters:       1
+
+--- Top Incident Clusters ---
+
+1. Feature PR #None → Fixes: [69285, 69254, 69292, 69279, 69304, 69309, 69241, 69311, 69307, 69282, 69321]
+   Severity: critical
+   A cascade of 11 consecutive hotfixes in early November 2025, reflecting significant instability or urgent corrective work. The root cause feature is not identifiable in the provided data.
+
+2. Feature PR #None → Fixes: [69282]
+   Severity: high
+   Hotfix for a critical WooCommerce connector issue tracked by airbytehq/oncall#10061, affecting incremental sync for the customers stream.
+
+3. Feature PR #None → Fixes: [69307]
+   Severity: high
+   Hotfix for a BigQuery destination issue where timestamps were incorrectly nulled out, tracked via Sentry (airbytehq.sentry.io/issues/7022366260/).

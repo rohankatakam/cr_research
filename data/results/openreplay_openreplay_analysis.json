@@ -1,0 +1,35 @@
+{
+  "owner": "openreplay",
+  "repo": "openreplay",
+  "full_name": "openreplay/openreplay",
+  "score": {
+    "firefighting_score": 0.0,
+    "priority": "Ignore: Too Healthy",
+    "components": {
+      "revert_contribution": 0.0,
+      "hotfix_contribution": 0.0,
+      "panic_contribution": 0.0
+    },
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 0.0,
+      "regression_ratio": 0.0,
+      "reviewer_tax": 0.0,
+      "panic_cluster_count": 0
+    }
+  },
+  "analysis": {
+    "pr_classifications": [],
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 0.0,
+      "regression_ratio": 0.0,
+      "reviewer_tax": 0.0
+    },
+    "context_gaps": [],
+    "panic_clusters": [],
+    "incident_clusters": []
+  },
+  "email": "Subject: Analysis of reverts in openreplay (recent PRs)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `openreplay/openreplay`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 0.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.00 hotfixes for every feature (ideal is <0.1).\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 0.0 (Ignore: Too Healthy)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 0.0% revert rate on ~100 PRs/month, you're losing ~0 \u00d7 7 hours = ~0 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 0.00\nPriority: Ignore: Too Healthy\n\n--- Score Components ---\nRevert Contribution:  0.00\nHotfix Contribution:  0.00\nPanic Contribution:   0.00\n\n--- Metrics ---\nRevert Rate:          0.00%\nHotfix Rate:          0.00%\nRegression Ratio:     0.00\nReviewer Tax:         0.00\nPanic Clusters:       0\n\n--- Top Incident Clusters ---\n"
+}

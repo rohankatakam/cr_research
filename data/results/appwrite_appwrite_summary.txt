@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 64.70
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  9.80
+Hotfix Contribution:  54.90
+Panic Contribution:   0.00
+
+--- Metrics ---
+Revert Rate:          1.96%
+Hotfix Rate:          27.45%
+Regression Ratio:     1.25
+Reviewer Tax:         0.05
+Panic Clusters:       0
+
+--- Top Incident Clusters ---
+
+1. Feature PR #10735 → Fixes: [10738, 10778]
+   Severity: high
+   Feature PR 10735 ('Add operator support') led to 2 follow-up fixes (issues: 10803)
+
+2. Feature PR #10675 → Fixes: [10746]
+   Severity: medium
+   Feature PR 10675 ('POC - website screenshots') led to 1 follow-up fixes (issues: SER-453)
+
+3. Feature PR #10717 → Fixes: [10725]
+   Severity: medium
+   Feature PR 10717 ('Add GitHub AI Moderator workflow') led to 1 follow-up fixes (issues: 10217)

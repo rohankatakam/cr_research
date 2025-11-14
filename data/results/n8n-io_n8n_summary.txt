@@ -1,0 +1,27 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 100.90
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  0.00
+Hotfix Contribution:  90.90
+Panic Contribution:   10.00
+
+--- Metrics ---
+Revert Rate:          0.00%
+Hotfix Rate:          45.45%
+Regression Ratio:     1.48
+Reviewer Tax:         0.38
+Panic Clusters:       1
+
+--- Top Incident Clusters ---
+
+1. Feature PR #21469 → Fixes: [21484, 21490, 21520]
+   Severity: high
+   Feature PR 21469 led to 3 follow-up fixes.
+
+2. Feature PR #21387 → Fixes: [21546, 21745]
+   Severity: high
+   Feature PR 21387 led to 2 follow-up fixes.

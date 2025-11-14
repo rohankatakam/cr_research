@@ -1,16 +1,22 @@
-Subject: Analysis of reverts in posthog (recent PRs)
+Subject: Analysis of reverts in meilisearch (PR #5767 → Fixes: #5884, #5894)
 
 Hi [Engineering Lead/CTO],
 
 I'm researching "Context Collapse" in fast-growing engineering teams for a thesis I'm publishing.
 
-I ran a forensic analysis on the last 30 days of `posthog/posthog`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your "firefighting" metrics:
+I ran a forensic analysis on the last 30 days of `meilisearch/meilisearch`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your "firefighting" metrics:
 
 **Key Findings:**
 
-• **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA "Elite" baseline (<5%).
-• **Hotfix Rate:** 0.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.
-• **Regression Ratio:** You're merging 0.00 hotfixes for every feature (ideal is <0.1).
+• **Revert Rate:** You're at 1.7%, which is 0.3x higher than the DORA "Elite" baseline (<5%).
+• **Hotfix Rate:** 27.6% of your recent PRs are urgent fixes for bugs introduced by recent changes.
+• **Regression Ratio:** You're merging 0.84 hotfixes for every feature (ideal is <0.1).
+
+**Specific Incident Patterns:**
+• PR #5767 → Fixes: #5884, #5894
+• PR #5785 → Fixes: #5968
+
+• **"Panic Spirals":** 4 instances of cascading hotfixes detected.
 
 It looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.
 
@@ -31,7 +37,7 @@ Founder, CodeRisk
 ---
 
 **Why this matters:**
-Your Firefighting Score is 0.0 (Ignore: Too Healthy)
+Your Firefighting Score is 103.8 (Priority 1: The Bleeding)
 
 Each revert costs your team:
 • ~4 hours of debugging time
@@ -39,6 +45,6 @@ Each revert costs your team:
 • ~1 hour of deployment overhead
 • Lost velocity and team morale
 
-At 0.0% revert rate on ~100 PRs/month, you're losing ~0 × 7 hours = ~0 engineering hours/month to firefighting.
+At 1.7% revert rate on ~100 PRs/month, you're losing ~1 × 7 hours = ~12 engineering hours/month to firefighting.
 
 P.S. - Blog post on "The AI-Accelerated Bottleneck" available at: [Link]

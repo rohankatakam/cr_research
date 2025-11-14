@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 137.16
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  14.30
+Hotfix Contribution:  102.86
+Panic Contribution:   20.00
+
+--- Metrics ---
+Revert Rate:          2.86%
+Hotfix Rate:          51.43%
+Regression Ratio:     2.26
+Reviewer Tax:         0.58
+Panic Clusters:       2
+
+--- Top Incident Clusters ---
+
+1. Feature PR #6685 → Fixes: [6701]
+   Severity: low
+   Feature 6685 ('feat: rich text in headlines') led to 1 follow-up fixes/reverts.
+
+2. Feature PR #6795 → Fixes: [6800]
+   Severity: low
+   Feature 6795 ('feat: survey summary blocks') led to 1 follow-up fixes/reverts.
+
+3. Feature PR #6778 → Fixes: [6779, 6780, 6781, 6782]
+   Severity: high
+   Feature 6778 ('feat: refactor survey editor logic to use blocks model') led to 4 follow-up fixes/reverts.

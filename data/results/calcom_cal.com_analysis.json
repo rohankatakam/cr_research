@@ -1,0 +1,606 @@
+{
+  "owner": "calcom",
+  "repo": "cal.com",
+  "full_name": "calcom/cal.com",
+  "score": {
+    "firefighting_score": 97.0,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 5.0,
+      "hotfix_contribution": 62.0,
+      "panic_contribution": 30.0
+    },
+    "metrics": {
+      "revert_rate": 1.0,
+      "hotfix_rate": 31.0,
+      "regression_ratio": 0.35,
+      "reviewer_tax": 0.08,
+      "panic_cluster_count": 3
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 25028,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25134,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25107,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25051,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24664,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25081,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24716,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24861,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24656,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24967,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25109,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25060,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24845,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25112,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25111,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24558,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24574,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24601,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24627,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25086,
+        "type": "REVERT",
+        "reasoning": "Title contains 'revert'"
+      },
+      {
+        "number": 25080,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24919,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 23158,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24738,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25091,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 23118,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24973,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24959,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25093,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24949,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25090,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24986,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25058,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25065,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25079,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25083,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25072,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25070,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25061,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25063,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24912,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25076,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24871,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 23587,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25059,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24997,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24795,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24948,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25045,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24895,
+        "type": "CHORE",
+        "reasoning": "Default classification based on no specific keywords"
+      },
+      {
+        "number": 25057,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24882,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24867,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24971,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25056,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24555,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24566,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25054,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24278,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25055,
+        "type": "CHORE",
+        "reasoning": "Default classification based on no specific keywords"
+      },
+      {
+        "number": 23984,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24899,
+        "type": "CHORE",
+        "reasoning": "Default classification based on no specific keywords"
+      },
+      {
+        "number": 23972,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24917,
+        "type": "CHORE",
+        "reasoning": "Default classification based on no specific keywords"
+      },
+      {
+        "number": 24603,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25044,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24970,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25029,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25030,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 22635,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25013,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25012,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24990,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25036,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24815,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24396,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24985,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25024,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 24436,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24498,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24509,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24520,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24549,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 25016,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24841,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 23990,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24928,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24952,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25017,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25025,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature"
+      },
+      {
+        "number": 24398,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25023,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25008,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24832,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 25006,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24969,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      },
+      {
+        "number": 25005,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24960,
+        "type": "CHORE",
+        "reasoning": "Default classification based on no specific keywords"
+      },
+      {
+        "number": 24993,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug"
+      },
+      {
+        "number": 24999,
+        "type": "CHORE",
+        "reasoning": "Title or labels indicate a chore/refactor/docs/perf/test/improvement"
+      }
+    ],
+    "metrics": {
+      "revert_rate": 1.0,
+      "hotfix_rate": 31.0,
+      "regression_ratio": 0.35,
+      "reviewer_tax": 0.08
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 25056,
+        "hotfix_pr": 25086,
+        "time_gap_hours": 24.75
+      },
+      {
+        "feature_pr": 25080,
+        "hotfix_pr": 25111,
+        "time_gap_hours": 3.29
+      },
+      {
+        "feature_pr": 25080,
+        "hotfix_pr": 25112,
+        "time_gap_hours": 3.6
+      },
+      {
+        "feature_pr": 25045,
+        "hotfix_pr": 25090,
+        "time_gap_hours": 23.88
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          25005,
+          25006
+        ],
+        "description": "Consecutive hotfixes/reverts"
+      },
+      {
+        "prs": [
+          25017,
+          25016
+        ],
+        "description": "Consecutive hotfixes/reverts"
+      },
+      {
+        "prs": [
+          25086,
+          25111,
+          25112
+        ],
+        "description": "Consecutive hotfixes/reverts"
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 25080,
+        "related_fixes": [
+          25111,
+          25112
+        ],
+        "severity": "medium",
+        "description": "chore: system wide ratelimit per path caused 2 follow-up issues"
+      },
+      {
+        "feature_pr": 25045,
+        "related_fixes": [
+          25090
+        ],
+        "severity": "low",
+        "description": "feat: v2 api allow switching event type between collective and round robin caused 1 follow-up issues"
+      },
+      {
+        "feature_pr": 25056,
+        "related_fixes": [
+          25086
+        ],
+        "severity": "low",
+        "description": "chore: Rate limit top level of public booking pages caused 1 follow-up issues"
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in cal.com (PR #25080 \u2192 Fixes: #25111, #25112)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `calcom/cal.com`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 1.0%, which is 0.2x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 31.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.35 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #25080 \u2192 Fixes: #25111, #25112\n\u2022 PR #25045 \u2192 Fixes: #25090\n\n\u2022 **\"Panic Spirals\":** 3 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 97.0 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 1.0% revert rate on ~100 PRs/month, you're losing ~1 \u00d7 7 hours = ~7 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 97.00\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  5.00\nHotfix Contribution:  62.00\nPanic Contribution:   30.00\n\n--- Metrics ---\nRevert Rate:          1.00%\nHotfix Rate:          31.00%\nRegression Ratio:     0.35\nReviewer Tax:         0.08\nPanic Clusters:       3\n\n--- Top Incident Clusters ---\n\n1. Feature PR #25080 \u2192 Fixes: [25111, 25112]\n   Severity: medium\n   chore: system wide ratelimit per path caused 2 follow-up issues\n\n2. Feature PR #25045 \u2192 Fixes: [25090]\n   Severity: low\n   feat: v2 api allow switching event type between collective and round robin caused 1 follow-up issues\n\n3. Feature PR #25056 \u2192 Fixes: [25086]\n   Severity: low\n   chore: Rate limit top level of public booking pages caused 1 follow-up issues\n"
+}

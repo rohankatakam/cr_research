@@ -1,0 +1,659 @@
+{
+  "owner": "directus",
+  "repo": "directus",
+  "full_name": "directus/directus",
+  "score": {
+    "firefighting_score": 110.0,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 0.0,
+      "hotfix_contribution": 40.0,
+      "panic_contribution": 70.0
+    },
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 20.0,
+      "regression_ratio": 0.51,
+      "reviewer_tax": 0.39,
+      "panic_cluster_count": 7
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 26060,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add header interface' indicates new functionality and large additions."
+      },
+      {
+        "number": 26178,
+        "type": "CHORE",
+        "reasoning": "Title 'Update pull request template' indicates documentation/configuration change."
+      },
+      {
+        "number": 26136,
+        "type": "FEATURE",
+        "reasoning": "Title 'Enhance CSV export functionality' indicates a major enhancement with significant additions."
+      },
+      {
+        "number": 26005,
+        "type": "HOTFIX",
+        "reasoning": "Title 'fix(csv-export)' indicates a specific bug fix related to CSV export."
+      },
+      {
+        "number": 26167,
+        "type": "CHORE",
+        "reasoning": "Title 'Refactor uses of t() to $t()' indicates code refactoring with significant changes, but not new functionality."
+      },
+      {
+        "number": 26166,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 26126,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix file replacement with tus enabled' indicates a bug fix."
+      },
+      {
+        "number": 25695,
+        "type": "FEATURE",
+        "reasoning": "Title '2FA Setup for OAuth Users' indicates new functionality."
+      },
+      {
+        "number": 25817,
+        "type": "CHORE",
+        "reasoning": "Title 'Fix Norwegian translation issues' indicates minor bug fix related to localization, likely a chore/cleanup."
+      },
+      {
+        "number": 25786,
+        "type": "FEATURE",
+        "reasoning": "Title 'Ensure custom validation messages are displayed in the drawer' indicates an enhancement to validation display."
+      },
+      {
+        "number": 25755,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add description and primary key copy option' indicates new functionality/enhancement."
+      },
+      {
+        "number": 26168,
+        "type": "CHORE",
+        "reasoning": "Title 'Refactor Vue components' indicates code refactoring with significant changes, but not new functionality."
+      },
+      {
+        "number": 26170,
+        "type": "CHORE",
+        "reasoning": "Title 'Add GitHub Copilot instructions' indicates documentation/configuration change."
+      },
+      {
+        "number": 26155,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 26164,
+        "type": "CHORE",
+        "reasoning": "Title 'Update dependencies' indicates a dependency update."
+      },
+      {
+        "number": 26139,
+        "type": "HOTFIX",
+        "reasoning": "Title 'AI - temp fix for layout' indicates a temporary bug fix related to AI layout."
+      },
+      {
+        "number": 26163,
+        "type": "FEATURE",
+        "reasoning": "Title 'AI -> Cleanup Tool Messages' indicates an enhancement to AI tool messages."
+      },
+      {
+        "number": 26159,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Ensure direction prop is passed down to the interfaces' indicates a bug fix."
+      },
+      {
+        "number": 26146,
+        "type": "CHORE",
+        "reasoning": "Title 'New Crowdin updates' indicates a localization update."
+      },
+      {
+        "number": 26154,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix tabular view loading items after delay' indicates a bug fix related to performance."
+      },
+      {
+        "number": 26160,
+        "type": "CHORE",
+        "reasoning": "Title 'Release 11.13.2' indicates a release chore."
+      },
+      {
+        "number": 25809,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add RTL support in markdown interface for Arabic' indicates new functionality."
+      },
+      {
+        "number": 26157,
+        "type": "CHORE",
+        "reasoning": "Title 'Update bug report template' indicates documentation/configuration change."
+      },
+      {
+        "number": 26107,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 25801,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix constraint errors not being propagated in MSSQL' indicates a bug fix, and 'Bug' label is present."
+      },
+      {
+        "number": 25785,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 26151,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add empty state' indicates new functionality/enhancement for AI conversation."
+      },
+      {
+        "number": 26149,
+        "type": "CHORE",
+        "reasoning": "Title 'Redo the sidebar' indicates refactoring and UI redesign."
+      },
+      {
+        "number": 26150,
+        "type": "FEATURE",
+        "reasoning": "Title 'AI -> Submit and Stop Button' indicates new functionality for AI."
+      },
+      {
+        "number": 26142,
+        "type": "FEATURE",
+        "reasoning": "Title 'AI -> Add logos for model selector' indicates new functionality for AI."
+      },
+      {
+        "number": 26144,
+        "type": "FEATURE",
+        "reasoning": "Title 'AI -> Improve rendering of messages' indicates an enhancement to AI messaging."
+      },
+      {
+        "number": 26145,
+        "type": "CHORE",
+        "reasoning": "Title 'AI -> Reasoning message cleanup' indicates a cleanup/refactoring for AI messages."
+      },
+      {
+        "number": 26143,
+        "type": "CHORE",
+        "reasoning": "Title 'Release 11.13.1' indicates a release chore."
+      },
+      {
+        "number": 26129,
+        "type": "CHORE",
+        "reasoning": "Title 'New Crowdin updates' indicates a localization update."
+      },
+      {
+        "number": 26120,
+        "type": "FEATURE",
+        "reasoning": "Title 'Prevent multiple record imports into singleton collections' indicates new functionality/validation."
+      },
+      {
+        "number": 26135,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Remove accepted terms' directly addresses a problem with accepted_terms."
+      },
+      {
+        "number": 26059,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix accounts with minimum access permissions unable to add 2fa' indicates a bug fix."
+      },
+      {
+        "number": 26141,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add reset button' indicates new functionality for AI chat."
+      },
+      {
+        "number": 26140,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add defineTool composable' indicates new functionality for AI."
+      },
+      {
+        "number": 26138,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add Error Handling' indicates new functionality/enhancement for AI chat."
+      },
+      {
+        "number": 26132,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix system owner interface behaving unexpectedly' indicates a bug fix related to system owner interface."
+      },
+      {
+        "number": 26115,
+        "type": "FEATURE",
+        "reasoning": "Title 'AI -> Add base layer AI UI components' indicates new functionality for AI."
+      },
+      {
+        "number": 26130,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add loading indicator when saving setup forms' indicates a new UI feature/enhancement."
+      },
+      {
+        "number": 26127,
+        "type": "CHORE",
+        "reasoning": "Unusual title, body is placeholder text. Defaulting to CHORE."
+      },
+      {
+        "number": 25860,
+        "type": "FEATURE",
+        "reasoning": "Title 'Use context aware alias on queries' indicates an enhancement to query logging/optimization."
+      },
+      {
+        "number": 26045,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix layout display dependant on item count request' indicates a bug fix affecting layout display."
+      },
+      {
+        "number": 26124,
+        "type": "FEATURE",
+        "reasoning": "Title 'Feat/ai system prompt' indicates new functionality for AI system prompt."
+      },
+      {
+        "number": 26122,
+        "type": "CHORE",
+        "reasoning": "Title 'Refactor AI model selector dropdown' indicates code refactoring."
+      },
+      {
+        "number": 26116,
+        "type": "FEATURE",
+        "reasoning": "Title 'Implement tool support in chat endpoint' indicates new functionality for AI chat tools."
+      },
+      {
+        "number": 25992,
+        "type": "FEATURE",
+        "reasoning": "Title 'Comparison merged with granular' indicates a major new feature for content comparison."
+      },
+      {
+        "number": 25789,
+        "type": "FEATURE",
+        "reasoning": "Title 'Improve inputSchema for LLM ingestion' indicates an enhancement related to LLM integration."
+      },
+      {
+        "number": 26114,
+        "type": "CHORE",
+        "reasoning": "Title 'Release 11.13.0' indicates a release chore."
+      },
+      {
+        "number": 25908,
+        "type": "CHORE",
+        "reasoning": "Title 'New Crowdin updates' indicates a localization update."
+      },
+      {
+        "number": 26110,
+        "type": "CHORE",
+        "reasoning": "Unusual title 'Merge from fork', body is placeholder text. Defaulting to CHORE."
+      },
+      {
+        "number": 26112,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix input-block-editor sanitize test failing' indicates a bug fix."
+      },
+      {
+        "number": 26088,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix incorrect date for version in comparison modal header' indicates a bug fix."
+      },
+      {
+        "number": 26111,
+        "type": "CHORE",
+        "reasoning": "Unusual title 'Merge from fork', body is placeholder text. Defaulting to CHORE."
+      },
+      {
+        "number": 26105,
+        "type": "CHORE",
+        "reasoning": "Title 'Cleanup changesets from dependency updates' indicates a chore/cleanup."
+      },
+      {
+        "number": 26109,
+        "type": "CHORE",
+        "reasoning": "Unusual title 'Merge from fork', body is placeholder text. Defaulting to CHORE."
+      },
+      {
+        "number": 26108,
+        "type": "CHORE",
+        "reasoning": "Unusual title 'Merge from fork', body is placeholder text. Defaulting to CHORE."
+      },
+      {
+        "number": 26093,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 26086,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add comparison indicators for group interfaces' indicates new functionality for UI comparison."
+      },
+      {
+        "number": 25983,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add setup flow and license agreement banner' indicates new functionality for setup flow."
+      },
+      {
+        "number": 26104,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add ai/chat endpoint' indicates new functionality for AI chat."
+      },
+      {
+        "number": 26102,
+        "type": "CHORE",
+        "reasoning": "Unusual title, body is placeholder text. Defaulting to CHORE."
+      },
+      {
+        "number": 26100,
+        "type": "CHORE",
+        "reasoning": "Title 'Close server to clean socket remnant for test reruns' indicates a chore/cleanup for testing."
+      },
+      {
+        "number": 25783,
+        "type": "CHORE",
+        "reasoning": "Title 'Replace 'ldapjs' with 'ldapts'' indicates a dependency replacement/refactor."
+      },
+      {
+        "number": 25602,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Ensure that M2M fields in the directus_files collection use the correct interface' indicates a bug fix."
+      },
+      {
+        "number": 25670,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump tmp' indicates a dependency update."
+      },
+      {
+        "number": 25779,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 25713,
+        "type": "CHORE",
+        "reasoning": "Title 'add props package to Dockerfile' indicates a configuration/dependency chore."
+      },
+      {
+        "number": 25672,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix/cms 1173 thumbnail export forbidden' indicates a bug fix, and 'Bug' label is present."
+      },
+      {
+        "number": 26098,
+        "type": "CHORE",
+        "reasoning": "Title 'Feat/refactor mcp' indicates a refactoring."
+      },
+      {
+        "number": 26097,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add basic AI settings' indicates new functionality for AI settings."
+      },
+      {
+        "number": 26096,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add encryption support to special flags' indicates new functionality for encryption."
+      },
+      {
+        "number": 25614,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump diff' indicates a dependency update."
+      },
+      {
+        "number": 26026,
+        "type": "FEATURE",
+        "reasoning": "Title 'Support local domains for email' indicates new functionality."
+      },
+      {
+        "number": 26075,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 25638,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix custom interface localTypes bug' indicates a bug fix."
+      },
+      {
+        "number": 25781,
+        "type": "FEATURE",
+        "reasoning": "Title 'MCP -> Improve collections tool prompts' indicates an enhancement for AI tools."
+      },
+      {
+        "number": 25750,
+        "type": "CHORE",
+        "reasoning": "Title 'Replace tsup with tsdown' indicates a dependency replacement."
+      },
+      {
+        "number": 25767,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 25745,
+        "type": "CHORE",
+        "reasoning": "Title 'MCP Prompt Cleanup' indicates a cleanup/refactoring."
+      },
+      {
+        "number": 25782,
+        "type": "FEATURE",
+        "reasoning": "Title 'Introduces the Content Comparison Modal' indicates a major new feature."
+      },
+      {
+        "number": 25199,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add retention indexes' indicates new functionality for performance optimization."
+      },
+      {
+        "number": 26082,
+        "type": "FEATURE",
+        "reasoning": "`searchable` updates' indicates an enhancement to the searchable option."
+      },
+      {
+        "number": 26083,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Comparison <- fix reactivity issue' indicates a bug fix for the comparison modal."
+      },
+      {
+        "number": 25832,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(actions)(deps): bump tj-actions/changed-files' indicates a dependency update."
+      },
+      {
+        "number": 26080,
+        "type": "CHORE",
+        "reasoning": "Title 'Update tar dependency' indicates a dependency update."
+      },
+      {
+        "number": 26049,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Fix \"Is one of\" search failing with number values' indicates a bug fix for search functionality."
+      },
+      {
+        "number": 25813,
+        "type": "FEATURE",
+        "reasoning": "Title 'WIP: Attempt seamless SSO 2FA' indicates new functionality for SSO 2FA (even if WIP, intent is feature)."
+      },
+      {
+        "number": 25970,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add field-level searchable option' indicates new functionality for search."
+      },
+      {
+        "number": 26079,
+        "type": "FEATURE",
+        "reasoning": "Title 'Flow Button <- enhance interface settings' indicates an enhancement to flow buttons."
+      },
+      {
+        "number": 26078,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Comparison <- small fix, add more tests' indicates a bug fix for the comparison modal."
+      },
+      {
+        "number": 26076,
+        "type": "CHORE",
+        "reasoning": "Title 'Comparison <- add tests' indicates a chore related to adding tests."
+      },
+      {
+        "number": 26070,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 26069,
+        "type": "CHORE",
+        "reasoning": "Title 'Update dependencies' indicates a dependency update."
+      },
+      {
+        "number": 26073,
+        "type": "CHORE",
+        "reasoning": "Unusual title 'Unesco', body is placeholder text. Defaulting to CHORE."
+      },
+      {
+        "number": 26065,
+        "type": "CHORE",
+        "reasoning": "Title 'deps(deps): bump the catalog group' indicates a dependency update."
+      },
+      {
+        "number": 25127,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add support for indexes on system fields to snapshots' indicates new functionality for database snapshots."
+      }
+    ],
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 20.0,
+      "regression_ratio": 0.51,
+      "reviewer_tax": 0.39
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 26136,
+        "hotfix_pr": 26005,
+        "time_gap_hours": 371
+      },
+      {
+        "feature_pr": 25809,
+        "hotfix_pr": 26159,
+        "time_gap_hours": 622
+      },
+      {
+        "feature_pr": 25695,
+        "hotfix_pr": 26059,
+        "time_gap_hours": 1109
+      },
+      {
+        "feature_pr": 25782,
+        "hotfix_pr": 26083,
+        "time_gap_hours": 46
+      },
+      {
+        "feature_pr": 25782,
+        "hotfix_pr": 26078,
+        "time_gap_hours": 27
+      },
+      {
+        "feature_pr": 25970,
+        "hotfix_pr": 26049,
+        "time_gap_hours": 234
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          26166,
+          26126
+        ],
+        "description": "Consecutive HOTFIX/REVERT PRs: deps(deps): bump the catalog group across 1 directory with 9 updates, Fix file replacement with tus enabled"
+      },
+      {
+        "prs": [
+          26139,
+          26159
+        ],
+        "description": "Consecutive HOTFIX/REVERT PRs: AI - temp fix for layout until sidebar refactor, Ensure direction prop is passed down to the interfaces"
+      },
+      {
+        "prs": [
+          26005,
+          26154
+        ],
+        "description": "Consecutive HOTFIX/REVERT PRs: fix(csv-export): add UTF-8 BOM to all CSV exports for Excel compatibility, Fix tabular view loading items after delay"
+      },
+      {
+        "prs": [
+          26059,
+          26132
+        ],
+        "description": "Consecutive HOTFIX/REVERT PRs: Fix accounts with minimum access permissions unable to add 2fa, Fix system owner interface behaving unexpectedly"
+      },
+      {
+        "prs": [
+          26088,
+          26112
+        ],
+        "description": "Consecutive HOTFIX/REVERT PRs: Fix incorrect date for version in comparison modal header, Fix input-block-editor sanitize test failing"
+      },
+      {
+        "prs": [
+          25602,
+          25638
+        ],
+        "description": "Consecutive HOTFIX/REVERT PRs: Ensure that M2M fields in the directus_files collection use the correct interface, Fix custom interface localTypes bug"
+      },
+      {
+        "prs": [
+          26083,
+          26049
+        ],
+        "description": "Consecutive HOTFIX/REVERT PRs: Comparison <- fix reactivity issue, Fix \"Is one of\" search failing with number values"
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 25782,
+        "related_fixes": [
+          26083,
+          26078
+        ],
+        "severity": "medium",
+        "description": "Feature 'Introduces the Content Comparison Modal' led to two follow-up hotfixes: PR 26083 ('Comparison <- fix reactivity issue') and PR 26078 ('Comparison <- small fix, add more tests'), indicating issues with reactivity and user display in the comparison modal."
+      },
+      {
+        "feature_pr": 25970,
+        "related_fixes": [
+          26049
+        ],
+        "severity": "low",
+        "description": "Feature 'Add field-level searchable option' (PR 25970) likely caused regression leading to PR 26049 ('Fix \"Is one of\" search failing with number values'). The issue (25886) also points to 'is one of' problem."
+      },
+      {
+        "feature_pr": 25695,
+        "related_fixes": [
+          26059
+        ],
+        "severity": "low",
+        "description": "Feature '2FA Setup for OAuth Users' (PR 25695) led to PR 26059 ('Fix accounts with minimum access permissions unable to add 2fa'), indicating an access permission issue with 2FA setup for OAuth users. Issue 25948 is linked."
+      },
+      {
+        "feature_pr": 26136,
+        "related_fixes": [
+          26005
+        ],
+        "severity": "low",
+        "description": "Feature 'Enhance CSV export functionality' (PR 26136) was preceded by PR 26005 ('fix(csv-export): add UTF-8 BOM to all CSV exports for Excel compatibility'). While 26005 was closed earlier, 26136 then also addressed CSV export with BOM, suggesting an iterative or possibly problematic area."
+      },
+      {
+        "feature_pr": 26045,
+        "related_fixes": [
+          26154
+        ],
+        "severity": "low",
+        "description": "Feature 'Fix layout display dependant on item count request' (PR 26045) was followed by PR 26154 ('Fix tabular view loading items after delay'), suggesting performance or loading issues in list views after recent layout changes."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in directus (PR #25782 \u2192 Fixes: #26083, #26078)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `directus/directus`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 20.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.51 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #25782 \u2192 Fixes: #26083, #26078\n\u2022 PR #25970 \u2192 Fixes: #26049\n\n\u2022 **\"Panic Spirals\":** 7 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 110.0 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 0.0% revert rate on ~100 PRs/month, you're losing ~0 \u00d7 7 hours = ~0 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 110.00\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  0.00\nHotfix Contribution:  40.00\nPanic Contribution:   70.00\n\n--- Metrics ---\nRevert Rate:          0.00%\nHotfix Rate:          20.00%\nRegression Ratio:     0.51\nReviewer Tax:         0.39\nPanic Clusters:       7\n\n--- Top Incident Clusters ---\n\n1. Feature PR #25782 \u2192 Fixes: [26083, 26078]\n   Severity: medium\n   Feature 'Introduces the Content Comparison Modal' led to two follow-up hotfixes: PR 26083 ('Comparison <- fix reactivity issue') and PR 26078 ('Comparison <- small fix, add more tests'), indicating issues with reactivity and user display in the comparison modal.\n\n2. Feature PR #25970 \u2192 Fixes: [26049]\n   Severity: low\n   Feature 'Add field-level searchable option' (PR 25970) likely caused regression leading to PR 26049 ('Fix \"Is one of\" search failing with number values'). The issue (25886) also points to 'is one of' problem.\n\n3. Feature PR #25695 \u2192 Fixes: [26059]\n   Severity: low\n   Feature '2FA Setup for OAuth Users' (PR 25695) led to PR 26059 ('Fix accounts with minimum access permissions unable to add 2fa'), indicating an access permission issue with 2FA setup for OAuth users. Issue 25948 is linked.\n"
+}

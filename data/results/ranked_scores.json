@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "repo": "strapi/strapi",
+    "score": 176.0,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 2,
+    "repo": "windmill-labs/windmill",
+    "score": 169.38,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 3,
+    "repo": "makeplane/plane",
+    "score": 138.04,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 4,
+    "repo": "formbricks/formbricks",
+    "score": 137.16,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 5,
+    "repo": "directus/directus",
+    "score": 110.0,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 6,
+    "repo": "meilisearch/meilisearch",
+    "score": 103.78,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 7,
+    "repo": "supabase/supabase",
+    "score": 103.0,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 8,
+    "repo": "n8n-io/n8n",
+    "score": 100.9,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 9,
+    "repo": "calcom/cal.com",
+    "score": 97.0,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 10,
+    "repo": "getlago/lago",
+    "score": 95.72,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 11,
+    "repo": "twentyhq/twenty",
+    "score": 88.42,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 12,
+    "repo": "excalidraw/excalidraw",
+    "score": 70.0,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 13,
+    "repo": "appwrite/appwrite",
+    "score": 64.7,
+    "priority": "Priority 1: The Bleeding"
+  },
+  {
+    "rank": 14,
+    "repo": "airbytehq/airbyte",
+    "score": 37.0,
+    "priority": "Priority 2: The Worried"
+  },
+  {
+    "rank": 15,
+    "repo": "posthog/posthog",
+    "score": 0.0,
+    "priority": "Ignore: Too Healthy"
+  },
+  {
+    "rank": 16,
+    "repo": "grafana/grafana",
+    "score": 0.0,
+    "priority": "Ignore: Too Healthy"
+  },
+  {
+    "rank": 17,
+    "repo": "nocodb/nocodb",
+    "score": 0.0,
+    "priority": "Ignore: Too Healthy"
+  },
+  {
+    "rank": 18,
+    "repo": "Infisical/infisical",
+    "score": 0.0,
+    "priority": "Ignore: Too Healthy"
+  },
+  {
+    "rank": 19,
+    "repo": "hasura/graphql-engine",
+    "score": 0.0,
+    "priority": "Ignore: Too Healthy"
+  },
+  {
+    "rank": 20,
+    "repo": "openreplay/openreplay",
+    "score": 0.0,
+    "priority": "Ignore: Too Healthy"
+  }
+]

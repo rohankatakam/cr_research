@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 70.00
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  0.00
+Hotfix Contribution:  70.00
+Panic Contribution:   0.00
+
+--- Metrics ---
+Revert Rate:          0.00%
+Hotfix Rate:          35.00%
+Regression Ratio:     0.95
+Reviewer Tax:         0.15
+Panic Clusters:       0
+
+--- Top Incident Clusters ---
+
+1. Feature PR #9903 → Fixes: [10032, 10034]
+   Severity: high
+   Feature PR #9903 ('feat: library search') led to 2 follow-up fixes.
+
+2. Feature PR #10057 → Fixes: [10214]
+   Severity: medium
+   Feature PR #10057 ('feat: More prominent keyboard shortcuts in hints') led to 1 follow-up fixes.
+
+3. Feature PR #10294 → Fixes: [10293, 10295]
+   Severity: high
+   Feature PR #10294 ('feat: add comments/presi eplus promos for discoveribility') led to 2 follow-up fixes.

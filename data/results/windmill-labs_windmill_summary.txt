@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 169.38
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  0.00
+Hotfix Contribution:  69.38
+Panic Contribution:   100.00
+
+--- Metrics ---
+Revert Rate:          0.00%
+Hotfix Rate:          34.69%
+Regression Ratio:     0.94
+Reviewer Tax:         0.44
+Panic Clusters:       10
+
+--- Top Incident Clusters ---
+
+1. Feature PR #6852 → Fixes: [7088]
+   Severity: high
+   Feature 'feat: env var in flow' (PR #6852) caused 1 follow-up fixes.
+
+2. Feature PR #7041 → Fixes: [7121]
+   Severity: high
+   Feature 'SQL result_collection flag' (PR #7041) caused 1 follow-up fixes.
+
+3. Feature PR #7056 → Fixes: [7060]
+   Severity: high
+   Feature '[merge and deploy hub first] feat: hub actions and better search' (PR #7056) caused 1 follow-up fixes.

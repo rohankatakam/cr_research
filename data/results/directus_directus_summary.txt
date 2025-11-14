@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 110.00
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  0.00
+Hotfix Contribution:  40.00
+Panic Contribution:   70.00
+
+--- Metrics ---
+Revert Rate:          0.00%
+Hotfix Rate:          20.00%
+Regression Ratio:     0.51
+Reviewer Tax:         0.39
+Panic Clusters:       7
+
+--- Top Incident Clusters ---
+
+1. Feature PR #25782 → Fixes: [26083, 26078]
+   Severity: medium
+   Feature 'Introduces the Content Comparison Modal' led to two follow-up hotfixes: PR 26083 ('Comparison <- fix reactivity issue') and PR 26078 ('Comparison <- small fix, add more tests'), indicating issues with reactivity and user display in the comparison modal.
+
+2. Feature PR #25970 → Fixes: [26049]
+   Severity: low
+   Feature 'Add field-level searchable option' (PR 25970) likely caused regression leading to PR 26049 ('Fix "Is one of" search failing with number values'). The issue (25886) also points to 'is one of' problem.
+
+3. Feature PR #25695 → Fixes: [26059]
+   Severity: low
+   Feature '2FA Setup for OAuth Users' (PR 25695) led to PR 26059 ('Fix accounts with minimum access permissions unable to add 2fa'), indicating an access permission issue with 2FA setup for OAuth users. Issue 25948 is linked.

@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 103.78
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  8.60
+Hotfix Contribution:  55.18
+Panic Contribution:   40.00
+
+--- Metrics ---
+Revert Rate:          1.72%
+Hotfix Rate:          27.59%
+Regression Ratio:     0.84
+Reviewer Tax:         0.35
+Panic Clusters:       4
+
+--- Top Incident Clusters ---
+
+1. Feature PR #5767 → Fixes: [5884, 5894]
+   Severity: medium
+   Feature 'Add index setting to switch from arroy to hannoy' introduced 2 follow-up fixes/reverts.
+
+2. Feature PR #5785 → Fixes: [5968]
+   Severity: low
+   Feature 'Webhook api' introduced 1 follow-up fixes/reverts.
+
+3. Feature PR #5929 → Fixes: [5946]
+   Severity: low
+   Feature 'Introduce a task to compact an index' introduced 1 follow-up fixes/reverts.

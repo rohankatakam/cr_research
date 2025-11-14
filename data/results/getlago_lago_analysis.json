@@ -1,0 +1,600 @@
+{
+  "owner": "getlago",
+  "repo": "lago",
+  "full_name": "getlago/lago",
+  "score": {
+    "firefighting_score": 95.72,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 5.3,
+      "hotfix_contribution": 40.42,
+      "panic_contribution": 50.0
+    },
+    "metrics": {
+      "revert_rate": 1.06,
+      "hotfix_rate": 20.21,
+      "regression_ratio": 0.94,
+      "reviewer_tax": 0.28,
+      "panic_cluster_count": 5
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 631,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 629,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'hotfix'."
+      },
+      {
+        "number": 628,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 627,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 626,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 625,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 624,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 623,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 622,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 621,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 620,
+        "type": "REVERT",
+        "reasoning": "Title contains 'revert'."
+      },
+      {
+        "number": 619,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 618,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 617,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 616,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 613,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 612,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 611,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 610,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 609,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 607,
+        "type": "CHORE",
+        "reasoning": "Generic maintenance or update."
+      },
+      {
+        "number": 606,
+        "type": "FEATURE",
+        "reasoning": "Body describes a major 'Pre-aggregation epic' for new pipeline functionality."
+      },
+      {
+        "number": 605,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 604,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 603,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 602,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 601,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 599,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 598,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 597,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 596,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 595,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 594,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 593,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 592,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 591,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 590,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 589,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 588,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 587,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 586,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 585,
+        "type": "CHORE",
+        "reasoning": "Generic maintenance or update."
+      },
+      {
+        "number": 584,
+        "type": "CHORE",
+        "reasoning": "Generic maintenance or update."
+      },
+      {
+        "number": 582,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 581,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 580,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 579,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 577,
+        "type": "CHORE",
+        "reasoning": "Generic maintenance or update."
+      },
+      {
+        "number": 576,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 575,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 574,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 573,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 572,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 571,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 570,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 569,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 568,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 567,
+        "type": "FEATURE",
+        "reasoning": "Body describes a major 'Pre-aggregation epic' for new pipeline functionality."
+      },
+      {
+        "number": 566,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 565,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 564,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 563,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 562,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 561,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 560,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 559,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 558,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 557,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 556,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 555,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 554,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 553,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 550,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 549,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 547,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 546,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 544,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 543,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 542,
+        "type": "FEATURE",
+        "reasoning": "Body describes significant new cache management capability for Clickhouse."
+      },
+      {
+        "number": 539,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 537,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 536,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 534,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 533,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 532,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 531,
+        "type": "CHORE",
+        "reasoning": "Generic maintenance or update."
+      },
+      {
+        "number": 530,
+        "type": "CHORE",
+        "reasoning": "Generic maintenance or update."
+      },
+      {
+        "number": 529,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 528,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 527,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 526,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 524,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      },
+      {
+        "number": 523,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 522,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 521,
+        "type": "CHORE",
+        "reasoning": "Title contains conventional commit prefix or body describes maintenance, documentation, or refactoring."
+      },
+      {
+        "number": 520,
+        "type": "CHORE",
+        "reasoning": "Generic maintenance or update."
+      },
+      {
+        "number": 519,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 504,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat('."
+      },
+      {
+        "number": 499,
+        "type": "HOTFIX",
+        "reasoning": "Title contains 'fix'."
+      }
+    ],
+    "metrics": {
+      "revert_rate": 1.06,
+      "hotfix_rate": 20.21,
+      "regression_ratio": 0.94,
+      "reviewer_tax": 0.28
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 606,
+        "hotfix_pr": 629,
+        "time_gap_hours": 79.58
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          527,
+          528
+        ],
+        "description": "Consecutive 2 hotfixes/reverts merged around 2025-05-13"
+      },
+      {
+        "prs": [
+          580,
+          581
+        ],
+        "description": "Consecutive 2 hotfixes/reverts merged around 2025-09-03"
+      },
+      {
+        "prs": [
+          592,
+          587
+        ],
+        "description": "Consecutive 2 hotfixes/reverts merged around 2025-09-15"
+      },
+      {
+        "prs": [
+          610,
+          611
+        ],
+        "description": "Consecutive 2 hotfixes/reverts merged around 2025-10-17"
+      },
+      {
+        "prs": [
+          620,
+          621
+        ],
+        "description": "Consecutive 2 hotfixes/reverts merged around 2025-11-04"
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 542,
+        "related_fixes": [
+          544,
+          610,
+          611
+        ],
+        "severity": "high",
+        "description": "Feature 'chore(filters): Add cache management' led to 3 follow-up fixes/reverts."
+      },
+      {
+        "feature_pr": 606,
+        "related_fixes": [
+          629
+        ],
+        "severity": "high",
+        "description": "Feature 'misc(events-processor) Refactor processors to easily allow new pipelines' led to 1 follow-up fixes/reverts."
+      },
+      {
+        "feature_pr": 561,
+        "related_fixes": [
+          575
+        ],
+        "severity": "high",
+        "description": "Feature 'feat(pre-aggregation): Extract enrichment logic in a dedicated processor' led to 1 follow-up fixes/reverts."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in lago (PR #542 \u2192 Fixes: #544, #610, #611)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `getlago/lago`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 1.1%, which is 0.2x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 20.2% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.94 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #542 \u2192 Fixes: #544, #610, #611\n\u2022 PR #606 \u2192 Fixes: #629\n\n\u2022 **\"Panic Spirals\":** 5 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 95.7 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 1.1% revert rate on ~100 PRs/month, you're losing ~1 \u00d7 7 hours = ~7 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 95.72\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  5.30\nHotfix Contribution:  40.42\nPanic Contribution:   50.00\n\n--- Metrics ---\nRevert Rate:          1.06%\nHotfix Rate:          20.21%\nRegression Ratio:     0.94\nReviewer Tax:         0.28\nPanic Clusters:       5\n\n--- Top Incident Clusters ---\n\n1. Feature PR #542 \u2192 Fixes: [544, 610, 611]\n   Severity: high\n   Feature 'chore(filters): Add cache management' led to 3 follow-up fixes/reverts.\n\n2. Feature PR #606 \u2192 Fixes: [629]\n   Severity: high\n   Feature 'misc(events-processor) Refactor processors to easily allow new pipelines' led to 1 follow-up fixes/reverts.\n\n3. Feature PR #561 \u2192 Fixes: [575]\n   Severity: high\n   Feature 'feat(pre-aggregation): Extract enrichment logic in a dedicated processor' led to 1 follow-up fixes/reverts.\n"
+}

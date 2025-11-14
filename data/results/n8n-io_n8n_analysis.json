@@ -1,0 +1,603 @@
+{
+  "owner": "n8n-io",
+  "repo": "n8n",
+  "full_name": "n8n-io/n8n",
+  "score": {
+    "firefighting_score": 100.9,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 0.0,
+      "hotfix_contribution": 90.9,
+      "panic_contribution": 10.0
+    },
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 45.45,
+      "regression_ratio": 1.48,
+      "reviewer_tax": 0.38,
+      "panic_cluster_count": 1
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 21356,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(kafka trigger node): add schema registry authentication support)"
+      },
+      {
+        "number": 21835,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(core): add scope restriction for /new and /from-url workflows endpoint)"
+      },
+      {
+        "number": 21830,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: block invite acceptance on sso systems)"
+      },
+      {
+        "number": 21714,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): provide better output for subnode execution errors)"
+      },
+      {
+        "number": 21829,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (chore(core): extend functionsbase for easy access to execution context)"
+      },
+      {
+        "number": 21448,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (chore(core): improvements to log stream sending)"
+      },
+      {
+        "number": 21729,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (chore(core): establish execution context for workflows)"
+      },
+      {
+        "number": 21745,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: prevent ldap email based account when there are deplicate emails)"
+      },
+      {
+        "number": 21278,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(schedule trigger node): allow irregular intervals)"
+      },
+      {
+        "number": 21806,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: disable user invites on sso systems)"
+      },
+      {
+        "number": 17880,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(mcp client tool node): support generic auth types)"
+      },
+      {
+        "number": 21253,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix: enable respond to chat node as tool)"
+      },
+      {
+        "number": 21633,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(editor): create breaking change audit page)"
+      },
+      {
+        "number": 21812,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(merge node): show node icon in v1)"
+      },
+      {
+        "number": 2693,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (add best practices to i18n docs)"
+      },
+      {
+        "number": 21541,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): add name, autosaved, description columns to workflow history (no-changelog))"
+      },
+      {
+        "number": 21447,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(editor): global row search on data table details view)"
+      },
+      {
+        "number": 21743,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: improve backfill missing workflow history records migration (no-changelog))"
+      },
+      {
+        "number": 20626,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: aws assume role credentials)"
+      },
+      {
+        "number": 21777,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(code node): revert node icon back to old icon)"
+      },
+      {
+        "number": 21738,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): improve workflows text search)"
+      },
+      {
+        "number": 21290,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(core): capture stoppedat timestamp and improve fullrundata handling)"
+      },
+      {
+        "number": 21754,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (small refactor)"
+      },
+      {
+        "number": 21761,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): fix empty variables notice indent in schema view (no-changelog))"
+      },
+      {
+        "number": 21730,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): previous nodes' outputs aren't available in expression editor for sub-nodes)"
+      },
+      {
+        "number": 21760,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): fix node name tooltip in ndv header)"
+      },
+      {
+        "number": 21759,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): fix command bar keyboard events handing)"
+      },
+      {
+        "number": 21752,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(i18n): add russian language support)"
+      },
+      {
+        "number": 21749,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix: save workflow history on archive and unarchive (no-changelog))"
+      },
+      {
+        "number": 21748,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (update ci-master.yml)"
+      },
+      {
+        "number": 20974,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): add acr parameter to oidc settings)"
+      },
+      {
+        "number": 21728,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: adding voyageai integration)"
+      },
+      {
+        "number": 21408,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: expression editor - ability to preview html or markdown in results pane)"
+      },
+      {
+        "number": 21726,
+        "type": "CHORE",
+        "reasoning": "Defaulted to chore due to ambiguous classification. (claude/browser plugin url opener 011 cv23 k6gy km29xrx r3h8 ao)"
+      },
+      {
+        "number": 21504,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix: google vertex sub-node error handling)"
+      },
+      {
+        "number": 21723,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): make sure `pin` action works only for pinnabe nodes)"
+      },
+      {
+        "number": 21724,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (test: create history for workflows with activation logic)"
+      },
+      {
+        "number": 21687,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (chore(core): remove md5 usage for user id generation in postgres)"
+      },
+      {
+        "number": 21691,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (ci: guard publish-to-npm job behind merge check)"
+      },
+      {
+        "number": 21686,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): return www-authenticate header in `/mcp-server/http` endpoint)"
+      },
+      {
+        "number": 21678,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: add unit tests for getattributesfromloginresponse and handlesamllogin)"
+      },
+      {
+        "number": 21676,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (refactor(core): fix migration import format)"
+      },
+      {
+        "number": 21631,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): fix hanging logs panel tooltip)"
+      },
+      {
+        "number": 21629,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(editor): ux/ux improvements for mcp (no-changelog))"
+      },
+      {
+        "number": 21602,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: allow cors in the discovery endpoints)"
+      },
+      {
+        "number": 21555,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(editor): data size warning in ai logs input/output sections)"
+      },
+      {
+        "number": 21538,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (chore(editor): chat telemetry)"
+      },
+      {
+        "number": 21532,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: provide data export of access settings when enabling jit)"
+      },
+      {
+        "number": 21522,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(google workspace admin node): include `changepasswordatnextlogin`, `password` in update)"
+      },
+      {
+        "number": 21509,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(embeddings aws bedrock node, aws bedrock chat model node): fix http proxy)"
+      },
+      {
+        "number": 21499,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(sendgrid node): use `/scopes` for credential testing)"
+      },
+      {
+        "number": 21609,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(core): column size for token column)"
+      },
+      {
+        "number": 21574,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(core): insights fix same day queries)"
+      },
+      {
+        "number": 21553,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (test: use pooled sqlite driver in cli tests)"
+      },
+      {
+        "number": 21546,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(core): include role in user-invite-email-click)"
+      },
+      {
+        "number": 21542,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(ai-builder): reduce \"workflow state too big\" errors)"
+      },
+      {
+        "number": 21540,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(core): insights use time aware range when end date is today, and start of day for past ranges)"
+      },
+      {
+        "number": 21529,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): log view doesn't scroll in manual execution)"
+      },
+      {
+        "number": 21528,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (chore: bump @n8n/typeorm version to 0.3.20-15)"
+      },
+      {
+        "number": 21527,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): replace imgur link in easy ai template sticky note)"
+      },
+      {
+        "number": 21526,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): add workflow descriptions)"
+      },
+      {
+        "number": 21525,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: add support for mysql / mariadb)"
+      },
+      {
+        "number": 21521,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): fix main button create variable disable state based on scopes)"
+      },
+      {
+        "number": 21513,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (test: add an integration test for workflow version counter increment)"
+      },
+      {
+        "number": 21505,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): fix polyfills generation (no-changelog))"
+      },
+      {
+        "number": 21494,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat: use experiment feature flag for sso provisioning (no changelog))"
+      },
+      {
+        "number": 21490,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(api): fix returning role as slug on the users api handler)"
+      },
+      {
+        "number": 21488,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(ai-builder): add support for node versions in searching, adding and updating nodes)"
+      },
+      {
+        "number": 21484,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix: ensure workflows and folders updatedat/createdat aren't mixed up in project sorting)"
+      },
+      {
+        "number": 21469,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): add oauth to mcp server)"
+      },
+      {
+        "number": 21443,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(editor): add oauth clients management page (no-changelog))"
+      },
+      {
+        "number": 21442,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): adapt breaking changes report data to ui needs)"
+      },
+      {
+        "number": 21420,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(redis node): add list length (llen) operation)"
+      },
+      {
+        "number": 21416,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(code node): update error message when using `.item` in `run once for all items` mode )"
+      },
+      {
+        "number": 21412,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): fix preview for json output with long values)"
+      },
+      {
+        "number": 21386,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (chore(ai-builder): e2e tests for workflow builder)"
+      },
+      {
+        "number": 21347,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(extract from file node): add `skip records with errors` option)"
+      },
+      {
+        "number": 21335,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix: prevent multiple api requests when changing workflow owner)"
+      },
+      {
+        "number": 20732,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (test: add tests for nodes (no-changelog))"
+      },
+      {
+        "number": 20382,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(slack node): prevent invalid array arg on team join)"
+      },
+      {
+        "number": 21394,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix: change unicode range to support more characters in expression parser)"
+      },
+      {
+        "number": 21387,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): just in time role provisioning for saml login)"
+      },
+      {
+        "number": 21312,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): limit telemetry event size to 32kb)"
+      },
+      {
+        "number": 20963,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (refactor(editor): add select component)"
+      },
+      {
+        "number": 21570,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (chore(core): define execution context interfaces)"
+      },
+      {
+        "number": 21273,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): watch data source updates when computing output iterations and items total (no-changelog))"
+      },
+      {
+        "number": 21705,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(core): correctly filter custom nodes when nodes_include/exclude is set)"
+      },
+      {
+        "number": 21713,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (:rocket: release 1.120.1)"
+      },
+      {
+        "number": 21715,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (ci: fix /build-unit-test command to report checks on prs)"
+      },
+      {
+        "number": 21493,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(core): enforce timeout for task requests)"
+      },
+      {
+        "number": 21480,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(core): add workflow history grouping framework (no-changelog))"
+      },
+      {
+        "number": 20380,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix broken docs links for \"respond to chat\" & \"loop over items\" nodes & \"sticky notes\")"
+      },
+      {
+        "number": 21520,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(mcp client tool node): scope is not working if use credential without drc on (scope set but pass to /auth endpoint is null))"
+      },
+      {
+        "number": 21533,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (refactor(editor): reorganize `shims-*.d.ts` files (no-changelog))"
+      },
+      {
+        "number": 21688,
+        "type": "CHORE",
+        "reasoning": "Title or author indicate a chore/refactoring/release. (:rocket: release 1.120.0)"
+      },
+      {
+        "number": 21681,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): ensure license activation modal works when used without eula)"
+      },
+      {
+        "number": 21486,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (chore(ai-builder): adding telemetry for categorization in the workflow builder)"
+      },
+      {
+        "number": 21697,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): workflow tags style issue)"
+      },
+      {
+        "number": 21430,
+        "type": "HOTFIX",
+        "reasoning": "Title or labels indicate a fix/bug. (fix(editor): align min height of workflow setting rows)"
+      },
+      {
+        "number": 21260,
+        "type": "FEATURE",
+        "reasoning": "Title or labels indicate a new feature/improvement. (feat(editor): auto-select operator type when drag and dropping values)"
+      }
+    ],
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 45.45,
+      "regression_ratio": 1.48,
+      "reviewer_tax": 0.38
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 21830,
+        "hotfix_pr": 21806,
+        "time_gap_hours": 4.19
+      },
+      {
+        "feature_pr": 21745,
+        "hotfix_pr": 21806,
+        "time_gap_hours": 21.56
+      },
+      {
+        "feature_pr": 21686,
+        "hotfix_pr": 21713,
+        "time_gap_hours": 18.7
+      },
+      {
+        "feature_pr": 21469,
+        "hotfix_pr": 21520,
+        "time_gap_hours": 128.53
+      },
+      {
+        "feature_pr": 21469,
+        "hotfix_pr": 21490,
+        "time_gap_hours": 37.18
+      },
+      {
+        "feature_pr": 21469,
+        "hotfix_pr": 21484,
+        "time_gap_hours": 7.45
+      },
+      {
+        "feature_pr": 21443,
+        "hotfix_pr": 21520,
+        "time_gap_hours": 166.34
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          21777,
+          21761,
+          21730,
+          21760,
+          21759
+        ],
+        "description": "5 consecutive hotfixes/reverts."
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 21469,
+        "related_fixes": [
+          21484,
+          21490,
+          21520
+        ],
+        "severity": "high",
+        "description": "Feature PR 21469 led to 3 follow-up fixes."
+      },
+      {
+        "feature_pr": 21387,
+        "related_fixes": [
+          21546,
+          21745
+        ],
+        "severity": "high",
+        "description": "Feature PR 21387 led to 2 follow-up fixes."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in n8n (PR #21469 \u2192 Fixes: #21484, #21490, #21520)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `n8n-io/n8n`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 45.5% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 1.48 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #21469 \u2192 Fixes: #21484, #21490, #21520\n\u2022 PR #21387 \u2192 Fixes: #21546, #21745\n\n\u2022 **\"Panic Spirals\":** 1 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 100.9 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 0.0% revert rate on ~100 PRs/month, you're losing ~0 \u00d7 7 hours = ~0 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 100.90\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  0.00\nHotfix Contribution:  90.90\nPanic Contribution:   10.00\n\n--- Metrics ---\nRevert Rate:          0.00%\nHotfix Rate:          45.45%\nRegression Ratio:     1.48\nReviewer Tax:         0.38\nPanic Clusters:       1\n\n--- Top Incident Clusters ---\n\n1. Feature PR #21469 \u2192 Fixes: [21484, 21490, 21520]\n   Severity: high\n   Feature PR 21469 led to 3 follow-up fixes.\n\n2. Feature PR #21387 \u2192 Fixes: [21546, 21745]\n   Severity: high\n   Feature PR 21387 led to 2 follow-up fixes.\n"
+}

@@ -1,0 +1,752 @@
+{
+  "owner": "strapi",
+  "repo": "strapi",
+  "full_name": "strapi/strapi",
+  "score": {
+    "firefighting_score": 176.0,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 0.0,
+      "hotfix_contribution": 96.0,
+      "panic_contribution": 80.0
+    },
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 48.0,
+      "regression_ratio": 1.78,
+      "reviewer_tax": 0.11,
+      "panic_cluster_count": 8
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 24782,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24611,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 23475,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', label 'pr: enhancement'"
+      },
+      {
+        "number": 24484,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix', label 'pr: fix'"
+      },
+      {
+        "number": 24309,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix'"
+      },
+      {
+        "number": 23783,
+        "type": "CHORE",
+        "reasoning": "Minor UI change, no strong classification keywords"
+      },
+      {
+        "number": 24266,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:'"
+      },
+      {
+        "number": 24185,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24712,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:'"
+      },
+      {
+        "number": 24750,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 21792,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 22800,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24799,
+        "type": "HOTFIX",
+        "reasoning": "Label 'pr: fix'"
+      },
+      {
+        "number": 22773,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24805,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 23353,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24835,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 23029,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', fixing deprecation is maintenance"
+      },
+      {
+        "number": 24830,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24647,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24648,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24794,
+        "type": "HOTFIX",
+        "reasoning": "Label 'pr: fix'"
+      },
+      {
+        "number": 24821,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24765,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24806,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24659,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 23714,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'Fixes', label 'pr: fix'"
+      },
+      {
+        "number": 23753,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore', 'dependencies'"
+      },
+      {
+        "number": 24586,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24797,
+        "type": "CHORE",
+        "reasoning": "Release PR, label 'pr: chore'"
+      },
+      {
+        "number": 24785,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 23657,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24545,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24786,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24772,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24767,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24573,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', adds new functionality (file type restriction) despite 'pr: fix' label"
+      },
+      {
+        "number": 24555,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'enhancement:', label 'pr: enhancement'"
+      },
+      {
+        "number": 24764,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24761,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', UX improvement by replacing component is refactoring, labeled 'pr: enhancement'"
+      },
+      {
+        "number": 24758,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 22738,
+        "type": "HOTFIX",
+        "reasoning": "Label 'pr: fix'"
+      },
+      {
+        "number": 24739,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24749,
+        "type": "FEATURE",
+        "reasoning": "Label 'pr: enhancement', adds new visual indicator"
+      },
+      {
+        "number": 22757,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', label 'pr: enhancement', adding new language translations"
+      },
+      {
+        "number": 24721,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24725,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24724,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24734,
+        "type": "FEATURE",
+        "reasoning": "Description 'added audit logs' indicates new functionality"
+      },
+      {
+        "number": 24732,
+        "type": "CHORE",
+        "reasoning": "Release PR"
+      },
+      {
+        "number": 24697,
+        "type": "FEATURE",
+        "reasoning": "Description 'Added new files for audit log' indicates new functionality"
+      },
+      {
+        "number": 24660,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'Fix', label 'pr: fix'"
+      },
+      {
+        "number": 24666,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', new reviewer functionality"
+      },
+      {
+        "number": 22400,
+        "type": "HOTFIX",
+        "reasoning": "Label 'pr: fix', directly fixes an issue"
+      },
+      {
+        "number": 22617,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'Feat', adds support for new components despite 'pr: fix' label"
+      },
+      {
+        "number": 24699,
+        "type": "HOTFIX",
+        "reasoning": "Label 'pr: fix'"
+      },
+      {
+        "number": 24728,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', adds content API audit logging"
+      },
+      {
+        "number": 24726,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24634,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'Fix:'"
+      },
+      {
+        "number": 24633,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24706,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', label 'pr: feature'"
+      },
+      {
+        "number": 24708,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24714,
+        "type": "CHORE",
+        "reasoning": "Fixing tooling setup, labeled 'pr: chore'"
+      },
+      {
+        "number": 24722,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24719,
+        "type": "HOTFIX",
+        "reasoning": "Labeled 'pr: fix', addresses responsiveness bug"
+      },
+      {
+        "number": 21746,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', introduces new response types"
+      },
+      {
+        "number": 24710,
+        "type": "CHORE",
+        "reasoning": "Development commit, no clear classification"
+      },
+      {
+        "number": 24700,
+        "type": "FEATURE",
+        "reasoning": "Description 'Add audit log plugin implementation'"
+      },
+      {
+        "number": 24698,
+        "type": "FEATURE",
+        "reasoning": "Description 'add audit logs and configuration'"
+      },
+      {
+        "number": 24696,
+        "type": "FEATURE",
+        "reasoning": "Description 'Added Automated Audit Logging'"
+      },
+      {
+        "number": 24695,
+        "type": "FEATURE",
+        "reasoning": "Title 'Users/shubham/auditLogIntegration' suggests new functionality"
+      },
+      {
+        "number": 24694,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'Feat/'"
+      },
+      {
+        "number": 24693,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', implements audit logging system"
+      },
+      {
+        "number": 24692,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', implements audit logging system"
+      },
+      {
+        "number": 24691,
+        "type": "FEATURE",
+        "reasoning": "Description 'Adding audit log functionality'"
+      },
+      {
+        "number": 24690,
+        "type": "FEATURE",
+        "reasoning": "Description 'Audit-Log feature for Strapi', label 'pr: feature'"
+      },
+      {
+        "number": 24689,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add Audit Log Plugin' is definitive new functionality despite 'pr: fix' label"
+      },
+      {
+        "number": 24301,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'"
+      },
+      {
+        "number": 24657,
+        "type": "FEATURE",
+        "reasoning": "Title 'Future/i18n update' suggests major enhancement"
+      },
+      {
+        "number": 24625,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24605,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24720,
+        "type": "CHORE",
+        "reasoning": "Performance/infra enhancement (caching), labeled 'pr: enhancement'"
+      },
+      {
+        "number": 24718,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24716,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24707,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:'"
+      },
+      {
+        "number": 24652,
+        "type": "HOTFIX",
+        "reasoning": "Label 'pr: fix'"
+      },
+      {
+        "number": 24668,
+        "type": "HOTFIX",
+        "reasoning": "Label 'pr: fix'"
+      },
+      {
+        "number": 24705,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24704,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:', label 'pr: chore'"
+      },
+      {
+        "number": 24658,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', label 'pr: feature'"
+      },
+      {
+        "number": 24701,
+        "type": "CHORE",
+        "reasoning": "Release PR"
+      },
+      {
+        "number": 24664,
+        "type": "FEATURE",
+        "reasoning": "Adds new visual status for a feature, despite 'pr: chore' label"
+      },
+      {
+        "number": 24325,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24643,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:', label 'pr: fix'"
+      },
+      {
+        "number": 24688,
+        "type": "FEATURE",
+        "reasoning": "Description '[audit-logs] plugin' indicates new functionality"
+      },
+      {
+        "number": 24681,
+        "type": "CHORE",
+        "reasoning": "Fixing grammar in README is a documentation chore"
+      },
+      {
+        "number": 24682,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', implements audit logging system"
+      },
+      {
+        "number": 24687,
+        "type": "FEATURE",
+        "reasoning": "Description 'New feature implemented' for audit log"
+      },
+      {
+        "number": 24686,
+        "type": "FEATURE",
+        "reasoning": "Description 'Develop lifecycle hook middleware' for audit log"
+      },
+      {
+        "number": 24685,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat', adds plugin structure for audit logging"
+      }
+    ],
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 48.0,
+      "regression_ratio": 1.78,
+      "reviewer_tax": 0.11
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 24658,
+        "hotfix_pr": 24716,
+        "time_gap_hours": 30.34,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      },
+      {
+        "feature_pr": 24658,
+        "hotfix_pr": 24718,
+        "time_gap_hours": 30.59,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24605,
+        "time_gap_hours": -1.78,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24722,
+        "time_gap_hours": -0.57,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24633,
+        "time_gap_hours": -0.55,
+        "shared_context": []
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24708,
+        "time_gap_hours": -0.33,
+        "shared_context": []
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24659,
+        "time_gap_hours": 4.24,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24726,
+        "time_gap_hours": 4.54,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      },
+      {
+        "feature_pr": 22617,
+        "hotfix_pr": 22400,
+        "time_gap_hours": -0.92,
+        "shared_context": [
+          "source:core:upload"
+        ]
+      },
+      {
+        "feature_pr": 24573,
+        "hotfix_pr": 24772,
+        "time_gap_hours": 45.93,
+        "shared_context": []
+      },
+      {
+        "feature_pr": 23475,
+        "hotfix_pr": 24611,
+        "time_gap_hours": 0.57,
+        "shared_context": [
+          "source:core:upload"
+        ]
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24647,
+        "time_gap_hours": 328.75,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24648,
+        "time_gap_hours": 327.47,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      },
+      {
+        "feature_pr": 24706,
+        "hotfix_pr": 24821,
+        "time_gap_hours": 337.07,
+        "shared_context": [
+          "source:plugin:i18n"
+        ]
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          24643,
+          24325
+        ],
+        "description": "Series of 2 consecutive fixes/reverts"
+      },
+      {
+        "prs": [
+          24716,
+          24718
+        ],
+        "description": "Series of 2 consecutive fixes/reverts"
+      },
+      {
+        "prs": [
+          24605,
+          24722,
+          24633,
+          24708
+        ],
+        "description": "Series of 4 consecutive fixes/reverts"
+      },
+      {
+        "prs": [
+          24719,
+          24659,
+          24726,
+          24699
+        ],
+        "description": "Series of 4 consecutive fixes/reverts"
+      },
+      {
+        "prs": [
+          24721,
+          24739
+        ],
+        "description": "Series of 2 consecutive fixes/reverts"
+      },
+      {
+        "prs": [
+          24765,
+          24821,
+          24794,
+          24648,
+          24647,
+          24830
+        ],
+        "description": "Series of 6 consecutive fixes/reverts"
+      },
+      {
+        "prs": [
+          24835,
+          23353,
+          24805,
+          22773,
+          24799
+        ],
+        "description": "Series of 5 consecutive fixes/reverts"
+      },
+      {
+        "prs": [
+          24611,
+          24782
+        ],
+        "description": "Series of 2 consecutive fixes/reverts"
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 24706,
+        "related_fixes": [
+          24605,
+          24722,
+          24633,
+          24708,
+          24659,
+          24726,
+          24716,
+          24718,
+          24647,
+          24648,
+          24821,
+          24805,
+          24835
+        ],
+        "severity": "high",
+        "description": "Rollout of AI localization feature (i18n) led to numerous follow-up fixes related to locale handling, document creation, data integrity, UI behavior, and admin configuration."
+      },
+      {
+        "feature_pr": 23475,
+        "related_fixes": [
+          24611
+        ],
+        "severity": "medium",
+        "description": "Media library enhancements introduced an immediate follow-up fix for AI metadata save errors, linked to issue #24610."
+      },
+      {
+        "feature_pr": 24555,
+        "related_fixes": [
+          24835,
+          23353,
+          24805,
+          22773,
+          24799
+        ],
+        "severity": "medium",
+        "description": "Enhancements to plugin generators may have introduced instability across core modules, leading to a panic spiral of UI and data display fixes."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in strapi (PR #24706 \u2192 Fixes: #24605, #24722, #24633)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `strapi/strapi`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 48.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 1.78 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #24706 \u2192 Fixes: #24605, #24722, #24633\n\u2022 PR #23475 \u2192 Fixes: #24611\n\n\u2022 **\"Panic Spirals\":** 8 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 176.0 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 0.0% revert rate on ~100 PRs/month, you're losing ~0 \u00d7 7 hours = ~0 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 176.00\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  0.00\nHotfix Contribution:  96.00\nPanic Contribution:   80.00\n\n--- Metrics ---\nRevert Rate:          0.00%\nHotfix Rate:          48.00%\nRegression Ratio:     1.78\nReviewer Tax:         0.11\nPanic Clusters:       8\n\n--- Top Incident Clusters ---\n\n1. Feature PR #24706 \u2192 Fixes: [24605, 24722, 24633, 24708, 24659, 24726, 24716, 24718, 24647, 24648, 24821, 24805, 24835]\n   Severity: high\n   Rollout of AI localization feature (i18n) led to numerous follow-up fixes related to locale handling, document creation, data integrity, UI behavior, and admin configuration.\n\n2. Feature PR #23475 \u2192 Fixes: [24611]\n   Severity: medium\n   Media library enhancements introduced an immediate follow-up fix for AI metadata save errors, linked to issue #24610.\n\n3. Feature PR #24555 \u2192 Fixes: [24835, 23353, 24805, 22773, 24799]\n   Severity: medium\n   Enhancements to plugin generators may have introduced instability across core modules, leading to a panic spiral of UI and data display fixes.\n"
+}

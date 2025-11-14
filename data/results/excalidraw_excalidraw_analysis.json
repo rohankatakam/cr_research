@@ -1,0 +1,594 @@
+{
+  "owner": "excalidraw",
+  "repo": "excalidraw",
+  "full_name": "excalidraw/excalidraw",
+  "score": {
+    "firefighting_score": 70.0,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 0.0,
+      "hotfix_contribution": 70.0,
+      "panic_contribution": 0.0
+    },
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 35.0,
+      "regression_ratio": 0.95,
+      "reviewer_tax": 0.15,
+      "panic_cluster_count": 0
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 10300,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10315,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10042,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10152,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9867,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10222,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10302,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 10301,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10287,
+        "type": "CHORE",
+        "reasoning": "Infrastructure migration/upgrade/build-related update."
+      },
+      {
+        "number": 10295,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10293,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10294,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10290,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 6985,
+        "type": "FEATURE",
+        "reasoning": "Default: substantial changes, likely a new feature."
+      },
+      {
+        "number": 10292,
+        "type": "CHORE",
+        "reasoning": "Infrastructure migration/upgrade/build-related update."
+      },
+      {
+        "number": 10289,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10051,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10284,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10169,
+        "type": "CHORE",
+        "reasoning": "Infrastructure fix, classified as CHORE despite 'fix:' prefix."
+      },
+      {
+        "number": 7429,
+        "type": "CHORE",
+        "reasoning": "Excalibot translation update."
+      },
+      {
+        "number": 10178,
+        "type": "CHORE",
+        "reasoning": "Default: no specific classification found."
+      },
+      {
+        "number": 10238,
+        "type": "CHORE",
+        "reasoning": "Infrastructure migration/upgrade/build-related update."
+      },
+      {
+        "number": 10280,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 9099,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 10278,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10265,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10266,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10268,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'test:'."
+      },
+      {
+        "number": 10250,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10069,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10054,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9427,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9209,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 9187,
+        "type": "CHORE",
+        "reasoning": "Title contains chore-related keywords."
+      },
+      {
+        "number": 10230,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10235,
+        "type": "FEATURE",
+        "reasoning": "Default: substantial changes, likely a new feature."
+      },
+      {
+        "number": 10221,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10201,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 10204,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 10214,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10057,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10199,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9870,
+        "type": "CHORE",
+        "reasoning": "Title contains chore-related keywords."
+      },
+      {
+        "number": 10180,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10177,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10160,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10159,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10158,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10157,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10155,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10154,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10104,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 8263,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10145,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10133,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 10144,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10113,
+        "type": "CHORE",
+        "reasoning": "Default: no specific classification found."
+      },
+      {
+        "number": 9996,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10118,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 10045,
+        "type": "CHORE",
+        "reasoning": "Default: no specific classification found."
+      },
+      {
+        "number": 10081,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10074,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'build:'."
+      },
+      {
+        "number": 10024,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10073,
+        "type": "CHORE",
+        "reasoning": "Title/body contains chore-related keywords."
+      },
+      {
+        "number": 10071,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 8585,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 8574,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10016,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 7626,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9961,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10041,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 9992,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10034,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10032,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9903,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 9604,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 10018,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 8961,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 7722,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 10006,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10007,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10021,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9532,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10020,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9786,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 10013,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9799,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:'."
+      },
+      {
+        "number": 9998,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9947,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9946,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9991,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9979,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9872,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature-related keywords or 'enhancement' label, indicating new functionality."
+      },
+      {
+        "number": 9910,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 9959,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9150,
+        "type": "CHORE",
+        "reasoning": "Title contains chore-related keywords."
+      },
+      {
+        "number": 9899,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      },
+      {
+        "number": 9898,
+        "type": "CHORE",
+        "reasoning": "Title starts with 'chore:'."
+      },
+      {
+        "number": 9875,
+        "type": "FEATURE",
+        "reasoning": "Title starts with 'feat:'."
+      },
+      {
+        "number": 9914,
+        "type": "HOTFIX",
+        "reasoning": "Title starts with 'fix:'."
+      }
+    ],
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 35.0,
+      "regression_ratio": 0.95,
+      "reviewer_tax": 0.15
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 10294,
+        "hotfix_pr": 10295,
+        "time_gap_hours": 0.73
+      },
+      {
+        "feature_pr": 10294,
+        "hotfix_pr": 10293,
+        "time_gap_hours": 1.94
+      },
+      {
+        "feature_pr": 10289,
+        "hotfix_pr": 10284,
+        "time_gap_hours": 21.65
+      },
+      {
+        "feature_pr": 10057,
+        "hotfix_pr": 10214,
+        "time_gap_hours": 23.38
+      },
+      {
+        "feature_pr": 9903,
+        "hotfix_pr": 10034,
+        "time_gap_hours": 39.46
+      },
+      {
+        "feature_pr": 9903,
+        "hotfix_pr": 10032,
+        "time_gap_hours": 37.84
+      }
+    ],
+    "panic_clusters": [],
+    "incident_clusters": [
+      {
+        "feature_pr": 9903,
+        "related_fixes": [
+          10032,
+          10034
+        ],
+        "severity": "high",
+        "description": "Feature PR #9903 ('feat: library search') led to 2 follow-up fixes."
+      },
+      {
+        "feature_pr": 10057,
+        "related_fixes": [
+          10214
+        ],
+        "severity": "medium",
+        "description": "Feature PR #10057 ('feat: More prominent keyboard shortcuts in hints') led to 1 follow-up fixes."
+      },
+      {
+        "feature_pr": 10294,
+        "related_fixes": [
+          10293,
+          10295
+        ],
+        "severity": "high",
+        "description": "Feature PR #10294 ('feat: add comments/presi eplus promos for discoveribility') led to 2 follow-up fixes."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in excalidraw (PR #9903 \u2192 Fixes: #10032, #10034)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `excalidraw/excalidraw`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 35.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.95 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #9903 \u2192 Fixes: #10032, #10034\n\u2022 PR #10057 \u2192 Fixes: #10214\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 70.0 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 0.0% revert rate on ~100 PRs/month, you're losing ~0 \u00d7 7 hours = ~0 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 70.00\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  0.00\nHotfix Contribution:  70.00\nPanic Contribution:   0.00\n\n--- Metrics ---\nRevert Rate:          0.00%\nHotfix Rate:          35.00%\nRegression Ratio:     0.95\nReviewer Tax:         0.15\nPanic Clusters:       0\n\n--- Top Incident Clusters ---\n\n1. Feature PR #9903 \u2192 Fixes: [10032, 10034]\n   Severity: high\n   Feature PR #9903 ('feat: library search') led to 2 follow-up fixes.\n\n2. Feature PR #10057 \u2192 Fixes: [10214]\n   Severity: medium\n   Feature PR #10057 ('feat: More prominent keyboard shortcuts in hints') led to 1 follow-up fixes.\n\n3. Feature PR #10294 \u2192 Fixes: [10293, 10295]\n   Severity: high\n   Feature PR #10294 ('feat: add comments/presi eplus promos for discoveribility') led to 2 follow-up fixes.\n"
+}

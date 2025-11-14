@@ -1,0 +1,787 @@
+{
+  "owner": "makeplane",
+  "repo": "plane",
+  "full_name": "makeplane/plane",
+  "score": {
+    "firefighting_score": 138.04,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 0.0,
+      "hotfix_contribution": 78.04,
+      "panic_contribution": 60.0
+    },
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 39.02,
+      "regression_ratio": 2.27,
+      "reviewer_tax": 0.02,
+      "panic_cluster_count": 6
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 7546,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Code refactoring. Body: Performance improvements."
+      },
+      {
+        "number": 8101,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring."
+      },
+      {
+        "number": 8109,
+        "type": "HOTFIX",
+        "reasoning": "Body: Bug fix. Title contains chore keywords: refactor:."
+      },
+      {
+        "number": 8107,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:."
+      },
+      {
+        "number": 8105,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:."
+      },
+      {
+        "number": 8104,
+        "type": "HOTFIX",
+        "reasoning": "Body: Bug fix."
+      },
+      {
+        "number": 8087,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:. Body: Feature. Labels indicate chore: enhancement."
+      },
+      {
+        "number": 8089,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: refactor:."
+      },
+      {
+        "number": 8103,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:."
+      },
+      {
+        "number": 8099,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:. Body: Feature."
+      },
+      {
+        "number": 8053,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: Feature:. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 8096,
+        "type": "HOTFIX",
+        "reasoning": "Body: Bug fix. Body: Code refactoring. Title contains hotfix keywords: fix:."
+      },
+      {
+        "number": 8097,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring."
+      },
+      {
+        "number": 8081,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:."
+      },
+      {
+        "number": 8094,
+        "type": "HOTFIX",
+        "reasoning": "Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 8095,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: refactor:. Body: Code refactoring."
+      },
+      {
+        "number": 8093,
+        "type": "CHORE",
+        "reasoning": "Body: Improvement."
+      },
+      {
+        "number": 8091,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8083,
+        "type": "CHORE",
+        "reasoning": "Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 8084,
+        "type": "CHORE",
+        "reasoning": "Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 8079,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:."
+      },
+      {
+        "number": 8073,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:."
+      },
+      {
+        "number": 8075,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: regression:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 7950,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 7785,
+        "type": "CHORE",
+        "reasoning": "Body: Improvement. Body: Code refactoring. Labels indicate chore: refactor."
+      },
+      {
+        "number": 7962,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8051,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: refactor:."
+      },
+      {
+        "number": 8040,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 8058,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring."
+      },
+      {
+        "number": 8074,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 8067,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:."
+      },
+      {
+        "number": 8039,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: refactor:."
+      },
+      {
+        "number": 8069,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8038,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: refactor:."
+      },
+      {
+        "number": 8070,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 8068,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:."
+      },
+      {
+        "number": 8071,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:."
+      },
+      {
+        "number": 7840,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring. Labels indicate chore: refactor."
+      },
+      {
+        "number": 7973,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:."
+      },
+      {
+        "number": 7965,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:."
+      },
+      {
+        "number": 7922,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:."
+      },
+      {
+        "number": 8065,
+        "type": "HOTFIX",
+        "reasoning": "Body: Bug fix."
+      },
+      {
+        "number": 8061,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:."
+      },
+      {
+        "number": 8062,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement. Labels indicate chore: enhancement."
+      },
+      {
+        "number": 8059,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:."
+      },
+      {
+        "number": 8060,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8042,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8041,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8034,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Labels indicate chore: refactor."
+      },
+      {
+        "number": 8036,
+        "type": "HOTFIX",
+        "reasoning": "Body: Bug fix."
+      },
+      {
+        "number": 7984,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement. Body: Code refactoring."
+      },
+      {
+        "number": 8020,
+        "type": "CHORE",
+        "reasoning": "Default classification. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 7905,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:. Body: Improvement. Labels indicate feature: \u2728feature. Labels indicate chore: improvement."
+      },
+      {
+        "number": 8032,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:."
+      },
+      {
+        "number": 8029,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement."
+      },
+      {
+        "number": 8027,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8028,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring."
+      },
+      {
+        "number": 7793,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 8022,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:. Body: Feature."
+      },
+      {
+        "number": 8003,
+        "type": "HOTFIX",
+        "reasoning": "Title contains chore keywords: chore:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 8023,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement."
+      },
+      {
+        "number": 7993,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 7996,
+        "type": "HOTFIX",
+        "reasoning": "Title contains chore keywords: chore:. Body: Bug fix."
+      },
+      {
+        "number": 8009,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement."
+      },
+      {
+        "number": 8018,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8021,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement. Body: Code refactoring."
+      },
+      {
+        "number": 7940,
+        "type": "FEATURE",
+        "reasoning": "Body: Feature."
+      },
+      {
+        "number": 8017,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement. Body: Code refactoring."
+      },
+      {
+        "number": 8014,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement. Body: Code refactoring."
+      },
+      {
+        "number": 8015,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 8016,
+        "type": "HOTFIX",
+        "reasoning": "Body: Bug fix."
+      },
+      {
+        "number": 8013,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:. Body: Feature."
+      },
+      {
+        "number": 8012,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: refactor:. Body: Improvement."
+      },
+      {
+        "number": 7980,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:."
+      },
+      {
+        "number": 7999,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement."
+      },
+      {
+        "number": 7972,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement."
+      },
+      {
+        "number": 8002,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:."
+      },
+      {
+        "number": 7995,
+        "type": "CHORE",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Improvement."
+      },
+      {
+        "number": 7588,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 8006,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 8005,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 7533,
+        "type": "HOTFIX",
+        "reasoning": "Body: Bug fix. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 8004,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 7991,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: release:."
+      },
+      {
+        "number": 7983,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:."
+      },
+      {
+        "number": 7997,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Improvement."
+      },
+      {
+        "number": 7978,
+        "type": "HOTFIX",
+        "reasoning": "Title contains chore keywords: chore:. Body: Bug fix. Body: Code refactoring."
+      },
+      {
+        "number": 7969,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring."
+      },
+      {
+        "number": 7966,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Improvement."
+      },
+      {
+        "number": 7960,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring."
+      },
+      {
+        "number": 7990,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring."
+      },
+      {
+        "number": 11,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 7992,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 7989,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Body: Code refactoring. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 7982,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: regression:. Body: Bug fix. Labels indicate bug: \ud83d\udc1bbug."
+      },
+      {
+        "number": 7988,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keywords: chore:. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 7977,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix."
+      },
+      {
+        "number": 7939,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: Feature:. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 7529,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keywords: feat:. Closed without merge, assumed chore/experiment."
+      },
+      {
+        "number": 7524,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keywords: fix:. Body: Bug fix. Closed without merge, assumed chore/experiment."
+      }
+    ],
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 39.02,
+      "regression_ratio": 2.27,
+      "reviewer_tax": 0.02
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 8087,
+        "hotfix_pr": 8104,
+        "time_gap_hours": 50.83,
+        "reasoning": "Hotfix linked to same issue (WIKI-768) as feature. Titles have common keywords: toolbar, add."
+      },
+      {
+        "feature_pr": 8099,
+        "hotfix_pr": 8103,
+        "time_gap_hours": 3.79,
+        "reasoning": "Hotfix linked to same issue (WEB-5414) as feature. Titles have common keywords: key, project."
+      },
+      {
+        "feature_pr": 8099,
+        "hotfix_pr": 8096,
+        "time_gap_hours": 19.37,
+        "reasoning": "Titles have common keywords: dependencies, update, chore."
+      },
+      {
+        "feature_pr": 8099,
+        "hotfix_pr": 8094,
+        "time_gap_hours": 20.53,
+        "reasoning": "Hotfix linked to same issue (WEB-5370) as feature. Titles have common keywords: cycles, work, modules."
+      },
+      {
+        "feature_pr": 8071,
+        "hotfix_pr": 8070,
+        "time_gap_hours": 0.29,
+        "reasoning": "Hotfix linked to same issue (WEB-5352) as feature. Titles have common keywords: fix, layout."
+      },
+      {
+        "feature_pr": 7973,
+        "hotfix_pr": 8075,
+        "time_gap_hours": 49.37,
+        "reasoning": "Titles have common keywords: url, fallback, fix."
+      },
+      {
+        "feature_pr": 7973,
+        "hotfix_pr": 8073,
+        "time_gap_hours": 46.42,
+        "reasoning": "Titles have common keywords: routes, removed, fix."
+      },
+      {
+        "feature_pr": 7973,
+        "hotfix_pr": 8079,
+        "time_gap_hours": 53.69,
+        "reasoning": "Titles have common keywords: filter, optimize, components."
+      },
+      {
+        "feature_pr": 7973,
+        "hotfix_pr": 8065,
+        "time_gap_hours": 49.93,
+        "reasoning": "Hotfix linked to same issue (WEB-5345) as feature. Titles have common keywords: activity, update, issue."
+      },
+      {
+        "feature_pr": 7922,
+        "hotfix_pr": 8067,
+        "time_gap_hours": 74.49,
+        "reasoning": "Titles have common keywords: auth, layout, fix."
+      },
+      {
+        "feature_pr": 7965,
+        "hotfix_pr": 8074,
+        "time_gap_hours": 49.98,
+        "reasoning": "Hotfix linked to same issue (WEB-5360) as feature. Titles have common keywords: fix, modules."
+      },
+      {
+        "feature_pr": 7965,
+        "hotfix_pr": 8069,
+        "time_gap_hours": 48.77,
+        "reasoning": "Titles have common keywords: editor, fix, deps."
+      },
+      {
+        "feature_pr": 7965,
+        "hotfix_pr": 8070,
+        "time_gap_hours": 51.85,
+        "reasoning": "Hotfix linked to same issue (WEB-5352) as feature. Titles have common keywords: icon, fix, layout."
+      },
+      {
+        "feature_pr": 7922,
+        "hotfix_pr": 8069,
+        "time_gap_hours": 74.75,
+        "reasoning": "Titles have common keywords: editor, fix, deps."
+      },
+      {
+        "feature_pr": 7922,
+        "hotfix_pr": 8070,
+        "time_gap_hours": 75.82,
+        "reasoning": "Hotfix linked to same issue (WEB-5352) as feature. Titles have common keywords: icon, fix, layout."
+      },
+      {
+        "feature_pr": 7905,
+        "hotfix_pr": 8041,
+        "time_gap_hours": 208.7,
+        "reasoning": "Titles have common keywords: storybook, error, fix."
+      },
+      {
+        "feature_pr": 8032,
+        "hotfix_pr": 8040,
+        "time_gap_hours": 1.48,
+        "reasoning": "Hotfix linked to same issue (WIKI-714) as feature. Titles have common keywords: fix, handle, dropdown."
+      },
+      {
+        "feature_pr": 8032,
+        "hotfix_pr": 8060,
+        "time_gap_hours": 15.63,
+        "reasoning": "Hotfix linked to same issue (WEB-5342) as feature. Titles have common keywords: state, query, fix, update, checks."
+      },
+      {
+        "feature_pr": 8022,
+        "hotfix_pr": 8027,
+        "time_gap_hours": 1.25,
+        "reasoning": "Hotfix linked to same issue (WEB-5271) as feature. Titles have common keywords: empty, state, fix, refactoring."
+      },
+      {
+        "feature_pr": 7940,
+        "hotfix_pr": 8022,
+        "time_gap_hours": 46.22,
+        "reasoning": "Titles have common keywords: gitea, sso."
+      },
+      {
+        "feature_pr": 7991,
+        "hotfix_pr": 8004,
+        "time_gap_hours": 0.2,
+        "reasoning": "Hotfix linked to same issue (INFRA-252) as feature. Titles have common keywords: add, variables, docker."
+      },
+      {
+        "feature_pr": 7991,
+        "hotfix_pr": 8005,
+        "time_gap_hours": 2.12,
+        "reasoning": "Titles have common keywords: work, item, fix."
+      },
+      {
+        "feature_pr": 7991,
+        "hotfix_pr": 8006,
+        "time_gap_hours": 2.34,
+        "reasoning": "Titles have common keywords: issue, store, fix, loading."
+      },
+      {
+        "feature_pr": 7991,
+        "hotfix_pr": 7997,
+        "time_gap_hours": 0.47,
+        "reasoning": "Titles have common keywords: key, server, variables."
+      },
+      {
+        "feature_pr": 7991,
+        "hotfix_pr": 7978,
+        "time_gap_hours": 18.57,
+        "reasoning": "Hotfix linked to same issue (WEB-5158) as feature. Titles have common keywords: calendar, alignment, fix."
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          8109,
+          8105,
+          8104
+        ],
+        "description": "3 consecutive Hotfixes/Reverts."
+      },
+      {
+        "prs": [
+          8096,
+          8081,
+          8094
+        ],
+        "description": "3 consecutive Hotfixes/Reverts."
+      },
+      {
+        "prs": [
+          8091,
+          8079,
+          8073,
+          8075
+        ],
+        "description": "4 consecutive Hotfixes/Reverts."
+      },
+      {
+        "prs": [
+          7950,
+          7962,
+          8040,
+          8074,
+          8069,
+          8070
+        ],
+        "description": "6 consecutive Hotfixes/Reverts."
+      },
+      {
+        "prs": [
+          8065,
+          8060,
+          8042,
+          8041,
+          8036,
+          8027,
+          8003,
+          7993,
+          7996,
+          8018
+        ],
+        "description": "10 consecutive Hotfixes/Reverts."
+      },
+      {
+        "prs": [
+          8015,
+          8016,
+          8002,
+          8006,
+          8005,
+          8004,
+          7997,
+          7978,
+          7992,
+          7982,
+          7977
+        ],
+        "description": "11 consecutive Hotfixes/Reverts."
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 7991,
+        "related_fixes": [
+          8004,
+          8005,
+          8006,
+          7997,
+          7978,
+          7992,
+          7982,
+          7977
+        ],
+        "severity": "high",
+        "description": "Feature 'release: v1.1.0' (PR #7991) related to issue None caused 8 follow-up fixes/reverts."
+      },
+      {
+        "feature_pr": 7905,
+        "related_fixes": [
+          8041
+        ],
+        "severity": "medium",
+        "description": "Feature '[WEB-5088] feat: Power K `v2`' (PR #7905) related to issue WEB-5088 caused 1 follow-up fixes/reverts."
+      },
+      {
+        "feature_pr": 7940,
+        "related_fixes": [
+          8022
+        ],
+        "severity": "medium",
+        "description": "Feature 'Feature/7137/gitea sso' (PR #7940) related to issue None caused 1 follow-up fixes/reverts."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in plane (PR #7991 \u2192 Fixes: #8004, #8005, #8006)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `makeplane/plane`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 39.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 2.27 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #7991 \u2192 Fixes: #8004, #8005, #8006\n\u2022 PR #7905 \u2192 Fixes: #8041\n\n\u2022 **\"Panic Spirals\":** 6 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 138.0 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 0.0% revert rate on ~100 PRs/month, you're losing ~0 \u00d7 7 hours = ~0 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 138.04\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  0.00\nHotfix Contribution:  78.04\nPanic Contribution:   60.00\n\n--- Metrics ---\nRevert Rate:          0.00%\nHotfix Rate:          39.02%\nRegression Ratio:     2.27\nReviewer Tax:         0.02\nPanic Clusters:       6\n\n--- Top Incident Clusters ---\n\n1. Feature PR #7991 \u2192 Fixes: [8004, 8005, 8006, 7997, 7978, 7992, 7982, 7977]\n   Severity: high\n   Feature 'release: v1.1.0' (PR #7991) related to issue None caused 8 follow-up fixes/reverts.\n\n2. Feature PR #7905 \u2192 Fixes: [8041]\n   Severity: medium\n   Feature '[WEB-5088] feat: Power K `v2`' (PR #7905) related to issue WEB-5088 caused 1 follow-up fixes/reverts.\n\n3. Feature PR #7940 \u2192 Fixes: [8022]\n   Severity: medium\n   Feature 'Feature/7137/gitea sso' (PR #7940) related to issue None caused 1 follow-up fixes/reverts.\n"
+}

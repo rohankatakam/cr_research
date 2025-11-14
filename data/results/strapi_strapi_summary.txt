@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 176.00
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  0.00
+Hotfix Contribution:  96.00
+Panic Contribution:   80.00
+
+--- Metrics ---
+Revert Rate:          0.00%
+Hotfix Rate:          48.00%
+Regression Ratio:     1.78
+Reviewer Tax:         0.11
+Panic Clusters:       8
+
+--- Top Incident Clusters ---
+
+1. Feature PR #24706 → Fixes: [24605, 24722, 24633, 24708, 24659, 24726, 24716, 24718, 24647, 24648, 24821, 24805, 24835]
+   Severity: high
+   Rollout of AI localization feature (i18n) led to numerous follow-up fixes related to locale handling, document creation, data integrity, UI behavior, and admin configuration.
+
+2. Feature PR #23475 → Fixes: [24611]
+   Severity: medium
+   Media library enhancements introduced an immediate follow-up fix for AI metadata save errors, linked to issue #24610.
+
+3. Feature PR #24555 → Fixes: [24835, 23353, 24805, 22773, 24799]
+   Severity: medium
+   Enhancements to plugin generators may have introduced instability across core modules, leading to a panic spiral of UI and data display fixes.

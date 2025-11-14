@@ -1,0 +1,632 @@
+{
+  "owner": "meilisearch",
+  "repo": "meilisearch",
+  "full_name": "meilisearch/meilisearch",
+  "score": {
+    "firefighting_score": 103.78,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 8.6,
+      "hotfix_contribution": 55.18,
+      "panic_contribution": 40.0
+    },
+    "metrics": {
+      "revert_rate": 1.72,
+      "hotfix_rate": 27.59,
+      "regression_ratio": 0.84,
+      "reviewer_tax": 0.35,
+      "panic_cluster_count": 4
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 5991,
+        "type": "CHORE",
+        "reasoning": "Title indicates a version bump or release."
+      },
+      {
+        "number": 5951,
+        "type": "FEATURE",
+        "reasoning": "Body mentions 'Ignore document template rendering errors' and 'Do not fail a batch when the embedder fails', indicating new functionality."
+      },
+      {
+        "number": 5980,
+        "type": "FEATURE",
+        "reasoning": "Title indicates support for a new architecture ('Support ModernBERT architecture')."
+      },
+      {
+        "number": 5975,
+        "type": "FEATURE",
+        "reasoning": "Title indicates integrating a new version with a feature ('Integrate Roaring bitmaps v0.11 with run-length container')."
+      },
+      {
+        "number": 5963,
+        "type": "FEATURE",
+        "reasoning": "Title indicates allowing new functionality ('Allow to attach customMetadata')."
+      },
+      {
+        "number": 5984,
+        "type": "FEATURE",
+        "reasoning": "Body mentions 'This PR introduces ways to ignore some errors', indicating new functionality."
+      },
+      {
+        "number": 5982,
+        "type": "CHORE",
+        "reasoning": "Title indicates a version bump or release."
+      },
+      {
+        "number": 5981,
+        "type": "CHORE",
+        "reasoning": "Title indicates a dependency update ('Update Charabia v0.9.8')."
+      },
+      {
+        "number": 5977,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix ('Fix error that rust-analyzer reports')."
+      },
+      {
+        "number": 5775,
+        "type": "FEATURE",
+        "reasoning": "Title indicates an experimental feature ('Experimental search personalization')."
+      },
+      {
+        "number": 5948,
+        "type": "FEATURE",
+        "reasoning": "Title indicates new functionality ('Upload snapshot tarballs to S3')."
+      },
+      {
+        "number": 5947,
+        "type": "FEATURE",
+        "reasoning": "Title indicates support for a new feature ('Support full or sharded replication')."
+      },
+      {
+        "number": 5959,
+        "type": "FEATURE",
+        "reasoning": "Title indicates performance enhancement ('Parallelize the word prefix docids')."
+      },
+      {
+        "number": 5967,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix ('Fix the LMDB fork memory leak')."
+      },
+      {
+        "number": 5968,
+        "type": "HOTFIX",
+        "reasoning": "Security label and 'Redact Authorization header' points to a critical fix."
+      },
+      {
+        "number": 5955,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix and memory leak ('Update heed and avoid memory leaks')."
+      },
+      {
+        "number": 5961,
+        "type": "CHORE",
+        "reasoning": "Title indicates documentation ('Add Flickr example to README')."
+      },
+      {
+        "number": 5962,
+        "type": "CHORE",
+        "reasoning": "Title indicates documentation ('Add image search demo')."
+      },
+      {
+        "number": 5945,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' and body 'feature_name: search cutoff' indicate new functionality."
+      },
+      {
+        "number": 5950,
+        "type": "CHORE",
+        "reasoning": "Title indicates a version bump or release."
+      },
+      {
+        "number": 5903,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix ('Fix MockServer port collision')."
+      },
+      {
+        "number": 5866,
+        "type": "CHORE",
+        "reasoning": "Label 'maintenance' and title 'Bump Dockerfile alpine version' indicate a chore."
+      },
+      {
+        "number": 5946,
+        "type": "FEATURE",
+        "reasoning": "Title indicates enhancement ('Improve compaction behaviors')."
+      },
+      {
+        "number": 5941,
+        "type": "CHORE",
+        "reasoning": "Title indicates a dependency update ('Update from Alpine 3.20 to 3.21')."
+      },
+      {
+        "number": 5928,
+        "type": "CHORE",
+        "reasoning": "Title indicates a dependency update ('[TEST] Bump alpine version to 3.22')."
+      },
+      {
+        "number": 5942,
+        "type": "CHORE",
+        "reasoning": "Label 'documentation' indicates a chore."
+      },
+      {
+        "number": 5926,
+        "type": "FEATURE",
+        "reasoning": "Title indicates new functionality ('Search metadata')."
+      },
+      {
+        "number": 5940,
+        "type": "CHORE",
+        "reasoning": "Title indicates a version bump or release."
+      },
+      {
+        "number": 5307,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' and 'performance' indicate new functionality."
+      },
+      {
+        "number": 5938,
+        "type": "CHORE",
+        "reasoning": "Label 'skip changelog' and 'maintenance' indicate a chore."
+      },
+      {
+        "number": 5929,
+        "type": "FEATURE",
+        "reasoning": "Title indicates new functionality ('Introduce a task to compact an index')."
+      },
+      {
+        "number": 5936,
+        "type": "CHORE",
+        "reasoning": "Title 'Merge v1.22.3 back into main' indicates a chore."
+      },
+      {
+        "number": 5935,
+        "type": "CHORE",
+        "reasoning": "Label 'maintenance' indicates a chore."
+      },
+      {
+        "number": 5933,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a bug fix ('Fix ranking score bug')."
+      },
+      {
+        "number": 5930,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix ('Synonym performance fix')."
+      },
+      {
+        "number": 5932,
+        "type": "FEATURE",
+        "reasoning": "Title indicates a new configurable option ('Make remote federated search timeout configurable')."
+      },
+      {
+        "number": 5863,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' indicates new functionality."
+      },
+      {
+        "number": 5919,
+        "type": "HOTFIX",
+        "reasoning": "Label 'bug' and title 'Raise remote search timeout' indicate a fix."
+      },
+      {
+        "number": 5913,
+        "type": "CHORE",
+        "reasoning": "Label 'dependencies' indicates a chore."
+      },
+      {
+        "number": 5834,
+        "type": "CHORE",
+        "reasoning": "Label 'maintenance' indicates a chore."
+      },
+      {
+        "number": 5916,
+        "type": "CHORE",
+        "reasoning": "Label 'dependencies' indicates a chore."
+      },
+      {
+        "number": 5915,
+        "type": "CHORE",
+        "reasoning": "Label 'dependencies' indicates a chore."
+      },
+      {
+        "number": 5914,
+        "type": "CHORE",
+        "reasoning": "Label 'dependencies' indicates a chore."
+      },
+      {
+        "number": 5912,
+        "type": "CHORE",
+        "reasoning": "Label 'dependencies' indicates a chore."
+      },
+      {
+        "number": 5911,
+        "type": "CHORE",
+        "reasoning": "Title 'Update README.md' indicates documentation."
+      },
+      {
+        "number": 5900,
+        "type": "CHORE",
+        "reasoning": "Label 'maintenance' indicates a chore."
+      },
+      {
+        "number": 5910,
+        "type": "CHORE",
+        "reasoning": "Label 'maintenance' indicates a chore."
+      },
+      {
+        "number": 5908,
+        "type": "CHORE",
+        "reasoning": "Title indicates a version bump or release."
+      },
+      {
+        "number": 5907,
+        "type": "HOTFIX",
+        "reasoning": "Label 'bug' indicates a hotfix."
+      },
+      {
+        "number": 5906,
+        "type": "HOTFIX",
+        "reasoning": "Label 'bug' indicates a hotfix."
+      },
+      {
+        "number": 5902,
+        "type": "CHORE",
+        "reasoning": "Title indicates a version bump or release."
+      },
+      {
+        "number": 5891,
+        "type": "CHORE",
+        "reasoning": "Title 'Bump hannoy' indicates a dependency update."
+      },
+      {
+        "number": 5758,
+        "type": "FEATURE",
+        "reasoning": "Title 'Cellulite integration' indicates new functionality and label 'db change'."
+      },
+      {
+        "number": 5896,
+        "type": "HOTFIX",
+        "reasoning": "Label 'bug' indicates a hotfix."
+      },
+      {
+        "number": 5897,
+        "type": "CHORE",
+        "reasoning": "Title 'improve the prometheus content type' indicates a maintenance task."
+      },
+      {
+        "number": 5895,
+        "type": "CHORE",
+        "reasoning": "Label 'maintenance' indicates a chore."
+      },
+      {
+        "number": 5894,
+        "type": "HOTFIX",
+        "reasoning": "Title 'Bump Hannoy to fix unreachable documents' indicates a bug fix."
+      },
+      {
+        "number": 5892,
+        "type": "CHORE",
+        "reasoning": "Label 'dependencies' and 'maintenance' indicate a chore."
+      },
+      {
+        "number": 5890,
+        "type": "CHORE",
+        "reasoning": "Label 'skip changelog' indicates a chore."
+      },
+      {
+        "number": 5848,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add Persian support' indicates new functionality."
+      },
+      {
+        "number": 5886,
+        "type": "HOTFIX",
+        "reasoning": "Label 'bug' indicates a hotfix."
+      },
+      {
+        "number": 5767,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' and 'experimental feature' indicate new functionality."
+      },
+      {
+        "number": 5884,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix ('Fix the quantic progress trace')."
+      },
+      {
+        "number": 5883,
+        "type": "CHORE",
+        "reasoning": "Title indicates a version bump or release."
+      },
+      {
+        "number": 5876,
+        "type": "HOTFIX",
+        "reasoning": "Label 'bug' indicates a hotfix."
+      },
+      {
+        "number": 5873,
+        "type": "CHORE",
+        "reasoning": "Label 'dependencies' and 'skip changelog' indicate a chore."
+      },
+      {
+        "number": 5875,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix ('fix(metrics): content-type must be versioned')."
+      },
+      {
+        "number": 5845,
+        "type": "FEATURE",
+        "reasoning": "Title 'Arroy becomes hannoy with sharding' indicates new functionality."
+      },
+      {
+        "number": 5874,
+        "type": "CHORE",
+        "reasoning": "Label 'dependencies' and 'skip changelog' indicate a chore."
+      },
+      {
+        "number": 5858,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' indicates new functionality."
+      },
+      {
+        "number": 5870,
+        "type": "FEATURE",
+        "reasoning": "Title 'optimizing the search time by running it in parallel' indicates an enhancement."
+      },
+      {
+        "number": 5869,
+        "type": "HOTFIX",
+        "reasoning": "Label 'security' indicates a hotfix."
+      },
+      {
+        "number": 5856,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix ('Fix scheduled CI failure')."
+      },
+      {
+        "number": 5862,
+        "type": "CHORE",
+        "reasoning": "Label 'skip changelog' and title 'Bring back v1.19.1 to main' indicate a chore."
+      },
+      {
+        "number": 5729,
+        "type": "HOTFIX",
+        "reasoning": "Label 'bug' indicates a hotfix."
+      },
+      {
+        "number": 5860,
+        "type": "CHORE",
+        "reasoning": "Label 'skip changelog' and title 'Update version for the next release' indicate a chore."
+      },
+      {
+        "number": 5846,
+        "type": "FEATURE",
+        "reasoning": "Body mentions 'search optimization', indicating an enhancement."
+      },
+      {
+        "number": 5859,
+        "type": "REVERT",
+        "reasoning": "Title indicates a revert ('Revert \"Fix license detection\"')."
+      },
+      {
+        "number": 5857,
+        "type": "CHORE",
+        "reasoning": "Label 'documentation' and 'skip changelog' indicate a chore."
+      },
+      {
+        "number": 5849,
+        "type": "CHORE",
+        "reasoning": "Label 'skip changelog' and title 'Prepare for v1.19 release' indicate a chore."
+      },
+      {
+        "number": 5701,
+        "type": "FEATURE",
+        "reasoning": "Body mentions 'Enable chatCompletions experimental feature'."
+      },
+      {
+        "number": 5643,
+        "type": "CHORE",
+        "reasoning": "Title 'ci: GitHub actions workflow improvements' indicates maintenance."
+      },
+      {
+        "number": 5784,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' and title 'Sharding and EE license' indicate new functionality."
+      },
+      {
+        "number": 5738,
+        "type": "FEATURE",
+        "reasoning": "Body mentions 'setting arroy's search_k' to ensure no duplicated/missing results, indicating enhancement."
+      },
+      {
+        "number": 5844,
+        "type": "CHORE",
+        "reasoning": "Title 'Prepare v1.18.0' indicates a chore."
+      },
+      {
+        "number": 5741,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' indicates new functionality."
+      },
+      {
+        "number": 5829,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' indicates new functionality."
+      },
+      {
+        "number": 5778,
+        "type": "FEATURE",
+        "reasoning": "Label 'enhancement' indicates new functionality."
+      },
+      {
+        "number": 5438,
+        "type": "FEATURE",
+        "reasoning": "Title 'Introduce parallel preparation of payloads' indicates new functionality."
+      },
+      {
+        "number": 5830,
+        "type": "CHORE",
+        "reasoning": "Label 'skip changelog' and title 'Update version for v1.17.1' indicate a chore."
+      },
+      {
+        "number": 5831,
+        "type": "CHORE",
+        "reasoning": "Label 'maintenance' indicates a chore."
+      },
+      {
+        "number": 5823,
+        "type": "FEATURE",
+        "reasoning": "New capability to publish OpenAPI file to release assets."
+      },
+      {
+        "number": 5806,
+        "type": "CHORE",
+        "reasoning": "Title indicates a version bump or release."
+      },
+      {
+        "number": 5824,
+        "type": "CHORE",
+        "reasoning": "Label 'documentation' indicates a chore."
+      },
+      {
+        "number": 5815,
+        "type": "CHORE",
+        "reasoning": "Label 'documentation' indicates a chore."
+      },
+      {
+        "number": 5805,
+        "type": "FEATURE",
+        "reasoning": "Title 'Add Index Rename Feature' indicates new functionality."
+      },
+      {
+        "number": 5817,
+        "type": "HOTFIX",
+        "reasoning": "Title indicates a fix ('fix the dumpless upgrade again')."
+      },
+      {
+        "number": 5816,
+        "type": "CHORE",
+        "reasoning": "Label 'maintenance' indicates a chore."
+      },
+      {
+        "number": 5810,
+        "type": "CHORE",
+        "reasoning": "Label 'documentation' indicates a chore."
+      },
+      {
+        "number": 5785,
+        "type": "FEATURE",
+        "reasoning": "Title 'Webhook api' indicates new functionality."
+      }
+    ],
+    "metrics": {
+      "revert_rate": 1.72,
+      "hotfix_rate": 27.59,
+      "regression_ratio": 0.84,
+      "reviewer_tax": 0.35
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 5858,
+        "hotfix_pr": 5869,
+        "time_gap_hours": 2.1
+      },
+      {
+        "feature_pr": 5767,
+        "hotfix_pr": 5884,
+        "time_gap_hours": 0.77
+      },
+      {
+        "feature_pr": 5758,
+        "hotfix_pr": 5896,
+        "time_gap_hours": 17.56
+      },
+      {
+        "feature_pr": 5948,
+        "hotfix_pr": 5977,
+        "time_gap_hours": 1.29
+      },
+      {
+        "feature_pr": 5775,
+        "hotfix_pr": 5977,
+        "time_gap_hours": 1.29
+      },
+      {
+        "feature_pr": 5948,
+        "hotfix_pr": 5967,
+        "time_gap_hours": 0.07
+      },
+      {
+        "feature_pr": 5775,
+        "hotfix_pr": 5967,
+        "time_gap_hours": 0.07
+      },
+      {
+        "feature_pr": 5959,
+        "hotfix_pr": 5967,
+        "time_gap_hours": -0.07
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          5856,
+          5869
+        ],
+        "description": "Consecutive 2 HOTFIX/REVERT PRs."
+      },
+      {
+        "prs": [
+          5906,
+          5907
+        ],
+        "description": "Consecutive 2 HOTFIX/REVERT PRs."
+      },
+      {
+        "prs": [
+          5930,
+          5933
+        ],
+        "description": "Consecutive 2 HOTFIX/REVERT PRs."
+      },
+      {
+        "prs": [
+          5967,
+          5968
+        ],
+        "description": "Consecutive 2 HOTFIX/REVERT PRs."
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 5767,
+        "related_fixes": [
+          5884,
+          5894
+        ],
+        "severity": "medium",
+        "description": "Feature 'Add index setting to switch from arroy to hannoy' introduced 2 follow-up fixes/reverts."
+      },
+      {
+        "feature_pr": 5785,
+        "related_fixes": [
+          5968
+        ],
+        "severity": "low",
+        "description": "Feature 'Webhook api' introduced 1 follow-up fixes/reverts."
+      },
+      {
+        "feature_pr": 5929,
+        "related_fixes": [
+          5946
+        ],
+        "severity": "low",
+        "description": "Feature 'Introduce a task to compact an index' introduced 1 follow-up fixes/reverts."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in meilisearch (PR #5767 \u2192 Fixes: #5884, #5894)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `meilisearch/meilisearch`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 1.7%, which is 0.3x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 27.6% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.84 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #5767 \u2192 Fixes: #5884, #5894\n\u2022 PR #5785 \u2192 Fixes: #5968\n\n\u2022 **\"Panic Spirals\":** 4 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 103.8 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 1.7% revert rate on ~100 PRs/month, you're losing ~1 \u00d7 7 hours = ~12 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 103.78\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  8.60\nHotfix Contribution:  55.18\nPanic Contribution:   40.00\n\n--- Metrics ---\nRevert Rate:          1.72%\nHotfix Rate:          27.59%\nRegression Ratio:     0.84\nReviewer Tax:         0.35\nPanic Clusters:       4\n\n--- Top Incident Clusters ---\n\n1. Feature PR #5767 \u2192 Fixes: [5884, 5894]\n   Severity: medium\n   Feature 'Add index setting to switch from arroy to hannoy' introduced 2 follow-up fixes/reverts.\n\n2. Feature PR #5785 \u2192 Fixes: [5968]\n   Severity: low\n   Feature 'Webhook api' introduced 1 follow-up fixes/reverts.\n\n3. Feature PR #5929 \u2192 Fixes: [5946]\n   Severity: low\n   Feature 'Introduce a task to compact an index' introduced 1 follow-up fixes/reverts.\n"
+}

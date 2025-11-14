@@ -1,16 +1,20 @@
-Subject: Analysis of reverts in posthog (recent PRs)
+Subject: Analysis of reverts in excalidraw (PR #9903 → Fixes: #10032, #10034)
 
 Hi [Engineering Lead/CTO],
 
 I'm researching "Context Collapse" in fast-growing engineering teams for a thesis I'm publishing.
 
-I ran a forensic analysis on the last 30 days of `posthog/posthog`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your "firefighting" metrics:
+I ran a forensic analysis on the last 30 days of `excalidraw/excalidraw`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your "firefighting" metrics:
 
 **Key Findings:**
 
 • **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA "Elite" baseline (<5%).
-• **Hotfix Rate:** 0.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.
-• **Regression Ratio:** You're merging 0.00 hotfixes for every feature (ideal is <0.1).
+• **Hotfix Rate:** 35.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.
+• **Regression Ratio:** You're merging 0.95 hotfixes for every feature (ideal is <0.1).
+
+**Specific Incident Patterns:**
+• PR #9903 → Fixes: #10032, #10034
+• PR #10057 → Fixes: #10214
 
 It looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.
 
@@ -31,7 +35,7 @@ Founder, CodeRisk
 ---
 
 **Why this matters:**
-Your Firefighting Score is 0.0 (Ignore: Too Healthy)
+Your Firefighting Score is 70.0 (Priority 1: The Bleeding)
 
 Each revert costs your team:
 • ~4 hours of debugging time

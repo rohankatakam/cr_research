@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 95.72
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  5.30
+Hotfix Contribution:  40.42
+Panic Contribution:   50.00
+
+--- Metrics ---
+Revert Rate:          1.06%
+Hotfix Rate:          20.21%
+Regression Ratio:     0.94
+Reviewer Tax:         0.28
+Panic Clusters:       5
+
+--- Top Incident Clusters ---
+
+1. Feature PR #542 → Fixes: [544, 610, 611]
+   Severity: high
+   Feature 'chore(filters): Add cache management' led to 3 follow-up fixes/reverts.
+
+2. Feature PR #606 → Fixes: [629]
+   Severity: high
+   Feature 'misc(events-processor) Refactor processors to easily allow new pipelines' led to 1 follow-up fixes/reverts.
+
+3. Feature PR #561 → Fixes: [575]
+   Severity: high
+   Feature 'feat(pre-aggregation): Extract enrichment logic in a dedicated processor' led to 1 follow-up fixes/reverts.

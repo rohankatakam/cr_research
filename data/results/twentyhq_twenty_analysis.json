@@ -1,0 +1,598 @@
+{
+  "owner": "twentyhq",
+  "repo": "twenty",
+  "full_name": "twentyhq/twenty",
+  "score": {
+    "firefighting_score": 88.42,
+    "priority": "Priority 1: The Bleeding",
+    "components": {
+      "revert_contribution": 0.0,
+      "hotfix_contribution": 58.42,
+      "panic_contribution": 30.0
+    },
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 29.21,
+      "regression_ratio": 0.87,
+      "reviewer_tax": 0.08,
+      "panic_cluster_count": 3
+    }
+  },
+  "analysis": {
+    "pr_classifications": [
+      {
+        "number": 15808,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fixed'"
+      },
+      {
+        "number": 15807,
+        "type": "FEATURE",
+        "reasoning": "Title indicates significant enhancement: 'Improve infer deletion from entities'"
+      },
+      {
+        "number": 15806,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15801 with critical priority."
+      },
+      {
+        "number": 15772,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15788,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: '[ENHANCEMENT]'"
+      },
+      {
+        "number": 15803,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15765,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15799,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15763,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Introduce'"
+      },
+      {
+        "number": 15491,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Common - Field validation'"
+      },
+      {
+        "number": 15761,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Merge data navigator and manipulator agents'"
+      },
+      {
+        "number": 15789,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Add'"
+      },
+      {
+        "number": 15778,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Add'"
+      },
+      {
+        "number": 15736,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: '(breaking change)'"
+      },
+      {
+        "number": 15790,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15638 with high priority."
+      },
+      {
+        "number": 15757,
+        "type": "FEATURE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15758,
+        "type": "HOTFIX",
+        "reasoning": "Body contains hotfix keyword."
+      },
+      {
+        "number": 15787,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15576,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'View field create many mutation'"
+      },
+      {
+        "number": 15657,
+        "type": "FEATURE",
+        "reasoning": "Connecting UI to backend implies new functionality."
+      },
+      {
+        "number": 15783,
+        "type": "FEATURE",
+        "reasoning": "Releasing a feature flag to all implies major feature rollout."
+      },
+      {
+        "number": 15785,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15704 with high priority."
+      },
+      {
+        "number": 15740,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15774,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15775,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #12090."
+      },
+      {
+        "number": 15738,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Increase'"
+      },
+      {
+        "number": 15616,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15597."
+      },
+      {
+        "number": 14967,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Add missing color changes'"
+      },
+      {
+        "number": 15781,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 10927,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 12273,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 14891,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 15733,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'fix'"
+      },
+      {
+        "number": 15515,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Stripe synchronizer extension'"
+      },
+      {
+        "number": 15511,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Last email interaction extension'"
+      },
+      {
+        "number": 15512,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Mailchimp synchronizer extension'"
+      },
+      {
+        "number": 15711,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: '1863 extensibility expose a twenty client through twenty sdk'"
+      },
+      {
+        "number": 15773,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15652,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'TimelineActivity migration to morph'"
+      },
+      {
+        "number": 15770,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15702,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15769,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 15622,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'feat'"
+      },
+      {
+        "number": 15756,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 15766,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 15729,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15630."
+      },
+      {
+        "number": 15744,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Global workspace datasource poc'"
+      },
+      {
+        "number": 15656,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #14280 with high priority."
+      },
+      {
+        "number": 15708,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15706,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: '[FIx]'"
+      },
+      {
+        "number": 15714,
+        "type": "FEATURE",
+        "reasoning": "Title indicates major performance improvement."
+      },
+      {
+        "number": 15732,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'feat'"
+      },
+      {
+        "number": 15760,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15568,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Anchored tooltip'"
+      },
+      {
+        "number": 15759,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Release'"
+      },
+      {
+        "number": 15753,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15742,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 15679,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15575 with high priority."
+      },
+      {
+        "number": 15752,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15575 with high priority."
+      },
+      {
+        "number": 15741,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15751,
+        "type": "CHORE",
+        "reasoning": "Documentation fix (i18n/crowdin)."
+      },
+      {
+        "number": 15509,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15508."
+      },
+      {
+        "number": 15524,
+        "type": "HOTFIX",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15715,
+        "type": "HOTFIX",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15748,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15625,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Twenty standard and workspace custom applications 1/3'"
+      },
+      {
+        "number": 15739,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Add comprehensive permission guard coverage across GraphQL and REST endpoints'"
+      },
+      {
+        "number": 15737,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'feat'"
+      },
+      {
+        "number": 15392,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Enhance'"
+      },
+      {
+        "number": 15735,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15734,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15488,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Slash Command Implementation in Advanced Text Editor'"
+      },
+      {
+        "number": 15731,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15730,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 15727,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Add'"
+      },
+      {
+        "number": 15726,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 15723,
+        "type": "CHORE",
+        "reasoning": "Title contains chore keyword."
+      },
+      {
+        "number": 15725,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15724,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15716,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15467,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15721,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15538,
+        "type": "CHORE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15720,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15719,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15718,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15717,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15501,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: '1630 extensibility twenty cli ability to create edit and delete fields'"
+      },
+      {
+        "number": 15713,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15712,
+        "type": "CHORE",
+        "reasoning": "Refactoring for consistency/linting."
+      },
+      {
+        "number": 15354,
+        "type": "HOTFIX",
+        "reasoning": "Closes issue #15345."
+      },
+      {
+        "number": 15703,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'fix'"
+      },
+      {
+        "number": 15701,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      },
+      {
+        "number": 15645,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Create old fields design widget'"
+      },
+      {
+        "number": 15705,
+        "type": "CHORE",
+        "reasoning": "Automated GitHub action (often i18n/docs)."
+      },
+      {
+        "number": 15680,
+        "type": "FEATURE",
+        "reasoning": "Title contains feature keyword: 'Widget: Allow resizing from all corners and sides'"
+      },
+      {
+        "number": 15687,
+        "type": "FEATURE",
+        "reasoning": "Default classification."
+      },
+      {
+        "number": 15700,
+        "type": "FEATURE",
+        "reasoning": "Activating a major migration/feature for new workspaces."
+      },
+      {
+        "number": 15472,
+        "type": "FEATURE",
+        "reasoning": "Activating a major migration/feature for new workspaces."
+      },
+      {
+        "number": 15699,
+        "type": "HOTFIX",
+        "reasoning": "Title contains hotfix keyword: 'Fix'"
+      }
+    ],
+    "metrics": {
+      "revert_rate": 0.0,
+      "hotfix_rate": 29.21,
+      "regression_ratio": 0.87,
+      "reviewer_tax": 0.08
+    },
+    "context_gaps": [
+      {
+        "feature_pr": 15739,
+        "hotfix_pr": 15770,
+        "time_gap_hours": 47.57,
+        "reasoning": "Hotfix for permission guard very close to permission guard feature release."
+      },
+      {
+        "feature_pr": 15739,
+        "hotfix_pr": 15706,
+        "time_gap_hours": 29.0,
+        "reasoning": "Hotfix for permission guard very close to permission guard feature release."
+      }
+    ],
+    "panic_clusters": [
+      {
+        "prs": [
+          15715,
+          15509
+        ],
+        "description": "2 consecutive hotfixes/reverts."
+      },
+      {
+        "prs": [
+          15706,
+          15656
+        ],
+        "description": "2 consecutive hotfixes/reverts."
+      },
+      {
+        "prs": [
+          15775,
+          15774,
+          15740
+        ],
+        "description": "3 consecutive hotfixes/reverts."
+      }
+    ],
+    "incident_clusters": [
+      {
+        "feature_pr": 15739,
+        "related_fixes": [
+          15770,
+          15706
+        ],
+        "severity": "high",
+        "description": "Feature 'Add comprehensive permission guard coverage across GraphQL and REST endpoints' led to 2 follow-up fixes."
+      },
+      {
+        "feature_pr": 15727,
+        "related_fixes": [
+          15758
+        ],
+        "severity": "high",
+        "description": "Feature 'Add token renewal to agent chat transport' led to 1 follow-up fixes."
+      },
+      {
+        "feature_pr": 15714,
+        "related_fixes": [
+          15808
+        ],
+        "severity": "high",
+        "description": "Feature 'Improved Kanban performance' led to 1 follow-up fixes."
+      }
+    ]
+  },
+  "email": "Subject: Analysis of reverts in twenty (PR #15739 \u2192 Fixes: #15770, #15706)\n\nHi [Engineering Lead/CTO],\n\nI'm researching \"Context Collapse\" in fast-growing engineering teams for a thesis I'm publishing.\n\nI ran a forensic analysis on the last 30 days of `twentyhq/twenty`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your \"firefighting\" metrics:\n\n**Key Findings:**\n\n\u2022 **Revert Rate:** You're at 0.0%, which is 0.0x higher than the DORA \"Elite\" baseline (<5%).\n\u2022 **Hotfix Rate:** 29.2% of your recent PRs are urgent fixes for bugs introduced by recent changes.\n\u2022 **Regression Ratio:** You're merging 0.87 hotfixes for every feature (ideal is <0.1).\n\n**Specific Incident Patterns:**\n\u2022 PR #15739 \u2192 Fixes: #15770, #15706\n\u2022 PR #15727 \u2192 Fixes: #15758\n\n\u2022 **\"Panic Spirals\":** 3 instances of cascading hotfixes detected.\n\nIt looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.\n\nI'm building **CodeRisk** to catch exactly these types of \"Context Rot\" bugs pre-commit by analyzing:\n- Historical ownership patterns\n- Change velocity correlations\n- Cross-file dependency risks\n- Developer context mismatches\n\nI'd love to run a full 2-week audit on your repo (free) to see if we can lower that Revert Rate and save your team review time.\n\nIf you're open to it, I can send over the full CLQS report I generated with specific recommendations?\n\nBest,\nRohan Katakam\nFounder, CodeRisk\n\n---\n\n**Why this matters:**\nYour Firefighting Score is 88.4 (Priority 1: The Bleeding)\n\nEach revert costs your team:\n\u2022 ~4 hours of debugging time\n\u2022 ~2 hours of review/fix time\n\u2022 ~1 hour of deployment overhead\n\u2022 Lost velocity and team morale\n\nAt 0.0% revert rate on ~100 PRs/month, you're losing ~0 \u00d7 7 hours = ~0 engineering hours/month to firefighting.\n\nP.S. - Blog post on \"The AI-Accelerated Bottleneck\" available at: [Link]\n",
+  "summary": "\n=== FIREFIGHTING SCORE ANALYSIS ===\n\nOverall Score: 88.42\nPriority: Priority 1: The Bleeding\n\n--- Score Components ---\nRevert Contribution:  0.00\nHotfix Contribution:  58.42\nPanic Contribution:   30.00\n\n--- Metrics ---\nRevert Rate:          0.00%\nHotfix Rate:          29.21%\nRegression Ratio:     0.87\nReviewer Tax:         0.08\nPanic Clusters:       3\n\n--- Top Incident Clusters ---\n\n1. Feature PR #15739 \u2192 Fixes: [15770, 15706]\n   Severity: high\n   Feature 'Add comprehensive permission guard coverage across GraphQL and REST endpoints' led to 2 follow-up fixes.\n\n2. Feature PR #15727 \u2192 Fixes: [15758]\n   Severity: high\n   Feature 'Add token renewal to agent chat transport' led to 1 follow-up fixes.\n\n3. Feature PR #15714 \u2192 Fixes: [15808]\n   Severity: high\n   Feature 'Improved Kanban performance' led to 1 follow-up fixes.\n"
+}

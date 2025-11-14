@@ -1,4 +1,4 @@
-Subject: Analysis of reverts in supabase (PR #38387 → Fixes: #39648)
+Subject: Analysis of reverts in supabase (PR #40184 → Fixes: #40305, #40192, #40259)
 
 Hi [Engineering Lead/CTO],
 
@@ -9,14 +9,14 @@ I ran a forensic analysis on the last 30 days of `supabase/supabase`'s activity 
 **Key Findings:**
 
 • **Revert Rate:** You're at 3.0%, which is 0.6x higher than the DORA "Elite" baseline (<5%).
-• **Hotfix Rate:** 26.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.
-• **Regression Ratio:** You're merging 0.81 hotfixes for every feature (ideal is <0.1).
+• **Hotfix Rate:** 29.0% of your recent PRs are urgent fixes for bugs introduced by recent changes.
+• **Regression Ratio:** You're merging 0.91 hotfixes for every feature (ideal is <0.1).
 
 **Specific Incident Patterns:**
-• PR #38387 → Fixes: #39648
-• PR #35831 → Fixes: #35692
+• PR #40184 → Fixes: #40305, #40192, #40259
+• PR #40289 → Fixes: #40306, #40339
 
-• **"Panic Spirals":** 2 instances of cascading hotfixes detected.
+• **"Panic Spirals":** 3 instances of cascading hotfixes detected.
 
 It looks like the context on those legacy files didn't travel to the new authors, causing regressions that passed code review.
 
@@ -37,7 +37,7 @@ Founder, CodeRisk
 ---
 
 **Why this matters:**
-Your Firefighting Score is 87.0 (Priority 1: The Bleeding)
+Your Firefighting Score is 103.0 (Priority 1: The Bleeding)
 
 Each revert costs your team:
 • ~4 hours of debugging time

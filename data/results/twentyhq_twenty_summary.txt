@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 88.42
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  0.00
+Hotfix Contribution:  58.42
+Panic Contribution:   30.00
+
+--- Metrics ---
+Revert Rate:          0.00%
+Hotfix Rate:          29.21%
+Regression Ratio:     0.87
+Reviewer Tax:         0.08
+Panic Clusters:       3
+
+--- Top Incident Clusters ---
+
+1. Feature PR #15739 → Fixes: [15770, 15706]
+   Severity: high
+   Feature 'Add comprehensive permission guard coverage across GraphQL and REST endpoints' led to 2 follow-up fixes.
+
+2. Feature PR #15727 → Fixes: [15758]
+   Severity: high
+   Feature 'Add token renewal to agent chat transport' led to 1 follow-up fixes.
+
+3. Feature PR #15714 → Fixes: [15808]
+   Severity: high
+   Feature 'Improved Kanban performance' led to 1 follow-up fixes.

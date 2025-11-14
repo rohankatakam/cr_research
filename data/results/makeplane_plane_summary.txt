@@ -1,0 +1,31 @@
+
+=== FIREFIGHTING SCORE ANALYSIS ===
+
+Overall Score: 138.04
+Priority: Priority 1: The Bleeding
+
+--- Score Components ---
+Revert Contribution:  0.00
+Hotfix Contribution:  78.04
+Panic Contribution:   60.00
+
+--- Metrics ---
+Revert Rate:          0.00%
+Hotfix Rate:          39.02%
+Regression Ratio:     2.27
+Reviewer Tax:         0.02
+Panic Clusters:       6
+
+--- Top Incident Clusters ---
+
+1. Feature PR #7991 → Fixes: [8004, 8005, 8006, 7997, 7978, 7992, 7982, 7977]
+   Severity: high
+   Feature 'release: v1.1.0' (PR #7991) related to issue None caused 8 follow-up fixes/reverts.
+
+2. Feature PR #7905 → Fixes: [8041]
+   Severity: medium
+   Feature '[WEB-5088] feat: Power K `v2`' (PR #7905) related to issue WEB-5088 caused 1 follow-up fixes/reverts.
+
+3. Feature PR #7940 → Fixes: [8022]
+   Severity: medium
+   Feature 'Feature/7137/gitea sso' (PR #7940) related to issue None caused 1 follow-up fixes/reverts.

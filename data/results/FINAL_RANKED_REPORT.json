@@ -1,0 +1,1124 @@
+{
+  "generated_at": "2025-11-13T20:51:13.565408",
+  "total_repos_analyzed": 20,
+  "valid_results": 14,
+  "failed_results": 6,
+  "ranked_repos": [
+    {
+      "repository": "strapi/strapi",
+      "firefighting_score": 176.0,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 0.0,
+        "hotfix_rate": 48.0,
+        "regression_ratio": 1.78,
+        "reviewer_tax": 0.11,
+        "panic_cluster_count": 8
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 24706,
+          "related_fixes": [
+            24605,
+            24722,
+            24633,
+            24708,
+            24659,
+            24726,
+            24716,
+            24718,
+            24647,
+            24648,
+            24821,
+            24805,
+            24835
+          ],
+          "severity": "high",
+          "description": "Rollout of AI localization feature (i18n) led to numerous follow-up fixes related to locale handling, document creation, data integrity, UI behavior, and admin configuration."
+        },
+        {
+          "feature_pr": 23475,
+          "related_fixes": [
+            24611
+          ],
+          "severity": "medium",
+          "description": "Media library enhancements introduced an immediate follow-up fix for AI metadata save errors, linked to issue #24610."
+        },
+        {
+          "feature_pr": 24555,
+          "related_fixes": [
+            24835,
+            23353,
+            24805,
+            22773,
+            24799
+          ],
+          "severity": "medium",
+          "description": "Enhancements to plugin generators may have introduced instability across core modules, leading to a panic spiral of UI and data display fixes."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            24643,
+            24325
+          ],
+          "description": "Series of 2 consecutive fixes/reverts"
+        },
+        {
+          "prs": [
+            24716,
+            24718
+          ],
+          "description": "Series of 2 consecutive fixes/reverts"
+        },
+        {
+          "prs": [
+            24605,
+            24722,
+            24633,
+            24708
+          ],
+          "description": "Series of 4 consecutive fixes/reverts"
+        },
+        {
+          "prs": [
+            24719,
+            24659,
+            24726,
+            24699
+          ],
+          "description": "Series of 4 consecutive fixes/reverts"
+        },
+        {
+          "prs": [
+            24721,
+            24739
+          ],
+          "description": "Series of 2 consecutive fixes/reverts"
+        },
+        {
+          "prs": [
+            24765,
+            24821,
+            24794,
+            24648,
+            24647,
+            24830
+          ],
+          "description": "Series of 6 consecutive fixes/reverts"
+        },
+        {
+          "prs": [
+            24835,
+            23353,
+            24805,
+            22773,
+            24799
+          ],
+          "description": "Series of 5 consecutive fixes/reverts"
+        },
+        {
+          "prs": [
+            24611,
+            24782
+          ],
+          "description": "Series of 2 consecutive fixes/reverts"
+        }
+      ]
+    },
+    {
+      "repository": "windmill-labs/windmill",
+      "firefighting_score": 169.38,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 0.0,
+        "hotfix_rate": 34.69,
+        "regression_ratio": 0.94,
+        "reviewer_tax": 0.44,
+        "panic_cluster_count": 10
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 6852,
+          "related_fixes": [
+            7088
+          ],
+          "description": "Feature 'feat: env var in flow' (PR #6852) caused 1 follow-up fixes.",
+          "severity": "high"
+        },
+        {
+          "feature_pr": 7041,
+          "related_fixes": [
+            7121
+          ],
+          "description": "Feature 'SQL result_collection flag' (PR #7041) caused 1 follow-up fixes.",
+          "severity": "high"
+        },
+        {
+          "feature_pr": 7056,
+          "related_fixes": [
+            7060
+          ],
+          "description": "Feature '[merge and deploy hub first] feat: hub actions and better search' (PR #7056) caused 1 follow-up fixes.",
+          "severity": "high"
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            7126,
+            7118,
+            7122,
+            7120,
+            7114
+          ],
+          "description": "5 consecutive HOTFIX/REVERT PRs starting with #7126"
+        },
+        {
+          "prs": [
+            7113,
+            7110
+          ],
+          "description": "2 consecutive HOTFIX/REVERT PRs starting with #7113"
+        },
+        {
+          "prs": [
+            7096,
+            7102,
+            7100,
+            7098,
+            6872
+          ],
+          "description": "5 consecutive HOTFIX/REVERT PRs starting with #7096"
+        },
+        {
+          "prs": [
+            7090,
+            7087,
+            7086
+          ],
+          "description": "3 consecutive HOTFIX/REVERT PRs starting with #7090"
+        },
+        {
+          "prs": [
+            7076,
+            7073
+          ],
+          "description": "2 consecutive HOTFIX/REVERT PRs starting with #7076"
+        },
+        {
+          "prs": [
+            7069,
+            7065,
+            7063
+          ],
+          "description": "3 consecutive HOTFIX/REVERT PRs starting with #7069"
+        },
+        {
+          "prs": [
+            7057,
+            7055,
+            7052
+          ],
+          "description": "3 consecutive HOTFIX/REVERT PRs starting with #7057"
+        },
+        {
+          "prs": [
+            7051,
+            7039,
+            7049,
+            7047,
+            7045,
+            7046,
+            7044
+          ],
+          "description": "7 consecutive HOTFIX/REVERT PRs starting with #7051"
+        },
+        {
+          "prs": [
+            7019,
+            7036,
+            7033,
+            7035,
+            7034,
+            7032
+          ],
+          "description": "6 consecutive HOTFIX/REVERT PRs starting with #7019"
+        },
+        {
+          "prs": [
+            7026,
+            7023,
+            7017
+          ],
+          "description": "3 consecutive HOTFIX/REVERT PRs starting with #7026"
+        }
+      ]
+    },
+    {
+      "repository": "makeplane/plane",
+      "firefighting_score": 138.04,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 0.0,
+        "hotfix_rate": 39.02,
+        "regression_ratio": 2.27,
+        "reviewer_tax": 0.02,
+        "panic_cluster_count": 6
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 7991,
+          "related_fixes": [
+            8004,
+            8005,
+            8006,
+            7997,
+            7978,
+            7992,
+            7982,
+            7977
+          ],
+          "severity": "high",
+          "description": "Feature 'release: v1.1.0' (PR #7991) related to issue None caused 8 follow-up fixes/reverts."
+        },
+        {
+          "feature_pr": 7905,
+          "related_fixes": [
+            8041
+          ],
+          "severity": "medium",
+          "description": "Feature '[WEB-5088] feat: Power K `v2`' (PR #7905) related to issue WEB-5088 caused 1 follow-up fixes/reverts."
+        },
+        {
+          "feature_pr": 7940,
+          "related_fixes": [
+            8022
+          ],
+          "severity": "medium",
+          "description": "Feature 'Feature/7137/gitea sso' (PR #7940) related to issue None caused 1 follow-up fixes/reverts."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            8109,
+            8105,
+            8104
+          ],
+          "description": "3 consecutive Hotfixes/Reverts."
+        },
+        {
+          "prs": [
+            8096,
+            8081,
+            8094
+          ],
+          "description": "3 consecutive Hotfixes/Reverts."
+        },
+        {
+          "prs": [
+            8091,
+            8079,
+            8073,
+            8075
+          ],
+          "description": "4 consecutive Hotfixes/Reverts."
+        },
+        {
+          "prs": [
+            7950,
+            7962,
+            8040,
+            8074,
+            8069,
+            8070
+          ],
+          "description": "6 consecutive Hotfixes/Reverts."
+        },
+        {
+          "prs": [
+            8065,
+            8060,
+            8042,
+            8041,
+            8036,
+            8027,
+            8003,
+            7993,
+            7996,
+            8018
+          ],
+          "description": "10 consecutive Hotfixes/Reverts."
+        },
+        {
+          "prs": [
+            8015,
+            8016,
+            8002,
+            8006,
+            8005,
+            8004,
+            7997,
+            7978,
+            7992,
+            7982,
+            7977
+          ],
+          "description": "11 consecutive Hotfixes/Reverts."
+        }
+      ]
+    },
+    {
+      "repository": "formbricks/formbricks",
+      "firefighting_score": 137.16,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 2.86,
+        "hotfix_rate": 51.43,
+        "regression_ratio": 2.26,
+        "reviewer_tax": 0.58,
+        "panic_cluster_count": 2
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 6685,
+          "related_fixes": [
+            6701
+          ],
+          "severity": "low",
+          "description": "Feature 6685 ('feat: rich text in headlines') led to 1 follow-up fixes/reverts."
+        },
+        {
+          "feature_pr": 6795,
+          "related_fixes": [
+            6800
+          ],
+          "severity": "low",
+          "description": "Feature 6795 ('feat: survey summary blocks') led to 1 follow-up fixes/reverts."
+        },
+        {
+          "feature_pr": 6778,
+          "related_fixes": [
+            6779,
+            6780,
+            6781,
+            6782
+          ],
+          "severity": "high",
+          "description": "Feature 6778 ('feat: refactor survey editor logic to use blocks model') led to 4 follow-up fixes/reverts."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            6701,
+            6704,
+            6703,
+            6678
+          ],
+          "description": "Consecutive 4 Hotfixes/Reverts, indicating a panic spiral."
+        },
+        {
+          "prs": [
+            6731,
+            6732,
+            6733,
+            6714,
+            6736,
+            6705,
+            6727,
+            6160,
+            6743,
+            6740,
+            6745,
+            6712,
+            6744,
+            6729,
+            6742,
+            6746,
+            6734,
+            6750,
+            6749,
+            6756,
+            6757,
+            6755,
+            6759,
+            6748,
+            6753,
+            6802,
+            6809,
+            6783,
+            6784,
+            6769,
+            6774,
+            6779,
+            6782,
+            6781,
+            6780,
+            6800,
+            6813,
+            6814
+          ],
+          "description": "Consecutive 37 Hotfixes/Reverts, indicating a panic spiral."
+        }
+      ]
+    },
+    {
+      "repository": "directus/directus",
+      "firefighting_score": 110.0,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 0.0,
+        "hotfix_rate": 20.0,
+        "regression_ratio": 0.51,
+        "reviewer_tax": 0.39,
+        "panic_cluster_count": 7
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 25782,
+          "related_fixes": [
+            26083,
+            26078
+          ],
+          "severity": "medium",
+          "description": "Feature 'Introduces the Content Comparison Modal' led to two follow-up hotfixes: PR 26083 ('Comparison <- fix reactivity issue') and PR 26078 ('Comparison <- small fix, add more tests'), indicating issues with reactivity and user display in the comparison modal."
+        },
+        {
+          "feature_pr": 25970,
+          "related_fixes": [
+            26049
+          ],
+          "severity": "low",
+          "description": "Feature 'Add field-level searchable option' (PR 25970) likely caused regression leading to PR 26049 ('Fix \"Is one of\" search failing with number values'). The issue (25886) also points to 'is one of' problem."
+        },
+        {
+          "feature_pr": 25695,
+          "related_fixes": [
+            26059
+          ],
+          "severity": "low",
+          "description": "Feature '2FA Setup for OAuth Users' (PR 25695) led to PR 26059 ('Fix accounts with minimum access permissions unable to add 2fa'), indicating an access permission issue with 2FA setup for OAuth users. Issue 25948 is linked."
+        },
+        {
+          "feature_pr": 26136,
+          "related_fixes": [
+            26005
+          ],
+          "severity": "low",
+          "description": "Feature 'Enhance CSV export functionality' (PR 26136) was preceded by PR 26005 ('fix(csv-export): add UTF-8 BOM to all CSV exports for Excel compatibility'). While 26005 was closed earlier, 26136 then also addressed CSV export with BOM, suggesting an iterative or possibly problematic area."
+        },
+        {
+          "feature_pr": 26045,
+          "related_fixes": [
+            26154
+          ],
+          "severity": "low",
+          "description": "Feature 'Fix layout display dependant on item count request' (PR 26045) was followed by PR 26154 ('Fix tabular view loading items after delay'), suggesting performance or loading issues in list views after recent layout changes."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            26166,
+            26126
+          ],
+          "description": "Consecutive HOTFIX/REVERT PRs: deps(deps): bump the catalog group across 1 directory with 9 updates, Fix file replacement with tus enabled"
+        },
+        {
+          "prs": [
+            26139,
+            26159
+          ],
+          "description": "Consecutive HOTFIX/REVERT PRs: AI - temp fix for layout until sidebar refactor, Ensure direction prop is passed down to the interfaces"
+        },
+        {
+          "prs": [
+            26005,
+            26154
+          ],
+          "description": "Consecutive HOTFIX/REVERT PRs: fix(csv-export): add UTF-8 BOM to all CSV exports for Excel compatibility, Fix tabular view loading items after delay"
+        },
+        {
+          "prs": [
+            26059,
+            26132
+          ],
+          "description": "Consecutive HOTFIX/REVERT PRs: Fix accounts with minimum access permissions unable to add 2fa, Fix system owner interface behaving unexpectedly"
+        },
+        {
+          "prs": [
+            26088,
+            26112
+          ],
+          "description": "Consecutive HOTFIX/REVERT PRs: Fix incorrect date for version in comparison modal header, Fix input-block-editor sanitize test failing"
+        },
+        {
+          "prs": [
+            25602,
+            25638
+          ],
+          "description": "Consecutive HOTFIX/REVERT PRs: Ensure that M2M fields in the directus_files collection use the correct interface, Fix custom interface localTypes bug"
+        },
+        {
+          "prs": [
+            26083,
+            26049
+          ],
+          "description": "Consecutive HOTFIX/REVERT PRs: Comparison <- fix reactivity issue, Fix \"Is one of\" search failing with number values"
+        }
+      ]
+    },
+    {
+      "repository": "meilisearch/meilisearch",
+      "firefighting_score": 103.78,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 1.72,
+        "hotfix_rate": 27.59,
+        "regression_ratio": 0.84,
+        "reviewer_tax": 0.35,
+        "panic_cluster_count": 4
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 5767,
+          "related_fixes": [
+            5884,
+            5894
+          ],
+          "severity": "medium",
+          "description": "Feature 'Add index setting to switch from arroy to hannoy' introduced 2 follow-up fixes/reverts."
+        },
+        {
+          "feature_pr": 5785,
+          "related_fixes": [
+            5968
+          ],
+          "severity": "low",
+          "description": "Feature 'Webhook api' introduced 1 follow-up fixes/reverts."
+        },
+        {
+          "feature_pr": 5929,
+          "related_fixes": [
+            5946
+          ],
+          "severity": "low",
+          "description": "Feature 'Introduce a task to compact an index' introduced 1 follow-up fixes/reverts."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            5856,
+            5869
+          ],
+          "description": "Consecutive 2 HOTFIX/REVERT PRs."
+        },
+        {
+          "prs": [
+            5906,
+            5907
+          ],
+          "description": "Consecutive 2 HOTFIX/REVERT PRs."
+        },
+        {
+          "prs": [
+            5930,
+            5933
+          ],
+          "description": "Consecutive 2 HOTFIX/REVERT PRs."
+        },
+        {
+          "prs": [
+            5967,
+            5968
+          ],
+          "description": "Consecutive 2 HOTFIX/REVERT PRs."
+        }
+      ]
+    },
+    {
+      "repository": "supabase/supabase",
+      "firefighting_score": 103.0,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 3.0,
+        "hotfix_rate": 29.0,
+        "regression_ratio": 0.91,
+        "reviewer_tax": 0.47,
+        "panic_cluster_count": 3
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 40184,
+          "related_fixes": [
+            40305,
+            40192,
+            40259
+          ],
+          "severity": "high",
+          "description": "Introduction of parameter routing for UI panels likely contributed to a cluster of table editor fixes, addressing scrolling, unnecessary requests, and foreign key editor performance."
+        },
+        {
+          "feature_pr": 40289,
+          "related_fixes": [
+            40306,
+            40339
+          ],
+          "severity": "high",
+          "description": "The introduction of new foundational Page components for UI consistency led to immediate rendering and styling fixes for charts and email templates."
+        },
+        {
+          "feature_pr": 40069,
+          "related_fixes": [
+            40339,
+            40276
+          ],
+          "severity": "medium",
+          "description": "The new email template configuration feature, along with related Auth UI updates, led to UI margin inconsistencies and incorrect button text."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            40330,
+            40328
+          ],
+          "description": "Consecutive hotfixes for critical dependency vulnerabilities in example apps."
+        },
+        {
+          "prs": [
+            40339,
+            40192,
+            40306
+          ],
+          "description": "A rapid succession of hotfixes addressing diverse UI and rendering issues across email templates, table editor, and design system charts."
+        },
+        {
+          "prs": [
+            40319,
+            40259,
+            40276
+          ],
+          "description": "A rapid succession of hotfixes for website styling, FK editor performance, and auth UI button text."
+        }
+      ]
+    },
+    {
+      "repository": "n8n-io/n8n",
+      "firefighting_score": 100.9,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 0.0,
+        "hotfix_rate": 45.45,
+        "regression_ratio": 1.48,
+        "reviewer_tax": 0.38,
+        "panic_cluster_count": 1
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 21469,
+          "related_fixes": [
+            21484,
+            21490,
+            21520
+          ],
+          "severity": "high",
+          "description": "Feature PR 21469 led to 3 follow-up fixes."
+        },
+        {
+          "feature_pr": 21387,
+          "related_fixes": [
+            21546,
+            21745
+          ],
+          "severity": "high",
+          "description": "Feature PR 21387 led to 2 follow-up fixes."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            21777,
+            21761,
+            21730,
+            21760,
+            21759
+          ],
+          "description": "5 consecutive hotfixes/reverts."
+        }
+      ]
+    },
+    {
+      "repository": "calcom/cal.com",
+      "firefighting_score": 97.0,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 1.0,
+        "hotfix_rate": 31.0,
+        "regression_ratio": 0.35,
+        "reviewer_tax": 0.08,
+        "panic_cluster_count": 3
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 25080,
+          "related_fixes": [
+            25111,
+            25112
+          ],
+          "severity": "medium",
+          "description": "chore: system wide ratelimit per path caused 2 follow-up issues"
+        },
+        {
+          "feature_pr": 25045,
+          "related_fixes": [
+            25090
+          ],
+          "severity": "low",
+          "description": "feat: v2 api allow switching event type between collective and round robin caused 1 follow-up issues"
+        },
+        {
+          "feature_pr": 25056,
+          "related_fixes": [
+            25086
+          ],
+          "severity": "low",
+          "description": "chore: Rate limit top level of public booking pages caused 1 follow-up issues"
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            25005,
+            25006
+          ],
+          "description": "Consecutive hotfixes/reverts"
+        },
+        {
+          "prs": [
+            25017,
+            25016
+          ],
+          "description": "Consecutive hotfixes/reverts"
+        },
+        {
+          "prs": [
+            25086,
+            25111,
+            25112
+          ],
+          "description": "Consecutive hotfixes/reverts"
+        }
+      ]
+    },
+    {
+      "repository": "getlago/lago",
+      "firefighting_score": 95.72,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 1.06,
+        "hotfix_rate": 20.21,
+        "regression_ratio": 0.94,
+        "reviewer_tax": 0.28,
+        "panic_cluster_count": 5
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 542,
+          "related_fixes": [
+            544,
+            610,
+            611
+          ],
+          "severity": "high",
+          "description": "Feature 'chore(filters): Add cache management' led to 3 follow-up fixes/reverts."
+        },
+        {
+          "feature_pr": 606,
+          "related_fixes": [
+            629
+          ],
+          "severity": "high",
+          "description": "Feature 'misc(events-processor) Refactor processors to easily allow new pipelines' led to 1 follow-up fixes/reverts."
+        },
+        {
+          "feature_pr": 561,
+          "related_fixes": [
+            575
+          ],
+          "severity": "high",
+          "description": "Feature 'feat(pre-aggregation): Extract enrichment logic in a dedicated processor' led to 1 follow-up fixes/reverts."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            527,
+            528
+          ],
+          "description": "Consecutive 2 hotfixes/reverts merged around 2025-05-13"
+        },
+        {
+          "prs": [
+            580,
+            581
+          ],
+          "description": "Consecutive 2 hotfixes/reverts merged around 2025-09-03"
+        },
+        {
+          "prs": [
+            592,
+            587
+          ],
+          "description": "Consecutive 2 hotfixes/reverts merged around 2025-09-15"
+        },
+        {
+          "prs": [
+            610,
+            611
+          ],
+          "description": "Consecutive 2 hotfixes/reverts merged around 2025-10-17"
+        },
+        {
+          "prs": [
+            620,
+            621
+          ],
+          "description": "Consecutive 2 hotfixes/reverts merged around 2025-11-04"
+        }
+      ]
+    },
+    {
+      "repository": "twentyhq/twenty",
+      "firefighting_score": 88.42,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 0.0,
+        "hotfix_rate": 29.21,
+        "regression_ratio": 0.87,
+        "reviewer_tax": 0.08,
+        "panic_cluster_count": 3
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 15739,
+          "related_fixes": [
+            15770,
+            15706
+          ],
+          "severity": "high",
+          "description": "Feature 'Add comprehensive permission guard coverage across GraphQL and REST endpoints' led to 2 follow-up fixes."
+        },
+        {
+          "feature_pr": 15727,
+          "related_fixes": [
+            15758
+          ],
+          "severity": "high",
+          "description": "Feature 'Add token renewal to agent chat transport' led to 1 follow-up fixes."
+        },
+        {
+          "feature_pr": 15714,
+          "related_fixes": [
+            15808
+          ],
+          "severity": "high",
+          "description": "Feature 'Improved Kanban performance' led to 1 follow-up fixes."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            15715,
+            15509
+          ],
+          "description": "2 consecutive hotfixes/reverts."
+        },
+        {
+          "prs": [
+            15706,
+            15656
+          ],
+          "description": "2 consecutive hotfixes/reverts."
+        },
+        {
+          "prs": [
+            15775,
+            15774,
+            15740
+          ],
+          "description": "3 consecutive hotfixes/reverts."
+        }
+      ]
+    },
+    {
+      "repository": "excalidraw/excalidraw",
+      "firefighting_score": 70.0,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 0.0,
+        "hotfix_rate": 35.0,
+        "regression_ratio": 0.95,
+        "reviewer_tax": 0.15,
+        "panic_cluster_count": 0
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 9903,
+          "related_fixes": [
+            10032,
+            10034
+          ],
+          "severity": "high",
+          "description": "Feature PR #9903 ('feat: library search') led to 2 follow-up fixes."
+        },
+        {
+          "feature_pr": 10057,
+          "related_fixes": [
+            10214
+          ],
+          "severity": "medium",
+          "description": "Feature PR #10057 ('feat: More prominent keyboard shortcuts in hints') led to 1 follow-up fixes."
+        },
+        {
+          "feature_pr": 10294,
+          "related_fixes": [
+            10293,
+            10295
+          ],
+          "severity": "high",
+          "description": "Feature PR #10294 ('feat: add comments/presi eplus promos for discoveribility') led to 2 follow-up fixes."
+        }
+      ],
+      "panic_clusters": []
+    },
+    {
+      "repository": "appwrite/appwrite",
+      "firefighting_score": 64.7,
+      "priority_classification": "Priority 1: The Bleeding",
+      "metrics": {
+        "revert_rate": 1.96,
+        "hotfix_rate": 27.45,
+        "regression_ratio": 1.25,
+        "reviewer_tax": 0.05,
+        "panic_cluster_count": 0
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": 10735,
+          "related_fixes": [
+            10738,
+            10778
+          ],
+          "severity": "high",
+          "description": "Feature PR 10735 ('Add operator support') led to 2 follow-up fixes (issues: 10803)"
+        },
+        {
+          "feature_pr": 10675,
+          "related_fixes": [
+            10746
+          ],
+          "severity": "medium",
+          "description": "Feature PR 10675 ('POC - website screenshots') led to 1 follow-up fixes (issues: SER-453)"
+        },
+        {
+          "feature_pr": 10717,
+          "related_fixes": [
+            10725
+          ],
+          "severity": "medium",
+          "description": "Feature PR 10717 ('Add GitHub AI Moderator workflow') led to 1 follow-up fixes (issues: 10217)"
+        }
+      ],
+      "panic_clusters": []
+    },
+    {
+      "repository": "airbytehq/airbyte",
+      "firefighting_score": 37.0,
+      "priority_classification": "Priority 2: The Worried",
+      "metrics": {
+        "revert_rate": 1.0,
+        "hotfix_rate": 11.0,
+        "regression_ratio": 3.67,
+        "reviewer_tax": 0.14,
+        "panic_cluster_count": 1
+      },
+      "incident_clusters": [
+        {
+          "feature_pr": null,
+          "related_fixes": [
+            69285,
+            69254,
+            69292,
+            69279,
+            69304,
+            69309,
+            69241,
+            69311,
+            69307,
+            69282,
+            69321
+          ],
+          "severity": "critical",
+          "description": "A cascade of 11 consecutive hotfixes in early November 2025, reflecting significant instability or urgent corrective work. The root cause feature is not identifiable in the provided data."
+        },
+        {
+          "feature_pr": null,
+          "related_fixes": [
+            69282
+          ],
+          "severity": "high",
+          "description": "Hotfix for a critical WooCommerce connector issue tracked by airbytehq/oncall#10061, affecting incremental sync for the customers stream."
+        },
+        {
+          "feature_pr": null,
+          "related_fixes": [
+            69307
+          ],
+          "severity": "high",
+          "description": "Hotfix for a BigQuery destination issue where timestamps were incorrectly nulled out, tracked via Sentry (airbytehq.sentry.io/issues/7022366260/)."
+        }
+      ],
+      "panic_clusters": [
+        {
+          "prs": [
+            69285,
+            69254,
+            69292,
+            69279,
+            69304,
+            69309,
+            69241,
+            69311,
+            69307,
+            69282,
+            69321
+          ],
+          "description": "A sequence of 11 consecutive Hotfixes indicating a period of high instability. Started with 'Destination Snowflake: fix typo'."
+        }
+      ]
+    }
+  ],
+  "failed_repos": [
+    "posthog/posthog",
+    "openreplay/openreplay",
+    "hasura/graphql-engine",
+    "nocodb/nocodb",
+    "Infisical/infisical",
+    "grafana/grafana"
+  ],
+  "summary_statistics": {
+    "average_score": 106.50714285714285,
+    "average_revert_rate": 0.9,
+    "average_hotfix_rate": 32.075,
+    "average_regression_ratio": 1.3585714285714285,
+    "total_panic_clusters": 53,
+    "priority_1_count": 13,
+    "priority_2_count": 1,
+    "healthy_count": 0
+  }
+}

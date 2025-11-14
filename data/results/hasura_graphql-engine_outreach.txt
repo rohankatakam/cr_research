@@ -1,10 +1,10 @@
-Subject: Analysis of reverts in posthog (recent PRs)
+Subject: Analysis of reverts in graphql-engine (recent PRs)
 
 Hi [Engineering Lead/CTO],
 
 I'm researching "Context Collapse" in fast-growing engineering teams for a thesis I'm publishing.
 
-I ran a forensic analysis on the last 30 days of `posthog/posthog`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your "firefighting" metrics:
+I ran a forensic analysis on the last 30 days of `hasura/graphql-engine`'s activity to measure your Code Lineage Quality Score (CLQS). I noticed a specific pattern in your "firefighting" metrics:
 
 **Key Findings:**
 
